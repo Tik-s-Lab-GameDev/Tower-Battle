@@ -1,0 +1,1217 @@
+﻿Log file open, 07/11/17 14:18:37
+LogInit:Display: Running engine for game: TB
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-672507384) SRandInit(-672507383).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 18.773929
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.11-11.18.40:576][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.11-11.18.40:576][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.11-11.18.40:769][  0]LogInit: Computer: DESKTOP-LUMPQHN
+[2017.07.11-11.18.40:769][  0]LogInit: User: Takex
+[2017.07.11-11.18.40:769][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.11-11.18.40:769][  0]LogInit: High frequency timer resolution =3.234377 MHz
+[2017.07.11-11.18.40:790][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.07.11-11.18.40:790][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.11-11.18.40:790][  0]LogMemory: Process Physical Memory: 274.67 MB used, 274.67 MB peak
+[2017.07.11-11.18.40:790][  0]LogMemory: Process Virtual Memory: 266.59 MB used, 266.59 MB peak
+[2017.07.11-11.18.40:790][  0]LogMemory: Physical Memory: 4349.40 MB used,  3802.17 MB free, 8151.57 MB total
+[2017.07.11-11.18.40:790][  0]LogMemory: Virtual Memory: 642.45 MB used,  3802.17 MB free, 134217728.00 MB total
+[2017.07.11-11.18.43:236][  0]LogInit: Using OS detected language (ru-RU).
+[2017.07.11-11.18.43:236][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.07.11-11.18.43:574][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.07.11-11.18.43:575][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.07.11-11.18.50:448][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.11-11.18.50:519][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.07.11-11.18.50:519][  0]LogD3D11RHI:       995/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.11-11.18.50:521][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.11-11.18.50:521][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.11-11.18.50:521][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.11-11.18.50:536][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.11-11.18.50:536][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.11-11.18.50:536][  0]LogWindows: EnumDisplayDevices:
+[2017.07.11-11.18.50:536][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.07.11-11.18.50:536][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.11-11.18.50:536][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.11-11.18.50:536][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.11-11.18.50:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.07.11-11.18.50:537][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.11-11.18.50:537][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.11-11.18.50:537][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2017.07.11-11.18.50:607][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.11-11.18.50:897][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.11-11.18.51:054][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Intermediate/Shaders/WorkingDirectory/10476/).
+[2017.07.11-11.18.51:054][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Takex/AppData/Local/Temp/UnrealShaderWorkingDir/EFE655F24BCDAE26ADC89A93C886CA4A/'.
+[2017.07.11-11.18.51:067][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.11-11.18.58:940][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.11-11.18.58:981][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.11-11.18.59:040][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.11-11.18.59:085][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.11-11.18.59:154][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.11-11.18.59:214][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.11-11.18.59:271][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.11-11.18.59:324][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.11-11.18.59:386][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.11-11.18.59:452][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.11-11.18.59:501][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.11-11.18.59:546][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.11-11.18.59:611][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.11-11.18.59:663][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.11-11.18.59:711][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.11-11.18.59:803][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.11-11.18.59:803][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.11-11.18.59:839][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.11-11.19.00:059][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.11-11.19.00:088][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.11-11.19.00:136][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.11-11.19.00:188][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.11-11.19.00:230][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.11-11.19.00:300][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.11-11.19.00:300][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.11-11.19.03:532][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: Loaded boot cache 0.43s 90MB C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.11-11.19.04:196][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.11-11.19.04:211][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Takex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.11-11.19.04:372][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.11-11.19.04:539][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.11-11.19.04:714][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.11-11.19.04:714][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.11-11.19.30:882][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.11-11.19.33:361][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.11-11.19.34:860][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.11-11.19.35:217][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.11-11.19.35:376][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.11-11.19.35:376][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.11-11.19.35:376][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.11-11.19.47:606][  0]LogNetVersion: TB , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2755021592)
+[2017.07.11-11.19.48:633][  0]LogAssetRegistry: FAssetRegistry took 0.0855 seconds to start up
+[2017.07.11-11.19.48:811][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.105548 seconds
+[2017.07.11-11.19.48:817][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.11-11.19.48:817][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.11-11.19.48:817][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.11-11.19.48:991][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.11-11.20.39:620][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.11-11.20.39:747][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.11-11.20.43:340][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.11-11.20.45:524][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.20.45:542][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.20.45:762][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.20.45:916][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.20.48:524][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.11-11.20.50:691][  0]LogEngine: Initializing Engine...
+[2017.07.11-11.20.50:785][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.11-11.20.52:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.11-11.20.52:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.11-11.20.53:343][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.11-11.20.53:580][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.20.53:606][  0]LogInit: FAudioDevice initialized.
+[2017.07.11-11.20.53:643][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.11-11.20.53:651][  0]LogInit: Texture streaming: Enabled
+[2017.07.11-11.20.53:867][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.11-11.20.54:791][  0]LogInit: Transaction tracking system initialized
+[2017.07.11-11.20.55:881][  0]BlueprintLog: New page: Editor Load
+[2017.07.11-11.20.59:981][  0]LocalizationService: Info Localization service is disabled
+[2017.07.11-11.21.02:199][  0]LogConsoleResponse:Display: 
+[2017.07.11-11.21.07:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/' took 0.02s
+[2017.07.11-11.21.07:903][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.11-11.21.07:903][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.11-11.21.13:451][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.21.13:494][  0]Cmd: MAP LOAD FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.11-11.21.13:568][  0]LightingResults: New page: Lighting Build
+[2017.07.11-11.21.13:825][  0]MapCheck: New page: Map Check
+[2017.07.11-11.21.13:825][  0]LightingResults: New page: Lighting Build
+[2017.07.11-11.21.16:952][  0]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.21.17:631][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.11-11.21.17:791][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.11-11.21.17:875][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.695ms to complete.
+[2017.07.11-11.21.17:875][  0]LogFileHelpers: Loading map 'BattleMap' took 4.385
+[2017.07.11-11.21.20:752][  0]LogCollectionManager: Loaded 0 collections in 0.002276 seconds
+[2017.07.11-11.21.21:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' took 0.01s
+[2017.07.11-11.21.21:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Takex/Collections/' took 0.01s
+[2017.07.11-11.21.21:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' took 0.01s
+[2017.07.11-11.21.21:119][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.07.11-11.21.21:195][  0]LogContentBrowser: Native class hierarchy populated in 0.0407 seconds. Added 2329 classes and 491 folders.
+[2017.07.11-11.21.21:452][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.11-11.21.24:499][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.07.11-11.21.24:778][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.07.11-11.21.27:750][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.11-11.21.28:013][  0]LogSlate: Took 0.032934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.11-11.21.28:115][  0]LogSlate: Took 0.033750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.11-11.21.28:202][  0]LogSlate: Took 0.024176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.11-11.21.28:847][  0]LogRenderer: Reallocating scene render targets to support 1336x600 NumSamples 1 (Frame:1).
+[2017.07.11-11.21.30:097][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.11-11.21.30:327][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.07.11-11.21.30:328][  0]LogLoad: (Engine Initialization) Total time: 213.89 seconds
+[2017.07.11-11.21.30:328][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.76 seconds
+[2017.07.11-11.21.30:328][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.11-11.21.30:755][  0]LogOcInput: OculusInput pre-init called
+[2017.07.11-11.21.30:755][  0]LogHMD: Starting GearVRController plugin
+[2017.07.11-11.21.30:899][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.11-11.21.31:137][  0]LogSlate: Took 0.030601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-11.21.31:668][  2]LogAssetRegistry: Asset discovery search completed in 103.0582 seconds
+[2017.07.11-11.21.31:670][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.11-11.21.31:670][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2017.07.11-11.21.47:143][ 77]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-11.21.47:964][ 77]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.11-11.21.48:821][ 77]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.07.11-11.21.51:659][ 77]LogSlate: Took 0.031048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.11-11.21.52:463][ 78]LogSlate: Took 0.026363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.11-11.22.23:817][385]LogRenderer: Reallocating scene render targets to support 1336x872 NumSamples 1 (Frame:1).
+[2017.07.11-11.23.36:417][306]BlueprintLog: New page: Compile BP_Player
+[2017.07.11-11.24.55:239][686]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.24.55:284][686]LogBlueprint:Error: [Compiler Jacket] Error The type of  Object  is undetermined.  Connect something to  Cast To BP_Player  to imply a specific type.
+[2017.07.11-11.24.55:305][686]LogBlueprint:Error: [Compiler Jacket] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.07.11-11.24.55:542][686]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To BP_Player  to imply a specific type.
+[2017.07.11-11.24.55:542][686]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.07.11-11.24.55:570][686]LogBlueprint:Warning: [Compiler Jacket] Warning [0419.13] Compile of Jacket failed. 2 Fatal Issue(s) 0 Warning(s) [in 331 ms] (/Game/BP/Jacket.Jacket)
+[2017.07.11-11.28.55:164][237]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.32.06:776][630]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.32.18:667][276]BlueprintLog: New page: Compile Item
+[2017.07.11-11.32.18:686][276]LogBlueprint:Error: [Compiler Item] Error  WasSpawned  : unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.18:686][276]LogBlueprint:Error: [Compiler Item] Error Could not find an event-dispatcher named "Spawned" in 'Item_C'.
+Make sure 'Item_C' has been compiled for  Bind Event to Spawned
+[2017.07.11-11.32.18:717][276]LogBlueprint:Error: [Compiler Item] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.11-11.32.18:732][276]LogBlueprint:Error: [Compiler Item] Error  WasSpawned  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.19:652][276]BlueprintEditorCompileResults:Error: Error  WasSpawned  : unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.19:652][276]BlueprintEditorCompileResults:Error: Error Could not find an event-dispatcher named "Spawned" in 'Item_C'.
+Make sure 'Item_C' has been compiled for  Bind Event to Spawned
+[2017.07.11-11.32.19:652][276]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.11-11.32.19:652][276]BlueprintEditorCompileResults:Error: Error  WasSpawned  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.19:653][276]LogBlueprint:Warning: [Compiler Item] Warning [0863.21] Compile of Item failed. 4 Fatal Issue(s) 0 Warning(s) [in 985 ms] (/Game/BP/Item.Item)
+[2017.07.11-11.32.35:159][122]LogBlueprint:Warning: Blueprint Jacket (child of/implements Item) has a member variable with a conflicting name (Spawned). Changing to Spawned_0.
+[2017.07.11-11.32.39:325][356]BlueprintLog: New page: Compile Item
+[2017.07.11-11.32.39:335][356]LogBlueprint:Error: [Compiler Item] Error  WasSpawned  : unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.39:335][356]LogBlueprint:Error: [Compiler Item] Error Wrong Event Dispatcher. Refresh node  Bind Event to Spawned
+[2017.07.11-11.32.39:335][356]LogBlueprint:Error: [Compiler Item] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.11-11.32.39:335][356]LogBlueprint:Error: [Compiler Item] Error  WasSpawned  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.39:908][356]BlueprintEditorCompileResults:Error: Error  WasSpawned  : unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.39:908][356]BlueprintEditorCompileResults:Error: Error Wrong Event Dispatcher. Refresh node  Bind Event to Spawned
+[2017.07.11-11.32.39:908][356]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.11-11.32.39:908][356]BlueprintEditorCompileResults:Error: Error  WasSpawned  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.39:909][356]LogBlueprint:Warning: [Compiler Item] Warning [0883.47] Compile of Item failed. 4 Fatal Issue(s) 0 Warning(s) [in 584 ms] (/Game/BP/Item.Item)
+[2017.07.11-11.33.12:507][438]BlueprintLog: New page: Compile Item
+[2017.07.11-11.33.33:909][972]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.33.35:077][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Jacket" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset" SILENT=true
+[2017.07.11-11.33.35:504][ 18]LogSavePackage: Save=324.57ms
+[2017.07.11-11.33.35:504][ 18]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Jacket49733A984E95EDB783F347811A90FB32.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset'
+[2017.07.11-11.33.35:508][ 18]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset
+[2017.07.11-11.33.36:991][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Item" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset" SILENT=true
+[2017.07.11-11.33.37:033][ 92]LogSavePackage: Save=22.11ms
+[2017.07.11-11.33.37:033][ 92]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Item1BF6260D414F09BEA7298E8E9DAD2AA9.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset'
+[2017.07.11-11.33.37:038][ 92]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset
+[2017.07.11-11.33.38:507][169]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.39:476][169]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.953 s
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: 
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: Stack: 
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3EE256
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E19B862
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E1B1E26
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000FA877556
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000F7C9D27B
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F6B824AA
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F6A272CC
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F6A2A6D9
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F6B48035
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF68DB57
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF694B61
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF8B48D3
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF6EF604
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF6C77FC
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF6B814C
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3E1550
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3CB771
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3E337B
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3C7AC2
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: USER32.dll!0x000000003A2A1C24
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: USER32.dll!0x000000003A2A156C
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3E3C86
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0BDB44
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0AF0B0
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0AF12A
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0C0CF9
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0C25F7
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: KERNEL32.DLL!0x000000003A788364
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: ntdll.dll!0x000000003ACE70D1
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: 
+[2017.07.11-11.33.39:481][169]LogStats:                SubmitErrorReport -  0.000 s
+[2017.07.11-11.33.47:493][169]LogStats:                    SendNewReport -  8.012 s
+[2017.07.11-11.33.47:493][169]LogStats:             FDebug::EnsureFailed -  8.986 s
+[2017.07.11-11.33.47:493][169]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:439][429]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:439][429]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:441][429]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:446][429]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:457][430]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:457][430]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:459][430]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:462][430]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:474][431]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:474][431]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:478][431]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:570][436]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:570][436]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:572][436]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:576][436]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:590][437]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:591][437]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.52:595][437]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.34.40:781][794]LogEditorTransaction: Undo Delete current selection
+[2017.07.11-11.34.40:993][794]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-11.34.50:615][352]BlueprintLog: New page: Compile Item
+[2017.07.11-11.34.51:840][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Item" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset" SILENT=true
+[2017.07.11-11.34.51:866][381]LogSavePackage: Save=14.89ms
+[2017.07.11-11.34.51:866][381]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Item22284E404409A8D28EFD50AA0763DB13.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset'
+[2017.07.11-11.34.51:870][381]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset
+[2017.07.11-11.34.52:985][446]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.34.53:771][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Jacket" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset" SILENT=true
+[2017.07.11-11.34.53:812][480]LogSavePackage: Save=30.76ms
+[2017.07.11-11.34.53:812][480]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Jacket290D208F4890975793D67A80EE6631FA.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset'
+[2017.07.11-11.34.53:818][480]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset
+[2017.07.11-11.34.57:962][708]BlueprintLog: New page: Compile BP_Player
+[2017.07.11-11.34.59:618][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Player" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset" SILENT=true
+[2017.07.11-11.34.59:808][762]LogSavePackage: Save=172.69ms
+[2017.07.11-11.34.59:808][762]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/BP_Player3B243F46401E8632F7CF8587A281F384.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset'
+[2017.07.11-11.34.59:812][762]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset
+[2017.07.11-11.35.17:860][981]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.35.29:324][704]BlueprintLog: New page: Compile Item
+[2017.07.11-11.35.30:464][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Item" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset" SILENT=true
+[2017.07.11-11.35.30:514][725]LogSavePackage: Save=38.10ms
+[2017.07.11-11.35.30:514][725]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/ItemE9C7284D4240C382AED77784E7438239.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset'
+[2017.07.11-11.35.30:529][725]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset
+[2017.07.11-11.35.31:126][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Jacket" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset" SILENT=true
+[2017.07.11-11.35.31:178][745]LogSavePackage: Save=33.55ms
+[2017.07.11-11.35.31:178][745]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Jacket4BA79FF64B2AFEF920F9C8B6FF2B7F08.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset'
+[2017.07.11-11.35.31:200][745]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset
+[2017.07.11-11.35.33:401][873]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.35.33:635][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.35.33:775][873]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:35:33 PM)
+[2017.07.11-11.35.33:806][873]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.35.33:984][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177888s)
+[2017.07.11-11.35.33:985][873]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.35.33:985][873]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2017.07.11-11.35.33:996][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.194868s)
+[2017.07.11-11.35.34:209][873]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.35.34:225][873]LogInit: FAudioDevice initialized.
+[2017.07.11-11.35.34:377][873]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.35.34:605][873]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.35.34
+[2017.07.11-11.35.34:881][873]LogWorld: Bringing up level for play took: 0.277845
+[2017.07.11-11.35.35:558][873]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.07.11-11.35.35:796][873]LogBlueprintUserMessages: [Jacket_C_0] Spawned
+[2017.07.11-11.35.36:093][873]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 2.93
+[2017.07.11-11.35.37:560][910]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.35.38:531][963]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.35.39:521][ 46]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.35.40:533][131]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.35.41:635][141]Cmd: SELECT NONE
+[2017.07.11-11.35.48:912][428]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.35.49:434][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Jacket" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset" SILENT=true
+[2017.07.11-11.35.49:476][446]LogSavePackage: Save=31.65ms
+[2017.07.11-11.35.49:476][446]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/JacketA6C17ADE4E3453BCD55E55B544D56328.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset'
+[2017.07.11-11.35.49:481][446]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset
+[2017.07.11-11.35.54:099][682]BlueprintLog: New page: Compile Item
+[2017.07.11-11.35.55:155][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Item" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset" SILENT=true
+[2017.07.11-11.35.55:180][692]LogSavePackage: Save=14.24ms
+[2017.07.11-11.35.55:180][692]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Item90EEDCD24836EC63B88857AAB5B619C1.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset'
+[2017.07.11-11.35.55:186][692]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset
+[2017.07.11-11.36.32:047][232]BlueprintLog: New page: Compile BP_Player
+[2017.07.11-11.36.33:125][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Player" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset" SILENT=true
+[2017.07.11-11.36.33:297][252]LogSavePackage: Save=161.71ms
+[2017.07.11-11.36.33:297][252]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/BP_PlayerFF51E17F43FA64047E41508095A008CF.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset'
+[2017.07.11-11.36.33:304][252]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset
+[2017.07.11-11.36.35:359][358]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.36.35:382][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.36.35:382][358]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:36:35 PM)
+[2017.07.11-11.36.35:382][358]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.36.35:385][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002846s)
+[2017.07.11-11.36.35:386][358]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.36.35:386][358]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2017.07.11-11.36.35:386][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004000s)
+[2017.07.11-11.36.35:421][358]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.36.35:431][358]LogInit: FAudioDevice initialized.
+[2017.07.11-11.36.35:462][358]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.36.35:464][358]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.36.35
+[2017.07.11-11.36.35:464][358]LogWorld: Bringing up level for play took: 0.001583
+[2017.07.11-11.36.35:492][358]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.329
+[2017.07.11-11.36.36:363][427]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.36:373][427]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.37:371][510]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.36.37:371][510]LogBlueprintUserMessages: [BP_Player2] 0
+[2017.07.11-11.36.38:369][593]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.38:369][593]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.39:377][677]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.36.39:377][677]LogBlueprintUserMessages: [BP_Player2] 0
+[2017.07.11-11.36.40:374][760]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.40:374][760]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.41:386][844]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.36.41:386][844]LogBlueprintUserMessages: [BP_Player2] 0
+[2017.07.11-11.36.42:383][927]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-11.36.42:383][927]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.42:383][927]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.45:124][126]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.36.45:146][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.36.45:146][126]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:36:45 PM)
+[2017.07.11-11.36.45:146][126]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.36.45:148][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002152s)
+[2017.07.11-11.36.45:149][126]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.36.45:149][126]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2017.07.11-11.36.45:149][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003088s)
+[2017.07.11-11.36.45:188][126]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.36.45:198][126]LogInit: FAudioDevice initialized.
+[2017.07.11-11.36.45:230][126]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.36.45:232][126]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.36.45
+[2017.07.11-11.36.45:232][126]LogWorld: Bringing up level for play took: 0.001436
+[2017.07.11-11.36.45:234][126]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.071
+[2017.07.11-11.36.46:127][199]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.46:127][199]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.47:132][283]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.36.47:132][283]LogBlueprintUserMessages: [BP_Player2] 0
+[2017.07.11-11.36.48:126][367]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.48:126][367]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.49:128][452]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.36.49:128][452]LogBlueprintUserMessages: [BP_Player2] 0
+[2017.07.11-11.36.50:127][537]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.50:127][537]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.51:615][642]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.36.51:637][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.36.51:638][642]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:36:51 PM)
+[2017.07.11-11.36.51:638][642]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.36.51:641][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003014s)
+[2017.07.11-11.36.51:641][642]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.36.51:642][642]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2017.07.11-11.36.51:642][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004244s)
+[2017.07.11-11.36.51:681][642]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.36.51:690][642]LogInit: FAudioDevice initialized.
+[2017.07.11-11.36.51:724][642]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.36.51:725][642]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.36.51
+[2017.07.11-11.36.51:726][642]LogWorld: Bringing up level for play took: 0.001613
+[2017.07.11-11.36.51:728][642]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.565
+[2017.07.11-11.36.52:622][716]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.52:622][716]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.53:623][800]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.36.53:623][800]LogBlueprintUserMessages: [BP_Player2] 0
+[2017.07.11-11.36.54:621][885]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.54:621][885]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.36.55:632][971]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.36.55:632][971]LogBlueprintUserMessages: [BP_Player2] 0
+[2017.07.11-11.36.56:631][ 56]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.36.56:631][ 56]LogBlueprintUserMessages: [BP_Player_97] 5
+[2017.07.11-11.37.00:987][345]Cmd: SELECT NONE
+[2017.07.11-11.38.28:793][779]BlueprintLog: New page: Compile BP_Player
+[2017.07.11-11.38.35:754][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Player" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset" SILENT=true
+[2017.07.11-11.38.35:920][105]LogSavePackage: Save=155.96ms
+[2017.07.11-11.38.35:920][105]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/BP_PlayerA12CBE6944027FD478E2C18299014BAA.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset'
+[2017.07.11-11.38.35:927][105]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/BP_Player.uasset
+[2017.07.11-11.38.39:695][310]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.38.39:720][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.38.39:720][310]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:38:39 PM)
+[2017.07.11-11.38.39:720][310]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.38.39:723][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002613s)
+[2017.07.11-11.38.39:725][310]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.38.39:725][310]LogPlayLevel: PIE: World Init took: (0.001769s)
+[2017.07.11-11.38.39:726][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004818s)
+[2017.07.11-11.38.39:761][310]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.38.39:772][310]LogInit: FAudioDevice initialized.
+[2017.07.11-11.38.39:805][310]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.38.39:806][310]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.38.39
+[2017.07.11-11.38.39:807][310]LogWorld: Bringing up level for play took: 0.001576
+[2017.07.11-11.38.39:809][310]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.646
+[2017.07.11-11.38.40:698][383]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.38.41:703][467]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.38.42:694][551]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.38.43:698][636]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.38.45:001][727]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.38.45:023][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.38.45:023][727]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:38:45 PM)
+[2017.07.11-11.38.45:023][727]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.38.45:025][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002477s)
+[2017.07.11-11.38.45:026][727]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.38.45:026][727]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2017.07.11-11.38.45:026][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003306s)
+[2017.07.11-11.38.45:072][727]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.38.45:081][727]LogInit: FAudioDevice initialized.
+[2017.07.11-11.38.45:111][727]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.38.45:112][727]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.38.45
+[2017.07.11-11.38.45:113][727]LogWorld: Bringing up level for play took: 0.001598
+[2017.07.11-11.38.45:115][727]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.048
+[2017.07.11-11.38.46:007][798]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.38.47:016][880]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.38.48:009][962]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.38.49:016][ 45]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.38.50:009][127]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-11.38.50:009][127]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.38.50:854][182]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.38.50:877][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.38.50:877][182]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:38:50 PM)
+[2017.07.11-11.38.50:877][182]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.38.50:880][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002416s)
+[2017.07.11-11.38.50:881][182]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.38.50:881][182]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2017.07.11-11.38.50:881][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003650s)
+[2017.07.11-11.38.50:920][182]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.38.50:931][182]LogInit: FAudioDevice initialized.
+[2017.07.11-11.38.50:965][182]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.38.50:967][182]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.38.50
+[2017.07.11-11.38.50:967][182]LogWorld: Bringing up level for play took: 0.001635
+[2017.07.11-11.38.50:969][182]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.194
+[2017.07.11-11.38.51:861][255]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.38.52:864][339]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.38.53:863][423]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.38.54:872][509]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.38.56:108][592]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.38.56:131][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.38.56:131][592]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:38:56 PM)
+[2017.07.11-11.38.56:131][592]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.38.56:133][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002125s)
+[2017.07.11-11.38.56:134][592]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.38.56:134][592]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2017.07.11-11.38.56:134][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003126s)
+[2017.07.11-11.38.56:168][592]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.38.56:182][592]LogInit: FAudioDevice initialized.
+[2017.07.11-11.38.56:216][592]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.38.56:217][592]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.38.56
+[2017.07.11-11.38.56:218][592]LogWorld: Bringing up level for play took: 0.001564
+[2017.07.11-11.38.56:219][592]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 1.056
+[2017.07.11-11.38.57:110][665]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.39.11:382][437]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.39.11:406][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.39.11:406][437]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:39:11 PM)
+[2017.07.11-11.39.11:406][437]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.39.11:409][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002770s)
+[2017.07.11-11.39.11:410][437]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.39.11:410][437]LogPlayLevel: PIE: World Init took: (0.001180s)
+[2017.07.11-11.39.11:410][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004344s)
+[2017.07.11-11.39.11:443][437]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.39.11:453][437]LogInit: FAudioDevice initialized.
+[2017.07.11-11.39.11:481][437]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.39.11:483][437]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.39.11
+[2017.07.11-11.39.11:483][437]LogWorld: Bringing up level for play took: 0.001865
+[2017.07.11-11.39.11:485][437]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.322
+[2017.07.11-11.39.12:387][511]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.39.13:398][595]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.39.33:910][248]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.39.33:930][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.39.33:930][248]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:39:33 PM)
+[2017.07.11-11.39.33:930][248]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.39.33:933][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002577s)
+[2017.07.11-11.39.33:933][248]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.39.33:934][248]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.07.11-11.39.33:934][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003579s)
+[2017.07.11-11.39.33:968][248]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.39.33:977][248]LogInit: FAudioDevice initialized.
+[2017.07.11-11.39.34:006][248]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.39.34:008][248]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.39.34
+[2017.07.11-11.39.34:008][248]LogWorld: Bringing up level for play took: 0.001543
+[2017.07.11-11.39.34:010][248]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.847
+[2017.07.11-11.39.34:911][321]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.39.36:842][458]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.39.36:864][458]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.39.36:864][458]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:39:36 PM)
+[2017.07.11-11.39.36:864][458]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.39.36:866][458]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002152s)
+[2017.07.11-11.39.36:867][458]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.39.36:867][458]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2017.07.11-11.39.36:867][458]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003230s)
+[2017.07.11-11.39.36:903][458]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.39.36:912][458]LogInit: FAudioDevice initialized.
+[2017.07.11-11.39.36:946][458]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.39.36:948][458]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.39.36
+[2017.07.11-11.39.36:948][458]LogWorld: Bringing up level for play took: 0.001711
+[2017.07.11-11.39.36:950][458]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.213
+[2017.07.11-11.39.37:846][532]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.40.04:680][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Armor" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Armor.uasset" SILENT=true
+[2017.07.11-11.40.04:736][342]LogSavePackage: Save=31.61ms
+[2017.07.11-11.40.04:736][342]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/ArmorFEC11EBA4818588C28F9198DD815ACCB.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Armor.uasset'
+[2017.07.11-11.40.04:741][342]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Armor.uasset
+[2017.07.11-11.42.04:325][477]BlueprintLog: New page: Compile Battle_Widget
+[2017.07.11-11.42.04:532][477]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.11-11.42.25:722][766]BlueprintLog: New page: Compile Battle_Widget
+[2017.07.11-11.42.25:860][766]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.11-11.42.26:426][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Battle_Widget" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset" SILENT=true
+[2017.07.11-11.42.26:508][796]LogSavePackage: Save=64.99ms
+[2017.07.11-11.42.26:508][796]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget22928AF849CABAE290E323A8725DFA71.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset'
+[2017.07.11-11.42.26:511][796]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset
+[2017.07.11-11.42.28:121][893]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.42.28:162][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.42.28:162][893]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:42:28 PM)
+[2017.07.11-11.42.28:163][893]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.42.28:165][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002268s)
+[2017.07.11-11.42.28:165][893]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.42.28:166][893]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2017.07.11-11.42.28:166][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003207s)
+[2017.07.11-11.42.28:202][893]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.42.28:217][893]LogInit: FAudioDevice initialized.
+[2017.07.11-11.42.28:255][893]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.42.28:257][893]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.42.28
+[2017.07.11-11.42.28:257][893]LogWorld: Bringing up level for play took: 0.001729
+[2017.07.11-11.42.28:260][893]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 1.096
+[2017.07.11-11.42.29:123][962]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.42.30:132][ 44]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.42.31:125][125]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.42.32:136][208]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.42.33:129][290]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-11.42.33:129][290]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.42.34:619][388]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-11.42.34:645][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-11.42.34:645][388]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 5:42:34 PM)
+[2017.07.11-11.42.34:645][388]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-11.42.34:647][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002166s)
+[2017.07.11-11.42.34:648][388]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.42.34:649][388]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2017.07.11-11.42.34:649][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003846s)
+[2017.07.11-11.42.34:690][388]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.42.34:699][388]LogInit: FAudioDevice initialized.
+[2017.07.11-11.42.34:729][388]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-11.42.34:731][388]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-14.42.34
+[2017.07.11-11.42.34:731][388]LogWorld: Bringing up level for play took: 0.001623
+[2017.07.11-11.42.34:733][388]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.43
+[2017.07.11-11.42.35:629][459]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.42.36:636][540]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-11.42.37:630][620]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-11.43.22:326][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.11-11.43.23:239][526]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.11-11.44.54:149][969]BlueprintLog: New page: Compile Battle_Widget
+[2017.07.11-11.44.54:356][969]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.11-11.45.19:180][165]LogSlate: Took 0.022000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.11-11.45.27:295][498]BlueprintLog: New page: Compile Battle_Widget
+[2017.07.11-11.45.27:451][498]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.11-11.45.57:787][852]LogSavePackage: Save=79.52ms
+[2017.07.11-11.45.57:787][852]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/BattleMap_Auto1D153355D4B954F81CF973C8B11BDBBBC.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/Level/BattleMap_Auto1.umap'
+[2017.07.11-11.45.57:787][852]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/Level/BattleMap_Auto1.umap
+[2017.07.11-11.45.57:801][852]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattleMap' took 0.250
+[2017.07.11-11.45.57:801][852]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.250
+[2017.07.11-11.45.57:811][852]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Battle_Widget] ([1] browsable assets)...
+[2017.07.11-11.45.57:811][852]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Battle_Widget]
+[2017.07.11-11.45.57:855][852]LogSavePackage: Save=36.76ms
+[2017.07.11-11.45.57:855][852]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget_Auto167E85BB348A8760199BD7585BB5DA121.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/Battle_Widget_Auto1.uasset'
+[2017.07.11-11.45.57:856][852]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/Battle_Widget_Auto1.uasset
+[2017.07.11-11.45.57:856][852]LogFileHelpers: Auto-saving content packages took 0.046
+[2017.07.11-11.57.13:833][962]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattleMap' took 0.036
+[2017.07.11-11.57.13:834][962]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Battle_Widget] ([1] browsable assets)...
+[2017.07.11-11.57.13:834][962]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Battle_Widget]
+[2017.07.11-11.57.13:906][962]LogSavePackage: Save=48.19ms
+[2017.07.11-11.57.13:906][962]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget_Auto2BE695BED4DDE5492E9B34399993AC9CA.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/Battle_Widget_Auto2.uasset'
+[2017.07.11-11.57.13:907][962]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/Battle_Widget_Auto2.uasset
+[2017.07.11-11.57.13:907][962]LogFileHelpers: Auto-saving content packages took 0.074
+[2017.07.11-12.04.53:791][200]BlueprintLog: New page: Compile Battle_Widget
+[2017.07.11-12.04.53:976][200]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.11-12.04.58:576][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Battle_Widget" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset" SILENT=true
+[2017.07.11-12.04.58:641][434]LogSavePackage: Save=40.49ms
+[2017.07.11-12.04.58:641][434]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_WidgetFCC4DCF845B1C16EEFF713A76B22F4E0.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset'
+[2017.07.11-12.04.58:651][434]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset
+[2017.07.11-12.07.56:060][604]BlueprintLog: New page: Compile Battle_Widget
+[2017.07.11-12.07.56:220][604]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.11-12.07.59:302][761]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Battle_Widget" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset" SILENT=true
+[2017.07.11-12.07.59:360][761]LogSavePackage: Save=47.65ms
+[2017.07.11-12.07.59:360][761]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget38676E034D6A5F368736AD942008F1B1.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset'
+[2017.07.11-12.07.59:365][761]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset
+[2017.07.11-12.08.17:943][951]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-12.08.17:973][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-12.08.17:974][951]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 6:08:17 PM)
+[2017.07.11-12.08.17:974][951]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-12.08.17:979][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005473s)
+[2017.07.11-12.08.17:980][951]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-12.08.17:980][951]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2017.07.11-12.08.17:980][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.006671s)
+[2017.07.11-12.08.18:016][951]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-12.08.18:034][951]LogInit: FAudioDevice initialized.
+[2017.07.11-12.08.18:066][951]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-12.08.18:068][951]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-15.08.18
+[2017.07.11-12.08.18:068][951]LogWorld: Bringing up level for play took: 0.001969
+[2017.07.11-12.08.18:072][951]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.908
+[2017.07.11-12.08.18:949][ 29]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.08.19:955][118]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.08.20:952][208]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.08.21:957][298]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.08.22:948][388]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.08.23:960][480]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.08.24:952][571]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-12.08.24:952][571]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.13.29:683][ 85]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-12.13.29:708][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-12.13.29:708][ 85]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 6:13:29 PM)
+[2017.07.11-12.13.29:708][ 85]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-12.13.29:712][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003673s)
+[2017.07.11-12.13.29:720][ 85]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-12.13.29:720][ 85]LogPlayLevel: PIE: World Init took: (0.008597s)
+[2017.07.11-12.13.29:720][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.012530s)
+[2017.07.11-12.13.29:754][ 85]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-12.13.29:764][ 85]LogInit: FAudioDevice initialized.
+[2017.07.11-12.13.29:799][ 85]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-12.13.29:800][ 85]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-15.13.29
+[2017.07.11-12.13.29:801][ 85]LogWorld: Bringing up level for play took: 0.002128
+[2017.07.11-12.13.29:803][ 85]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.64
+[2017.07.11-12.13.30:690][164]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.13.31:697][255]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.13.32:706][348]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.13.33:711][442]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.13.34:710][533]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.13.35:713][625]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.13.36:715][719]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-12.13.36:715][719]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.13.53:550][947]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-12.13.53:577][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-12.13.53:577][947]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 6:13:53 PM)
+[2017.07.11-12.13.53:577][947]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-12.13.53:581][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003139s)
+[2017.07.11-12.13.53:581][947]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-12.13.53:581][947]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.07.11-12.13.53:582][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004170s)
+[2017.07.11-12.13.53:616][947]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-12.13.53:630][947]LogInit: FAudioDevice initialized.
+[2017.07.11-12.13.53:664][947]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-12.13.53:666][947]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-15.13.53
+[2017.07.11-12.13.53:666][947]LogWorld: Bringing up level for play took: 0.001665
+[2017.07.11-12.13.53:668][947]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.505
+[2017.07.11-12.13.54:565][ 28]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.13.55:567][120]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.13.56:558][211]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.13.57:565][304]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.13.58:555][396]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-12.13.58:555][396]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.14.16:309][959]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-12.14.16:331][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-12.14.16:331][959]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 6:14:16 PM)
+[2017.07.11-12.14.16:331][959]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-12.14.16:333][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002282s)
+[2017.07.11-12.14.16:334][959]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-12.14.16:334][959]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2017.07.11-12.14.16:334][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003275s)
+[2017.07.11-12.14.16:368][959]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-12.14.16:393][959]LogInit: FAudioDevice initialized.
+[2017.07.11-12.14.16:426][959]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-12.14.16:428][959]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-15.14.16
+[2017.07.11-12.14.16:429][959]LogWorld: Bringing up level for play took: 0.001807
+[2017.07.11-12.14.16:431][959]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.732
+[2017.07.11-12.14.17:312][ 38]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.14.18:319][130]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.14.19:314][222]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.14.20:315][313]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.14.21:304][402]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-12.14.22:312][497]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-12.14.23:305][589]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-12.14.23:305][589]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.45.09:221][304]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-16.45.09:243][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-16.45.09:243][304]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 10:45:09 PM)
+[2017.07.11-16.45.09:243][304]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-16.45.09:251][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007034s)
+[2017.07.11-16.45.09:252][304]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-16.45.09:252][304]LogPlayLevel: PIE: World Init took: (0.001558s)
+[2017.07.11-16.45.09:253][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.009624s)
+[2017.07.11-16.45.09:295][304]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-16.45.09:310][304]LogInit: FAudioDevice initialized.
+[2017.07.11-16.45.09:346][304]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-16.45.09:349][304]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-19.45.09
+[2017.07.11-16.45.09:349][304]LogWorld: Bringing up level for play took: 0.003197
+[2017.07.11-16.45.09:353][304]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.19
+[2017.07.11-16.45.10:228][395]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.45.11:236][503]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.45.12:232][611]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.45.13:239][721]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.45.14:239][830]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.45.15:239][939]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.45.16:236][ 48]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.45.17:243][158]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.45.18:240][266]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-16.45.18:240][266]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.45.27:305][222]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-16.45.27:322][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-16.45.27:322][222]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 10:45:27 PM)
+[2017.07.11-16.45.27:322][222]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-16.45.27:326][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003182s)
+[2017.07.11-16.45.27:327][222]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-16.45.27:327][222]LogPlayLevel: PIE: World Init took: (0.001566s)
+[2017.07.11-16.45.27:327][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004992s)
+[2017.07.11-16.45.27:363][222]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-16.45.27:375][222]LogInit: FAudioDevice initialized.
+[2017.07.11-16.45.27:408][222]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-16.45.27:410][222]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-19.45.27
+[2017.07.11-16.45.27:410][222]LogWorld: Bringing up level for play took: 0.001711
+[2017.07.11-16.45.27:413][222]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.25
+[2017.07.11-16.45.28:310][314]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.45.29:313][419]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.45.30:304][524]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.45.31:313][631]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.45.32:315][736]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.46.40:292][642]BlueprintLog: New page: Compile Battle_Widget
+[2017.07.11-16.46.40:484][642]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.11-16.46.40:905][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Battle_Widget" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset" SILENT=true
+[2017.07.11-16.46.40:975][669]LogSavePackage: Save=46.93ms
+[2017.07.11-16.46.40:975][669]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget3502F75F4BD3B8239B5BA7B342DF2F09.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset'
+[2017.07.11-16.46.40:979][669]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset
+[2017.07.11-16.46.55:479][577]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-16.46.55:498][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-16.46.55:498][577]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 10:46:55 PM)
+[2017.07.11-16.46.55:498][577]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-16.46.55:501][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002845s)
+[2017.07.11-16.46.55:502][577]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-16.46.55:502][577]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2017.07.11-16.46.55:502][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004201s)
+[2017.07.11-16.46.55:535][577]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-16.46.55:545][577]LogInit: FAudioDevice initialized.
+[2017.07.11-16.46.55:578][577]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-16.46.55:579][577]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-19.46.55
+[2017.07.11-16.46.55:579][577]LogWorld: Bringing up level for play took: 0.001448
+[2017.07.11-16.46.55:582][577]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.419
+[2017.07.11-16.46.56:485][669]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.46.57:486][773]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.46.58:477][878]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.46.59:481][984]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.47.00:472][ 89]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.47.01:474][195]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.47.02:468][300]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-16.47.02:468][300]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.47.05:782][567]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-16.47.05:803][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-16.47.05:803][567]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 10:47:05 PM)
+[2017.07.11-16.47.05:803][567]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-16.47.05:805][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002467s)
+[2017.07.11-16.47.05:806][567]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-16.47.05:806][567]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2017.07.11-16.47.05:807][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003748s)
+[2017.07.11-16.47.05:844][567]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-16.47.05:853][567]LogInit: FAudioDevice initialized.
+[2017.07.11-16.47.05:882][567]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-16.47.05:883][567]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-19.47.05
+[2017.07.11-16.47.05:884][567]LogWorld: Bringing up level for play took: 0.001568
+[2017.07.11-16.47.05:886][567]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.723
+[2017.07.11-16.47.06:790][658]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.04:986][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Battle_Widget" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset" SILENT=true
+[2017.07.11-16.48.05:042][175]LogSavePackage: Save=44.97ms
+[2017.07.11-16.48.05:042][175]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget5E408E814F3A52F98BF1AB9A8AE787D2.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset'
+[2017.07.11-16.48.05:048][175]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset
+[2017.07.11-16.48.16:645][917]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-16.48.16:665][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-16.48.16:665][917]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 10:48:16 PM)
+[2017.07.11-16.48.16:665][917]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-16.48.16:668][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002960s)
+[2017.07.11-16.48.16:670][917]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-16.48.16:670][917]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2017.07.11-16.48.16:670][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004605s)
+[2017.07.11-16.48.16:706][917]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-16.48.16:716][917]LogInit: FAudioDevice initialized.
+[2017.07.11-16.48.16:750][917]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-16.48.16:751][917]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-19.48.16
+[2017.07.11-16.48.16:752][917]LogWorld: Bringing up level for play took: 0.001707
+[2017.07.11-16.48.16:754][917]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.409
+[2017.07.11-16.48.17:648][ 10]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.18:658][114]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.19:654][222]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.20:656][329]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.21:649][436]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-16.48.21:649][436]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.29:020][ 16]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-16.48.29:041][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-16.48.29:041][ 16]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 10:48:29 PM)
+[2017.07.11-16.48.29:041][ 16]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-16.48.29:044][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002861s)
+[2017.07.11-16.48.29:045][ 16]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-16.48.29:045][ 16]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2017.07.11-16.48.29:046][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004091s)
+[2017.07.11-16.48.29:080][ 16]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-16.48.29:090][ 16]LogInit: FAudioDevice initialized.
+[2017.07.11-16.48.29:122][ 16]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-16.48.29:124][ 16]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-19.48.29
+[2017.07.11-16.48.29:124][ 16]LogWorld: Bringing up level for play took: 0.001411
+[2017.07.11-16.48.29:126][ 16]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.037
+[2017.07.11-16.48.30:027][108]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.31:034][213]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.32:026][317]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.33:034][423]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.34:028][528]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.35:031][634]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.36:026][739]LogBlueprintUserMessages: [BP_Player2] DEAD!!
+[2017.07.11-16.48.36:026][739]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.39:173][ 16]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player2)
+[2017.07.11-16.48.43:654][360]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.11-16.48.43:675][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.11-16.48.43:675][360]PIE: New page: PIE session: BattleMap (Jul 11, 2017, 10:48:43 PM)
+[2017.07.11-16.48.43:675][360]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.11-16.48.43:678][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002409s)
+[2017.07.11-16.48.43:678][360]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-16.48.43:679][360]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.07.11-16.48.43:679][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003418s)
+[2017.07.11-16.48.43:711][360]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-16.48.43:720][360]LogInit: FAudioDevice initialized.
+[2017.07.11-16.48.43:749][360]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.11-16.48.43:750][360]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.11-19.48.43
+[2017.07.11-16.48.43:751][360]LogWorld: Bringing up level for play took: 0.001480
+[2017.07.11-16.48.43:753][360]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.59
+[2017.07.11-16.48.44:657][454]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.45:658][561]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.46:653][668]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.47:654][776]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.48:646][882]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.49:648][990]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.50:642][ 97]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.51:644][205]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.52:642][312]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.53:646][420]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.54:642][527]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.55:648][635]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.56:648][743]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.57:652][851]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.48.58:649][958]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.48.59:653][ 66]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.11-16.49.00:647][173]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.11-16.50.56:899][ 61]LogSavePackage: Save=46.12ms
+[2017.07.11-16.50.56:899][ 61]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/BattleMap_Auto3DCA34FA94715F3CD6ECB7B9A1ED52734.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/Level/BattleMap_Auto3.umap'
+[2017.07.11-16.50.56:900][ 61]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/Level/BattleMap_Auto3.umap
+[2017.07.11-16.50.56:905][ 61]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattleMap' took 0.102
+[2017.07.11-16.50.56:905][ 61]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.102
+[2017.07.11-16.50.56:906][ 61]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/Battle_Widget] ([1] browsable assets)...
+[2017.07.11-16.50.56:906][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/Battle_Widget]
+[2017.07.11-16.50.56:961][ 61]LogSavePackage: Save=45.75ms
+[2017.07.11-16.50.56:961][ 61]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget_Auto3134799454CB535C8B1AAF99325EE5972.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/Battle_Widget_Auto3.uasset'
+[2017.07.11-16.50.56:962][ 61]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/Battle_Widget_Auto3.uasset
+[2017.07.11-16.50.56:962][ 61]LogFileHelpers: Auto-saving content packages took 0.056
+[2017.07.11-16.57.57:270][478]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.11-16.58.00:908][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Battle_Widget" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset" SILENT=true
+[2017.07.11-16.58.00:975][526]LogSavePackage: Save=50.71ms
+[2017.07.11-16.58.00:975][526]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget8D8A0E094C2D7004669714BC2233EC97.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset'
+[2017.07.11-16.58.00:981][526]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Battle_Widget.uasset
+[2017.07.11-16.58.01:041][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleMap" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.11-16.58.01:127][526]LogSavePackage: Save=46.39ms
+[2017.07.11-16.58.01:127][526]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/BattleMap1AE20559416A93CDD12AE89041E8E57E.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap'
+[2017.07.11-16.58.01:134][526]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap
+[2017.07.11-16.58.01:170][526]LogFileHelpers: Saving map 'BattleMap' took 0.170
+[2017.07.11-16.58.01:406][526]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.11-16.58.01:990][527]Cmd: QUIT_EDITOR
+[2017.07.11-16.58.03:610][527]LogExit: Preparing to exit.
+[2017.07.11-16.58.05:445][527]LogExit: Editor shut down
+[2017.07.11-16.58.05:476][527]LogExit: Transaction tracking system shut down
+[2017.07.11-16.58.09:876][527]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.11-16.58.09:877][527]LogExit: Object subsystem successfully closed.
+[2017.07.11-16.58.10:563][527]LogD3D11RHI: Shutdown
+[2017.07.11-16.58.10:563][527]LogD3D11RHI: CleanupD3DDevice
+[2017.07.11-16.58.11:273][527]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.11-16.58.15:017][527]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
+[2017.07.11-16.58.15:017][527]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.07.11-16.58.15:017][527]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.07.11-16.58.15:017][527]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.07.11-16.58.15:108][527]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.11-16.58.15:128][527]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.11-16.58.15:128][527]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.11-16.58.15:128][527]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.11-16.58.15:159][527]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.11-16.58.15:165][527]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.11-16.58.15:165][527]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.11-16.58.15:166][527]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.11-16.58.15:166][527]LogDirectoryWatcher: A directory notification for 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' was aborted.
+[2017.07.11-16.58.15:166][527]LogDirectoryWatcher: A directory notification for 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Takex/Collections/' was aborted.
+[2017.07.11-16.58.15:166][527]LogDirectoryWatcher: A directory notification for 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' was aborted.
+[2017.07.11-16.58.15:166][527]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.11-16.58.15:176][527]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.11-16.58.15:176][527]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.11-16.58.15:227][527]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.11-16.58.15:227][527]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.11-16.58.15:227][527]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.11-16.58.15:227][527]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.11-16.58.15:227][527]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.11-16.58.15:227][527]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.11-16.58.15:260][527]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.11-16.58.15:260][527]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.11-16.58.15:260][527]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.11-16.58.15:274][527]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.11-16.58.15:301][527]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.11-16.58.15:386][527]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.11-16.58.15:422][527]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.11-16.58.15:519][527]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.11-16.58.15:519][527]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.11-16.58.15:519][527]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.11-16.58.15:519][527]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.11-16.58.15:519][527]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.11-16.58.15:726][527]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.11-16.58.15:837][527]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.11-16.58.15:901][527]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.11-16.58.15:946][527]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.11-16.58.15:946][527]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.11-16.58.15:971][527]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.11-16.58.15:971][527]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.11-16.58.15:971][527]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.11-16.58.16:182][527]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.11-16.58.16:182][527]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.11-16.58.16:182][527]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.11-16.58.16:360][527]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.11-16.58.16:387][527]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.11-16.58.16:387][527]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.11-16.58.16:396][527]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.11-16.58.17:129][527]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.11-16.58.18:428][527]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.11-16.58.18:437][527]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.11-16.58.18:438][527]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.11-16.58.18:513][527]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.11-16.58.18:522][527]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.11-16.58.18:522][527]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.11-16.58.18:522][527]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.11-16.58.18:530][527]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.11-16.58.18:530][527]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.11-16.58.18:531][527]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.11-16.58.18:531][527]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.11-16.58.18:561][527]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.11-16.58.18:578][527]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.11-16.58.18:611][527]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.11-16.58.18:651][527]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.11-16.58.18:781][527]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.11-16.58.18:835][527]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.11-16.58.18:920][527]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.11-16.58.19:145][527]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.11-16.58.19:291][527]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.11-16.58.19:291][527]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.11-16.58.19:415][527]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.11-16.58.19:415][527]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.11-16.58.19:475][527]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.11-16.58.19:475][527]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.11-16.58.19:476][527]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.11-16.58.19:531][527]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.11-16.58.19:531][527]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.11-16.58.19:531][527]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.11-16.58.19:600][527]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.11-16.58.19:641][527]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.11-16.58.19:739][527]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.11-16.58.19:864][527]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.11-16.58.19:864][527]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.11-16.58.19:865][527]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.11-16.58.19:865][527]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.11-16.58.19:865][527]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.11-16.58.20:093][527]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.11-16.58.20:093][527]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.11-16.58.20:093][527]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.11-16.58.20:093][527]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.11-16.58.20:093][527]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.11-16.58.20:093][527]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.11-16.58.20:113][527]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.11-16.58.20:113][527]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.11-16.58.20:136][527]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.11-16.58.20:360][527]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.11-16.58.20:398][527]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.11-16.58.20:398][527]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.11-16.58.20:398][527]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.11-16.58.20:398][527]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.11-16.58.20:419][527]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.11-16.58.20:419][527]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.11-16.58.20:419][527]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.11-16.58.20:419][527]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.11-16.58.20:419][527]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.11-16.58.20:419][527]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.11-16.58.20:419][527]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.11-16.58.20:419][527]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.11-16.58.20:555][527]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.11-16.58.20:555][527]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.11-16.58.20:574][527]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.11-16.58.20:575][527]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.11-16.58.20:575][527]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.11-16.58.20:575][527]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.11-16.58.20:575][527]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.11-16.58.20:575][527]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.11-16.58.20:575][527]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.11-16.58.20:662][527]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.11-16.58.20:692][527]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.11-16.58.20:692][527]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.11-16.58.20:692][527]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.11-16.58.20:692][527]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.11-16.58.20:718][527]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.11-16.58.20:740][527]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.11-16.58.20:751][527]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.11-16.58.20:786][527]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.11-16.58.20:786][527]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.11-16.58.20:786][527]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.11-16.58.20:786][527]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.11-16.58.20:799][527]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.11-16.58.20:811][527]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.11-16.58.20:838][527]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.11-16.58.20:869][527]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.11-16.58.20:892][527]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.11-16.58.20:937][527]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.11-16.58.21:028][527]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.11-16.58.21:028][527]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.11-16.58.21:028][527]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.11-16.58.21:028][527]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.11-16.58.21:046][527]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.11-16.58.21:146][527]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.11-16.58.21:307][527]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.11-16.58.21:356][527]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.11-16.58.21:356][527]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.11-16.58.21:356][527]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.11-16.58.21:395][527]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.11-16.58.21:395][527]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.11-16.58.21:397][527]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.11-16.58.21:397][527]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.11-16.58.21:454][527]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.11-16.58.21:454][527]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.11-16.58.21:454][527]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.11-16.58.21:455][527]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.11-16.58.21:468][527]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.11-16.58.21:468][527]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.11-16.58.21:486][527]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.11-16.58.21:510][527]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.11-16.58.21:531][527]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.11-16.58.21:531][527]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.11-16.58.21:621][527]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.11-16.58.21:621][527]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.11-16.58.21:656][527]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.11-16.58.21:668][527]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.11-16.58.21:668][527]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.11-16.58.21:668][527]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.11-16.58.21:829][527]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.11-16.58.21:829][527]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.11-16.58.21:829][527]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.11-16.58.21:937][527]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.11-16.58.21:937][527]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.11-16.58.21:939][527]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.11-16.58.21:939][527]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.11-16.58.21:939][527]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.11-16.58.21:939][527]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.11-16.58.21:939][527]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.11-16.58.21:939][527]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.11-16.58.22:160][527]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.11-16.58.22:160][527]LogDirectoryWatcher: A directory notification for 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/' was aborted.
+[2017.07.11-16.58.22:160][527]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.11-16.58.22:160][527]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.11-16.58.22:223][527]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.11-16.58.22:230][527]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.11-16.58.22:230][527]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.11-16.58.22:230][527]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.11-16.58.22:231][527]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.11-16.58.22:683][527]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.11-16.58.22:702][527]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.11-16.58.22:702][527]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.11-16.58.22:765][527]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.11-16.58.22:826][527]LogDerivedDataCache: Shutdown
+[2017.07.11-16.58.22:840][527]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.11-16.58.22:840][527]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.11-16.58.22:902][527]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.11-16.58.23:032][527]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.11-16.58.23:042][527]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.11-16.58.23:042][527]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.11-16.58.23:086][527]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.11-16.58.23:087][527]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.11-16.58.23:088][527]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.11-16.58.23:101][527]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.11-16.58.23:101][527]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.11-16.58.23:201][527]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.11-16.58.23:201][527]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.11-16.58.23:201][527]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.11-16.58.23:201][527]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.11-16.58.23:266][527]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.11-16.58.23:328][527]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.11-16.58.23:328][527]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.11-16.58.23:335][527]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B36D41158-496B-FAB8-E01B-ADB7A8E5255F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=e05968154ba330c86bd9bf99e556a741%7C2598d7593dcf4342b54074422ea0a06e%7Caba18a0d-79f7-4f5a-94c3-2c0a7b93a8ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.11-16.58.23:366][527]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.11-16.58.23:388][527]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.11-16.58.23:527][527]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.11-16.58.23:573][527]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.11-16.58.23:573][527]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.11-16.58.23:668][527]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.11-16.58.23:668][527]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.11-16.58.23:668][527]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.11-16.58.23:668][527]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.11-16.58.23:774][527]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.11-16.58.23:855][527]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.11-16.58.23:855][527]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.11-16.58.23:873][527]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.11-16.58.23:873][527]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.11-16.58.23:873][527]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.11-16.58.23:873][527]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.11-16.58.23:873][527]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.11-16.58.23:873][527]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.11-16.58.23:873][527]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.11-16.58.23:941][527]LogExit: Exiting.
+[2017.07.11-16.58.23:961][527]Log file closed, 07/11/17 19:58:23

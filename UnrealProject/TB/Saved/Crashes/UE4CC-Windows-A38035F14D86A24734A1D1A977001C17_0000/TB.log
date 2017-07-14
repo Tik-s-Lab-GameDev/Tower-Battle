@@ -1,0 +1,289 @@
+﻿Log file open, 07/11/17 14:18:37
+LogInit:Display: Running engine for game: TB
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-672507384) SRandInit(-672507383).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 18.773929
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.11-11.18.40:576][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.11-11.18.40:576][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.11-11.18.40:769][  0]LogInit: Computer: DESKTOP-LUMPQHN
+[2017.07.11-11.18.40:769][  0]LogInit: User: Takex
+[2017.07.11-11.18.40:769][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.11-11.18.40:769][  0]LogInit: High frequency timer resolution =3.234377 MHz
+[2017.07.11-11.18.40:790][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.07.11-11.18.40:790][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.11-11.18.40:790][  0]LogMemory: Process Physical Memory: 274.67 MB used, 274.67 MB peak
+[2017.07.11-11.18.40:790][  0]LogMemory: Process Virtual Memory: 266.59 MB used, 266.59 MB peak
+[2017.07.11-11.18.40:790][  0]LogMemory: Physical Memory: 4349.40 MB used,  3802.17 MB free, 8151.57 MB total
+[2017.07.11-11.18.40:790][  0]LogMemory: Virtual Memory: 642.45 MB used,  3802.17 MB free, 134217728.00 MB total
+[2017.07.11-11.18.43:236][  0]LogInit: Using OS detected language (ru-RU).
+[2017.07.11-11.18.43:236][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.07.11-11.18.43:574][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.07.11-11.18.43:575][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.07.11-11.18.50:448][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.11-11.18.50:519][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.07.11-11.18.50:519][  0]LogD3D11RHI:       995/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.11-11.18.50:521][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.11-11.18.50:521][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.11-11.18.50:521][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.11-11.18.50:536][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.11-11.18.50:536][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.11-11.18.50:536][  0]LogWindows: EnumDisplayDevices:
+[2017.07.11-11.18.50:536][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.07.11-11.18.50:536][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.11-11.18.50:536][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.11-11.18.50:536][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.11-11.18.50:536][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.07.11-11.18.50:537][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.11-11.18.50:537][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.11-11.18.50:537][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2017.07.11-11.18.50:607][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.11-11.18.50:897][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.11-11.18.51:054][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Intermediate/Shaders/WorkingDirectory/10476/).
+[2017.07.11-11.18.51:054][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Takex/AppData/Local/Temp/UnrealShaderWorkingDir/EFE655F24BCDAE26ADC89A93C886CA4A/'.
+[2017.07.11-11.18.51:067][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.11-11.18.58:940][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.11-11.18.58:981][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.11-11.18.59:040][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.11-11.18.59:085][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.11-11.18.59:154][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.11-11.18.59:214][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.11-11.18.59:271][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.11-11.18.59:324][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.11-11.18.59:386][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.11-11.18.59:452][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.11-11.18.59:501][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.11-11.18.59:546][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.11-11.18.59:611][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.11-11.18.59:663][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.11-11.18.59:711][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.11-11.18.59:803][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.11-11.18.59:803][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.11-11.18.59:839][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.11-11.19.00:059][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.11-11.19.00:088][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.11-11.19.00:136][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.11-11.19.00:188][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.11-11.19.00:230][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.11-11.19.00:300][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.11-11.19.00:300][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.11-11.19.03:532][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: Loaded boot cache 0.43s 90MB C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.11-11.19.03:960][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.11-11.19.04:196][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.11-11.19.04:211][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Takex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.11-11.19.04:372][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.11-11.19.04:539][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.11-11.19.04:714][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.11-11.19.04:714][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.11-11.19.30:882][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.11-11.19.33:361][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.11-11.19.34:860][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.11-11.19.35:217][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.11-11.19.35:376][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.11-11.19.35:376][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.11-11.19.35:376][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.11-11.19.47:606][  0]LogNetVersion: TB , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2755021592)
+[2017.07.11-11.19.48:633][  0]LogAssetRegistry: FAssetRegistry took 0.0855 seconds to start up
+[2017.07.11-11.19.48:811][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.105548 seconds
+[2017.07.11-11.19.48:817][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.11-11.19.48:817][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.11-11.19.48:817][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.11-11.19.48:991][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.11-11.20.39:620][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.11-11.20.39:747][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.11-11.20.43:340][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.11-11.20.45:524][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.20.45:542][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.20.45:762][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.20.45:916][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.20.48:524][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.11-11.20.50:691][  0]LogEngine: Initializing Engine...
+[2017.07.11-11.20.50:785][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.11-11.20.52:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.11-11.20.52:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.11-11.20.53:343][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.11-11.20.53:580][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-11.20.53:606][  0]LogInit: FAudioDevice initialized.
+[2017.07.11-11.20.53:643][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.11-11.20.53:651][  0]LogInit: Texture streaming: Enabled
+[2017.07.11-11.20.53:867][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.11-11.20.54:791][  0]LogInit: Transaction tracking system initialized
+[2017.07.11-11.20.55:881][  0]BlueprintLog: New page: Editor Load
+[2017.07.11-11.20.59:981][  0]LocalizationService: Info Localization service is disabled
+[2017.07.11-11.21.02:199][  0]LogConsoleResponse:Display: 
+[2017.07.11-11.21.07:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/' took 0.02s
+[2017.07.11-11.21.07:903][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.11-11.21.07:903][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.11-11.21.13:451][  0]SourceControl: Info Source control is disabled
+[2017.07.11-11.21.13:494][  0]Cmd: MAP LOAD FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.11-11.21.13:568][  0]LightingResults: New page: Lighting Build
+[2017.07.11-11.21.13:825][  0]MapCheck: New page: Map Check
+[2017.07.11-11.21.13:825][  0]LightingResults: New page: Lighting Build
+[2017.07.11-11.21.16:952][  0]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-11.21.17:631][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.11-11.21.17:791][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.11-11.21.17:875][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.695ms to complete.
+[2017.07.11-11.21.17:875][  0]LogFileHelpers: Loading map 'BattleMap' took 4.385
+[2017.07.11-11.21.20:752][  0]LogCollectionManager: Loaded 0 collections in 0.002276 seconds
+[2017.07.11-11.21.21:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' took 0.01s
+[2017.07.11-11.21.21:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Takex/Collections/' took 0.01s
+[2017.07.11-11.21.21:119][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' took 0.01s
+[2017.07.11-11.21.21:119][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2017.07.11-11.21.21:195][  0]LogContentBrowser: Native class hierarchy populated in 0.0407 seconds. Added 2329 classes and 491 folders.
+[2017.07.11-11.21.21:452][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.11-11.21.24:499][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.07.11-11.21.24:778][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.07.11-11.21.27:750][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.11-11.21.28:013][  0]LogSlate: Took 0.032934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.11-11.21.28:115][  0]LogSlate: Took 0.033750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.11-11.21.28:202][  0]LogSlate: Took 0.024176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.11-11.21.28:847][  0]LogRenderer: Reallocating scene render targets to support 1336x600 NumSamples 1 (Frame:1).
+[2017.07.11-11.21.30:097][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.11-11.21.30:327][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.07.11-11.21.30:328][  0]LogLoad: (Engine Initialization) Total time: 213.89 seconds
+[2017.07.11-11.21.30:328][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.76 seconds
+[2017.07.11-11.21.30:328][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.11-11.21.30:755][  0]LogOcInput: OculusInput pre-init called
+[2017.07.11-11.21.30:755][  0]LogHMD: Starting GearVRController plugin
+[2017.07.11-11.21.30:899][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.11-11.21.31:137][  0]LogSlate: Took 0.030601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-11.21.31:668][  2]LogAssetRegistry: Asset discovery search completed in 103.0582 seconds
+[2017.07.11-11.21.31:670][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.11-11.21.31:670][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
+[2017.07.11-11.21.47:143][ 77]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-11.21.47:964][ 77]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.11-11.21.48:821][ 77]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.07.11-11.21.51:659][ 77]LogSlate: Took 0.031048 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.11-11.21.52:463][ 78]LogSlate: Took 0.026363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.11-11.22.23:817][385]LogRenderer: Reallocating scene render targets to support 1336x872 NumSamples 1 (Frame:1).
+[2017.07.11-11.23.36:417][306]BlueprintLog: New page: Compile BP_Player
+[2017.07.11-11.24.55:239][686]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.24.55:284][686]LogBlueprint:Error: [Compiler Jacket] Error The type of  Object  is undetermined.  Connect something to  Cast To BP_Player  to imply a specific type.
+[2017.07.11-11.24.55:305][686]LogBlueprint:Error: [Compiler Jacket] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.07.11-11.24.55:542][686]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To BP_Player  to imply a specific type.
+[2017.07.11-11.24.55:542][686]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.07.11-11.24.55:570][686]LogBlueprint:Warning: [Compiler Jacket] Warning [0419.13] Compile of Jacket failed. 2 Fatal Issue(s) 0 Warning(s) [in 331 ms] (/Game/BP/Jacket.Jacket)
+[2017.07.11-11.28.55:164][237]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.32.06:776][630]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.32.18:667][276]BlueprintLog: New page: Compile Item
+[2017.07.11-11.32.18:686][276]LogBlueprint:Error: [Compiler Item] Error  WasSpawned  : unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.18:686][276]LogBlueprint:Error: [Compiler Item] Error Could not find an event-dispatcher named "Spawned" in 'Item_C'.
+Make sure 'Item_C' has been compiled for  Bind Event to Spawned
+[2017.07.11-11.32.18:717][276]LogBlueprint:Error: [Compiler Item] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.11-11.32.18:732][276]LogBlueprint:Error: [Compiler Item] Error  WasSpawned  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.19:652][276]BlueprintEditorCompileResults:Error: Error  WasSpawned  : unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.19:652][276]BlueprintEditorCompileResults:Error: Error Could not find an event-dispatcher named "Spawned" in 'Item_C'.
+Make sure 'Item_C' has been compiled for  Bind Event to Spawned
+[2017.07.11-11.32.19:652][276]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.11-11.32.19:652][276]BlueprintEditorCompileResults:Error: Error  WasSpawned  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.19:653][276]LogBlueprint:Warning: [Compiler Item] Warning [0863.21] Compile of Item failed. 4 Fatal Issue(s) 0 Warning(s) [in 985 ms] (/Game/BP/Item.Item)
+[2017.07.11-11.32.35:159][122]LogBlueprint:Warning: Blueprint Jacket (child of/implements Item) has a member variable with a conflicting name (Spawned). Changing to Spawned_0.
+[2017.07.11-11.32.39:325][356]BlueprintLog: New page: Compile Item
+[2017.07.11-11.32.39:335][356]LogBlueprint:Error: [Compiler Item] Error  WasSpawned  : unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.39:335][356]LogBlueprint:Error: [Compiler Item] Error Wrong Event Dispatcher. Refresh node  Bind Event to Spawned
+[2017.07.11-11.32.39:335][356]LogBlueprint:Error: [Compiler Item] Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.11-11.32.39:335][356]LogBlueprint:Error: [Compiler Item] Error  WasSpawned  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.39:908][356]BlueprintEditorCompileResults:Error: Error  WasSpawned  : unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.39:908][356]BlueprintEditorCompileResults:Error: Error Wrong Event Dispatcher. Refresh node  Bind Event to Spawned
+[2017.07.11-11.32.39:908][356]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2017.07.11-11.32.39:908][356]BlueprintEditorCompileResults:Error: Error  WasSpawned  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.07.11-11.32.39:909][356]LogBlueprint:Warning: [Compiler Item] Warning [0883.47] Compile of Item failed. 4 Fatal Issue(s) 0 Warning(s) [in 584 ms] (/Game/BP/Item.Item)
+[2017.07.11-11.33.12:507][438]BlueprintLog: New page: Compile Item
+[2017.07.11-11.33.33:909][972]BlueprintLog: New page: Compile Jacket
+[2017.07.11-11.33.35:077][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Jacket" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset" SILENT=true
+[2017.07.11-11.33.35:504][ 18]LogSavePackage: Save=324.57ms
+[2017.07.11-11.33.35:504][ 18]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Jacket49733A984E95EDB783F347811A90FB32.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset'
+[2017.07.11-11.33.35:508][ 18]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Jacket.uasset
+[2017.07.11-11.33.36:991][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Item" FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset" SILENT=true
+[2017.07.11-11.33.37:033][ 92]LogSavePackage: Save=22.11ms
+[2017.07.11-11.33.37:033][ 92]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Item1BF6260D414F09BEA7298E8E9DAD2AA9.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset'
+[2017.07.11-11.33.37:038][ 92]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Item.uasset
+[2017.07.11-11.33.38:507][169]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.11-11.33.39:476][169]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.953 s
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: 
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: Stack: 
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3EE256
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E19B862
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E1B1E26
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000FA877556
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000F7C9D27B
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F6B824AA
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F6A272CC
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F6A2A6D9
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000F6B48035
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF68DB57
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF694B61
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF8B48D3
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF6EF604
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF6C77FC
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000FF6B814C
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3E1550
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3CB771
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3E337B
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3C7AC2
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: USER32.dll!0x000000003A2A1C24
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: USER32.dll!0x000000003A2A156C
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000000E3E3C86
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0BDB44
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0AF0B0
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0AF12A
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0C0CF9
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: UE4Editor.exe!0x000000001B0C25F7
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: KERNEL32.DLL!0x000000003A788364
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: ntdll.dll!0x000000003ACE70D1
+[2017.07.11-11.33.39:476][169]LogOutputDevice:Error: 
+[2017.07.11-11.33.39:481][169]LogStats:                SubmitErrorReport -  0.000 s

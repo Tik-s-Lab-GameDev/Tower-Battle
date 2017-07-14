@@ -1,0 +1,1269 @@
+﻿Log file open, 07/11/17 05:18:59
+LogInit:Display: Running engine for game: TB
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(936844533) SRandInit(936844533).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.156216
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.11-02.19.01:472][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.11-02.19.01:472][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.11-02.19.01:619][  0]LogInit: Computer: DESKTOP-LUMPQHN
+[2017.07.11-02.19.01:619][  0]LogInit: User: Takex
+[2017.07.11-02.19.01:619][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.11-02.19.01:619][  0]LogInit: High frequency timer resolution =3.234378 MHz
+[2017.07.11-02.19.01:638][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.07.11-02.19.01:638][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.11-02.19.01:638][  0]LogMemory: Process Physical Memory: 272.80 MB used, 272.80 MB peak
+[2017.07.11-02.19.01:638][  0]LogMemory: Process Virtual Memory: 266.45 MB used, 266.45 MB peak
+[2017.07.11-02.19.01:638][  0]LogMemory: Physical Memory: 4396.59 MB used,  3754.98 MB free, 8151.57 MB total
+[2017.07.11-02.19.01:638][  0]LogMemory: Virtual Memory: 641.98 MB used,  3754.98 MB free, 134217728.00 MB total
+[2017.07.11-02.19.02:697][  0]LogInit: Using OS detected language (ru-RU).
+[2017.07.11-02.19.02:697][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.07.11-02.19.02:893][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.07.11-02.19.02:893][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.07.11-02.19.07:528][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.11-02.19.07:574][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.07.11-02.19.07:574][  0]LogD3D11RHI:       995/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.11-02.19.07:575][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.11-02.19.07:575][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.11-02.19.07:575][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.11-02.19.07:603][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.11-02.19.07:603][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.11-02.19.07:603][  0]LogWindows: EnumDisplayDevices:
+[2017.07.11-02.19.07:604][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.07.11-02.19.07:604][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.11-02.19.07:604][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.11-02.19.07:604][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.11-02.19.07:604][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.07.11-02.19.07:604][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.07.11-02.19.07:604][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.07.11-02.19.07:604][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2017.07.11-02.19.07:642][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.11-02.19.08:139][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.11-02.19.08:275][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Intermediate/Shaders/WorkingDirectory/272/).
+[2017.07.11-02.19.08:275][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Takex/AppData/Local/Temp/UnrealShaderWorkingDir/D0FD14094E61C94C45A3CBB37AAD94D9/'.
+[2017.07.11-02.19.08:288][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.11-02.19.13:149][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.11-02.19.13:189][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.11-02.19.13:228][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.11-02.19.13:266][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.11-02.19.13:335][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.11-02.19.13:374][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.11-02.19.13:412][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.11-02.19.13:450][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.11-02.19.13:501][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.11-02.19.13:557][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.11-02.19.13:594][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.11-02.19.13:632][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.11-02.19.13:668][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.11-02.19.13:705][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.11-02.19.13:742][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.11-02.19.13:816][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.11-02.19.13:816][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.11-02.19.13:844][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.11-02.19.13:991][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.11-02.19.14:014][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.11-02.19.14:051][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.11-02.19.14:089][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.11-02.19.14:125][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.11-02.19.14:174][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.11-02.19.14:174][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.11-02.19.15:731][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.11-02.19.16:078][  0]LogDerivedDataCache: Loaded boot cache 0.35s 90MB C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.11-02.19.16:078][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.11-02.19.16:078][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.11-02.19.16:078][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.11-02.19.16:078][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.11-02.19.16:078][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.11-02.19.16:146][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.11-02.19.16:157][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Takex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.11-02.19.16:273][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.11-02.19.16:383][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.11-02.19.16:531][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.11-02.19.16:531][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.11-02.19.31:114][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.11-02.19.32:910][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.11-02.19.34:146][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.11-02.19.34:356][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.11-02.19.34:424][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.11-02.19.34:424][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.11-02.19.34:424][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.11-02.19.43:466][  0]LogNetVersion: TB , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2755021592)
+[2017.07.11-02.19.44:039][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
+[2017.07.11-02.19.44:268][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.110862 seconds
+[2017.07.11-02.19.44:334][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.11-02.19.44:334][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.11-02.19.44:334][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.11-02.19.44:457][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.11-02.20.14:398][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.11-02.20.14:464][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.11-02.20.16:309][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.11-02.20.17:675][  0]SourceControl: Info Source control is disabled
+[2017.07.11-02.20.17:679][  0]SourceControl: Info Source control is disabled
+[2017.07.11-02.20.17:812][  0]SourceControl: Info Source control is disabled
+[2017.07.11-02.20.17:878][  0]SourceControl: Info Source control is disabled
+[2017.07.11-02.20.19:180][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.11-02.20.20:604][  0]LogEngine: Initializing Engine...
+[2017.07.11-02.20.20:681][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.11-02.20.21:747][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.11-02.20.21:754][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.007 s
+[2017.07.11-02.20.22:705][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.11-02.20.23:141][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.11-02.20.23:173][  0]LogInit: FAudioDevice initialized.
+[2017.07.11-02.20.23:229][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.11-02.20.23:236][  0]LogInit: Texture streaming: Enabled
+[2017.07.11-02.20.23:488][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.11-02.20.24:381][  0]LogInit: Transaction tracking system initialized
+[2017.07.11-02.20.25:037][  0]BlueprintLog: New page: Editor Load
+[2017.07.11-02.20.27:269][  0]LocalizationService: Info Localization service is disabled
+[2017.07.11-02.20.28:671][  0]LogConsoleResponse:Display: 
+[2017.07.11-02.20.32:138][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/' took 0.07s
+[2017.07.11-02.20.32:138][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.11-02.20.32:160][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.11-02.20.35:363][  0]SourceControl: Info Source control is disabled
+[2017.07.11-02.20.35:463][  0]Cmd: MAP LOAD FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.11-02.20.35:480][  0]LightingResults: New page: Lighting Build
+[2017.07.11-02.20.35:891][  0]MapCheck: New page: Map Check
+[2017.07.11-02.20.35:891][  0]LightingResults: New page: Lighting Build
+[2017.07.11-02.20.39:393][  0]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.11-02.20.40:239][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.11-02.20.40:496][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.11-02.20.40:533][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.992ms to complete.
+[2017.07.11-02.20.40:550][  0]LogFileHelpers: Loading map 'BattleMap' took 5.156
+[2017.07.11-02.20.41:694][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.11-02.20.42:845][  0]LogCollectionManager: Loaded 0 collections in 0.002191 seconds
+[2017.07.11-02.20.43:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' took 0.01s
+[2017.07.11-02.20.43:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Takex/Collections/' took 0.01s
+[2017.07.11-02.20.43:082][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' took 0.01s
+[2017.07.11-02.20.43:082][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.11-02.20.43:125][  0]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2329 classes and 491 folders.
+[2017.07.11-02.20.43:332][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.07.11-02.20.44:684][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.11-02.20.44:779][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.11-02.20.46:326][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.11-02.20.46:679][  0]LogSlate: Took 0.013350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.11-02.20.46:810][  0]LogSlate: Took 0.021316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.11-02.20.46:907][  0]LogSlate: Took 0.027522 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.11-02.20.47:735][  0]LogRenderer: Reallocating scene render targets to support 1336x600 NumSamples 1 (Frame:1).
+[2017.07.11-02.20.49:252][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.11-02.20.49:450][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.11-02.20.49:450][  0]LogLoad: (Engine Initialization) Total time: 115.61 seconds
+[2017.07.11-02.20.49:450][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.48 seconds
+[2017.07.11-02.20.49:450][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.11-02.20.49:577][  0]LogOcInput: OculusInput pre-init called
+[2017.07.11-02.20.49:594][  0]LogHMD: Starting GearVRController plugin
+[2017.07.11-02.20.50:131][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.11-02.20.51:050][  1]LogSlate: Took 0.015586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-02.20.51:255][  2]LogAssetRegistry: Asset discovery search completed in 67.2388 seconds
+[2017.07.11-02.20.51:300][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.11-02.20.51:300][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.021296 seconds (updated 0 objects)
+[2017.07.11-02.31.25:811][478]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-02.31.25:885][478]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx)
+[2017.07.11-02.31.26:062][478]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.31.26:062][478]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.31.26:062][478]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.31.26:062][478]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.31.26:062][478]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.31.26:101][478]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx
+[2017.07.11-02.31.26:180][478]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.32.24:274][478]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx
+[2017.07.11-02.32.24:293][478]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.32.24:304][478]LogFbx: =================================================
+[2017.07.11-02.32.24:304][478]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.32.24:304][478]LogFbx: 	Total Deformer Count -1664009480.
+[2017.07.11-02.32.24:304][478]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.32.24:304][478]LogFbx: =================================================
+[2017.07.11-02.32.24:304][478]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.32.24:304][478]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.32.24:304][478]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.32.24:306][478]LogFbx: =================================================
+[2017.07.11-02.32.24:306][478]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.32.24:306][478]LogFbx: 	Total Deformer Count -1664017600.
+[2017.07.11-02.32.24:306][478]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.32.24:306][478]LogFbx: =================================================
+[2017.07.11-02.32.24:306][478]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.32.24:306][478]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.32.24:306][478]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.32.24:306][478]LogFbx: =================================================
+[2017.07.11-02.32.24:306][478]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.32.24:306][478]LogFbx: 	Total Deformer Count -1664017600.
+[2017.07.11-02.32.24:306][478]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.32.24:306][478]LogFbx: =================================================
+[2017.07.11-02.32.24:306][478]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.32.24:306][478]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.32.24:306][478]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.32.24:306][478]LogFbx: =================================================
+[2017.07.11-02.32.24:306][478]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.32.24:306][478]LogFbx: 	Total Deformer Count -1664017600.
+[2017.07.11-02.32.24:306][478]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.32.24:306][478]LogFbx: =================================================
+[2017.07.11-02.32.24:306][478]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.32.24:306][478]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.32.24:306][478]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.32.24:308][478]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.32.24:309][478]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.32.24:309][478]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.32.24:399][478]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.32.24:399][478]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.32.24:399][478]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.32.24:399][478]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.32.24:399][478]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.32.28:923][478]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig'.
+Please see Output Log for details.
+[2017.07.11-02.32.32:134][665]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattleMap' took 0.054
+[2017.07.11-02.32.32:169][665]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/char1_sub_mesh+rig] ([1] browsable assets)...
+[2017.07.11-02.32.32:169][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/char1_sub_mesh+rig]
+[2017.07.11-02.32.32:273][665]LogSavePackage: Save=77.51ms
+[2017.07.11-02.32.32:273][665]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/char1_sub_mesh+rig_Auto1A4E1F2444EF3FF42C89FE583124E4FD4.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig_Auto1.uasset'
+[2017.07.11-02.32.32:273][665]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig_Auto1.uasset
+[2017.07.11-02.32.32:274][665]LogFileHelpers: Auto-saving content packages took 0.139
+[2017.07.11-02.33.12:016][777]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx)
+[2017.07.11-02.33.12:025][777]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.33.12:025][777]LogFbx: ItemName: Model, ItemCount : 77
+[2017.07.11-02.33.12:025][777]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.33.12:025][777]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.11-02.33.12:025][777]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.11-02.33.12:031][777]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx
+[2017.07.11-02.33.12:051][777]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.33.12:057][777]FBXImport:Warning: Warning Can't detect import type. No mesh is found or animation track. 
+[2017.07.11-02.33.13:944][777]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx'. Failed to create asset '/Game/BP/char1_anim_walk'.
+Please see Output Log for details.
+[2017.07.11-02.34.13:375][586]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx)
+[2017.07.11-02.34.13:381][586]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.34.13:381][586]LogFbx: ItemName: Model, ItemCount : 77
+[2017.07.11-02.34.13:381][586]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.34.13:381][586]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.11-02.34.13:381][586]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.11-02.34.13:386][586]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx
+[2017.07.11-02.34.13:408][586]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.34.13:413][586]FBXImport:Warning: Warning Can't detect import type. No mesh is found or animation track. 
+[2017.07.11-02.34.14:838][586]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx'. Failed to create asset '/Game/BP/char1_anim_walk'.
+Please see Output Log for details.
+[2017.07.11-02.37.13:076][882]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx)
+[2017.07.11-02.37.13:080][882]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.37.13:080][882]LogFbx: ItemName: Model, ItemCount : 77
+[2017.07.11-02.37.13:080][882]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.37.13:080][882]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.11-02.37.13:080][882]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.11-02.37.13:085][882]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx
+[2017.07.11-02.37.13:103][882]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.37.13:107][882]FBXImport:Warning: Warning Can't detect import type. No mesh is found or animation track. 
+[2017.07.11-02.37.14:602][882]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_anim_walk.fbx'. Failed to create asset '/Game/BP/char1_anim_walk'.
+Please see Output Log for details.
+[2017.07.11-02.42.43:084][114]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_walk.fbx)
+[2017.07.11-02.42.43:090][114]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.42.43:090][114]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.42.43:090][114]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.42.43:090][114]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.42.43:090][114]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.42.43:090][114]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.11-02.42.43:090][114]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.11-02.42.43:095][114]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_walk.fbx
+[2017.07.11-02.42.43:114][114]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.42.53:656][114]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_walk.fbx
+[2017.07.11-02.42.53:677][114]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.42.53:680][114]LogFbx: =================================================
+[2017.07.11-02.42.53:680][114]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.42.53:680][114]LogFbx: 	Total Deformer Count -451884048.
+[2017.07.11-02.42.53:680][114]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.42.53:680][114]LogFbx: =================================================
+[2017.07.11-02.42.53:680][114]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.42.53:680][114]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.42.53:680][114]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.42.53:681][114]LogFbx: =================================================
+[2017.07.11-02.42.53:682][114]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.42.53:682][114]LogFbx: 	Total Deformer Count -451884776.
+[2017.07.11-02.42.53:682][114]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.42.53:682][114]LogFbx: =================================================
+[2017.07.11-02.42.53:682][114]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.42.53:682][114]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.42.53:682][114]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.42.53:682][114]LogFbx: =================================================
+[2017.07.11-02.42.53:682][114]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.42.53:682][114]LogFbx: 	Total Deformer Count -451884776.
+[2017.07.11-02.42.53:682][114]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.42.53:682][114]LogFbx: =================================================
+[2017.07.11-02.42.53:682][114]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.42.53:682][114]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.42.53:682][114]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.42.53:682][114]LogFbx: =================================================
+[2017.07.11-02.42.53:682][114]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.42.53:682][114]LogFbx: 	Total Deformer Count -451884776.
+[2017.07.11-02.42.53:682][114]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.42.53:682][114]LogFbx: =================================================
+[2017.07.11-02.42.53:682][114]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.42.53:682][114]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.42.53:682][114]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.42.53:682][114]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.42.53:682][114]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.42.53:682][114]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.42.53:685][114]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.42.53:685][114]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.42.53:686][114]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.42.53:686][114]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.42.53:686][114]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.42.55:101][114]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_walk.fbx'. Failed to create asset '/Game/BP/char1_sub_walk'.
+Please see Output Log for details.
+[2017.07.11-02.43.01:192][517]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattleMap' took 0.018
+[2017.07.11-02.43.01:193][517]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/char1_sub_walk] ([1] browsable assets)...
+[2017.07.11-02.43.01:193][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/char1_sub_walk]
+[2017.07.11-02.43.01:208][517]LogSavePackage: Save=12.50ms
+[2017.07.11-02.43.01:208][517]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/char1_sub_walk_Auto2864A5AC241CD8D19C54C9994C79A8504.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_walk_Auto2.uasset'
+[2017.07.11-02.43.01:209][517]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_walk_Auto2.uasset
+[2017.07.11-02.43.01:209][517]LogFileHelpers: Auto-saving content packages took 0.016
+[2017.07.11-02.45.37:041][104]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx)
+[2017.07.11-02.45.37:045][104]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.45.37:045][104]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.45.37:045][104]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.45.37:045][104]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.45.37:045][104]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.45.37:045][104]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.11-02.45.37:045][104]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.11-02.45.37:050][104]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx
+[2017.07.11-02.45.37:085][104]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.45.38:811][104]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx
+[2017.07.11-02.45.38:833][104]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.45.38:835][104]LogFbx: =================================================
+[2017.07.11-02.45.38:835][104]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.45.38:835][104]LogFbx: 	Total Deformer Count -451872288.
+[2017.07.11-02.45.38:835][104]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.45.38:835][104]LogFbx: =================================================
+[2017.07.11-02.45.38:835][104]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.45.38:835][104]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.45.38:835][104]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.45.38:836][104]LogFbx: =================================================
+[2017.07.11-02.45.38:836][104]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.45.38:836][104]LogFbx: 	Total Deformer Count -451871392.
+[2017.07.11-02.45.38:836][104]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.45.38:836][104]LogFbx: =================================================
+[2017.07.11-02.45.38:836][104]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.45.38:836][104]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.45.38:836][104]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.45.38:836][104]LogFbx: =================================================
+[2017.07.11-02.45.38:836][104]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.45.38:836][104]LogFbx: 	Total Deformer Count -451871392.
+[2017.07.11-02.45.38:836][104]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.45.38:836][104]LogFbx: =================================================
+[2017.07.11-02.45.38:836][104]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.45.38:836][104]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.45.38:836][104]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.45.38:836][104]LogFbx: =================================================
+[2017.07.11-02.45.38:836][104]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.45.38:837][104]LogFbx: 	Total Deformer Count -451871392.
+[2017.07.11-02.45.38:837][104]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.45.38:837][104]LogFbx: =================================================
+[2017.07.11-02.45.38:837][104]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.45.38:837][104]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.45.38:837][104]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.45.38:837][104]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.45.38:837][104]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.45.38:837][104]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.45.38:839][104]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.45.38:839][104]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.45.38:839][104]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.45.38:839][104]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.45.38:840][104]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.45.40:149][104]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig'.
+Please see Output Log for details.
+[2017.07.11-02.47.14:203][572]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx)
+[2017.07.11-02.47.14:208][572]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.47.14:208][572]LogFbx: ItemName: Model, ItemCount : 48
+[2017.07.11-02.47.14:208][572]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.47.14:208][572]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.47.14:208][572]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.47.14:212][572]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.47.14:228][572]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.47.15:610][572]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.47.15:626][572]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.47.15:629][572]LogFbx: =================================================
+[2017.07.11-02.47.15:629][572]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.47.15:629][572]LogFbx: 	Total Deformer Count -451872792.
+[2017.07.11-02.47.15:629][572]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.47.15:629][572]LogFbx: =================================================
+[2017.07.11-02.47.15:629][572]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.47.15:629][572]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.47.15:629][572]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.47.15:630][572]LogFbx: =================================================
+[2017.07.11-02.47.15:630][572]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.47.15:630][572]LogFbx: 	Total Deformer Count -451878224.
+[2017.07.11-02.47.15:630][572]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.47.15:630][572]LogFbx: =================================================
+[2017.07.11-02.47.15:630][572]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.47.15:630][572]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.47.15:630][572]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.47.15:630][572]LogFbx: =================================================
+[2017.07.11-02.47.15:630][572]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.47.15:630][572]LogFbx: 	Total Deformer Count -451878224.
+[2017.07.11-02.47.15:630][572]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.47.15:630][572]LogFbx: =================================================
+[2017.07.11-02.47.15:630][572]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.47.15:630][572]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.47.15:630][572]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.47.15:630][572]LogFbx: =================================================
+[2017.07.11-02.47.15:630][572]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.47.15:630][572]LogFbx: 	Total Deformer Count -451878224.
+[2017.07.11-02.47.15:630][572]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.47.15:630][572]LogFbx: =================================================
+[2017.07.11-02.47.15:630][572]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.47.15:630][572]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.47.15:630][572]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.47.15:630][572]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.47.15:631][572]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.47.15:631][572]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.47.15:633][572]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.47.15:633][572]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.47.15:634][572]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.47.15:634][572]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.47.15:634][572]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.47.16:578][572]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig1'.
+Please see Output Log for details.
+[2017.07.11-02.49.36:326][282]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx)
+[2017.07.11-02.49.36:330][282]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.49.36:331][282]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.49.36:331][282]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.49.36:331][282]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.49.36:331][282]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.49.36:336][282]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.49.36:356][282]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.49.37:728][282]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.49.37:748][282]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.49.37:751][282]LogFbx: =================================================
+[2017.07.11-02.49.37:751][282]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.49.37:751][282]LogFbx: 	Total Deformer Count -451877776.
+[2017.07.11-02.49.37:751][282]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.49.37:751][282]LogFbx: =================================================
+[2017.07.11-02.49.37:751][282]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.49.37:751][282]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.49.37:751][282]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.49.37:752][282]LogFbx: =================================================
+[2017.07.11-02.49.37:752][282]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.49.37:752][282]LogFbx: 	Total Deformer Count -451872792.
+[2017.07.11-02.49.37:752][282]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.49.37:752][282]LogFbx: =================================================
+[2017.07.11-02.49.37:752][282]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.49.37:752][282]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.49.37:752][282]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.49.37:753][282]LogFbx: =================================================
+[2017.07.11-02.49.37:753][282]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.49.37:753][282]LogFbx: 	Total Deformer Count -451872792.
+[2017.07.11-02.49.37:753][282]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.49.37:753][282]LogFbx: =================================================
+[2017.07.11-02.49.37:753][282]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.49.37:753][282]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.49.37:753][282]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.49.37:753][282]LogFbx: =================================================
+[2017.07.11-02.49.37:753][282]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.49.37:753][282]LogFbx: 	Total Deformer Count -451872792.
+[2017.07.11-02.49.37:753][282]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.49.37:753][282]LogFbx: =================================================
+[2017.07.11-02.49.37:753][282]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.49.37:753][282]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.49.37:753][282]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.49.37:753][282]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.49.37:753][282]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.49.37:754][282]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.49.37:756][282]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.49.37:756][282]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.49.37:756][282]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.49.37:756][282]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.49.37:756][282]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.49.38:727][282]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig1'.
+Please see Output Log for details.
+[2017.07.11-02.51.23:142][ 82]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx)
+[2017.07.11-02.51.23:147][ 82]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.51.23:147][ 82]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.51.23:147][ 82]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.51.23:147][ 82]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.51.23:147][ 82]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.51.23:151][ 82]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.51.23:171][ 82]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.51.24:407][ 82]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.51.24:428][ 82]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.51.24:431][ 82]LogFbx: =================================================
+[2017.07.11-02.51.24:431][ 82]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.51.24:431][ 82]LogFbx: 	Total Deformer Count -451879512.
+[2017.07.11-02.51.24:431][ 82]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.51.24:431][ 82]LogFbx: =================================================
+[2017.07.11-02.51.24:431][ 82]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.51.24:431][ 82]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.51.24:431][ 82]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.51.24:431][ 82]LogFbx: =================================================
+[2017.07.11-02.51.24:431][ 82]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.51.24:431][ 82]LogFbx: 	Total Deformer Count -451877776.
+[2017.07.11-02.51.24:431][ 82]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.51.24:431][ 82]LogFbx: =================================================
+[2017.07.11-02.51.24:431][ 82]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.51.24:431][ 82]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.51.24:431][ 82]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.51.24:432][ 82]LogFbx: =================================================
+[2017.07.11-02.51.24:432][ 82]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.51.24:432][ 82]LogFbx: 	Total Deformer Count -451877776.
+[2017.07.11-02.51.24:432][ 82]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.51.24:432][ 82]LogFbx: =================================================
+[2017.07.11-02.51.24:432][ 82]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.51.24:432][ 82]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.51.24:432][ 82]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.51.24:432][ 82]LogFbx: =================================================
+[2017.07.11-02.51.24:432][ 82]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.51.24:432][ 82]LogFbx: 	Total Deformer Count -451877776.
+[2017.07.11-02.51.24:432][ 82]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.51.24:432][ 82]LogFbx: =================================================
+[2017.07.11-02.51.24:432][ 82]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.51.24:432][ 82]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.51.24:432][ 82]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.51.24:432][ 82]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.51.24:433][ 82]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.51.24:433][ 82]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.51.24:435][ 82]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.51.24:435][ 82]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.51.24:435][ 82]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.51.24:435][ 82]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.51.24:435][ 82]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.51.25:411][ 82]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig1'.
+Please see Output Log for details.
+[2017.07.11-02.52.30:119][449]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx)
+[2017.07.11-02.52.30:124][449]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.52.30:124][449]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.52.30:124][449]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.52.30:124][449]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.52.30:125][449]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.52.30:129][449]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.52.30:149][449]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.52.31:300][449]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.52.31:321][449]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.52.31:324][449]LogFbx: =================================================
+[2017.07.11-02.52.31:324][449]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.52.31:324][449]LogFbx: 	Total Deformer Count -451885280.
+[2017.07.11-02.52.31:324][449]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.52.31:324][449]LogFbx: =================================================
+[2017.07.11-02.52.31:324][449]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.52.31:324][449]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.52.31:324][449]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.52.31:324][449]LogFbx: =================================================
+[2017.07.11-02.52.31:324][449]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.52.31:324][449]LogFbx: 	Total Deformer Count -451879512.
+[2017.07.11-02.52.31:324][449]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.52.31:324][449]LogFbx: =================================================
+[2017.07.11-02.52.31:324][449]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.52.31:324][449]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.52.31:324][449]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.52.31:325][449]LogFbx: =================================================
+[2017.07.11-02.52.31:325][449]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.52.31:325][449]LogFbx: 	Total Deformer Count -451879512.
+[2017.07.11-02.52.31:325][449]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.52.31:325][449]LogFbx: =================================================
+[2017.07.11-02.52.31:325][449]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.52.31:325][449]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.52.31:325][449]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.52.31:325][449]LogFbx: =================================================
+[2017.07.11-02.52.31:325][449]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.52.31:325][449]LogFbx: 	Total Deformer Count -451879512.
+[2017.07.11-02.52.31:325][449]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.52.31:325][449]LogFbx: =================================================
+[2017.07.11-02.52.31:325][449]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.52.31:325][449]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.52.31:325][449]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.52.31:325][449]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.52.31:326][449]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.52.31:326][449]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.52.31:328][449]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.52.31:328][449]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.52.31:328][449]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.52.31:328][449]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.52.31:328][449]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.52.32:412][449]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig1'.
+Please see Output Log for details.
+[2017.07.11-02.52.55:483][972]LogSlate: Took 0.000495 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.11-02.53.04:153][998]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattleMap' took 0.025
+[2017.07.11-02.53.04:156][998]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/char1_sub_mesh+rig] ([1] browsable assets)...
+[2017.07.11-02.53.04:156][998]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/char1_sub_mesh+rig]
+[2017.07.11-02.53.04:163][998]LogSavePackage: Save=6.00ms
+[2017.07.11-02.53.04:163][998]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/char1_sub_mesh+rig_Auto3F1EF65344C5AA51F9768238D7B6F5FC0.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig_Auto3.uasset'
+[2017.07.11-02.53.04:166][998]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig_Auto3.uasset
+[2017.07.11-02.53.04:166][998]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/char1_sub_mesh+rig1] ([1] browsable assets)...
+[2017.07.11-02.53.04:166][998]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/char1_sub_mesh+rig1]
+[2017.07.11-02.53.04:178][998]LogSavePackage: Save=7.47ms
+[2017.07.11-02.53.04:178][998]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/char1_sub_mesh+rig1_Auto3E0E779A5402387798AE99C8859BA5C95.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig1_Auto3.uasset'
+[2017.07.11-02.53.04:182][998]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig1_Auto3.uasset
+[2017.07.11-02.53.04:182][998]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.07.11-02.53.21:893][ 82]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx)
+[2017.07.11-02.53.21:897][ 82]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.53.21:897][ 82]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.53.21:897][ 82]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.53.21:897][ 82]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.53.21:897][ 82]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.53.21:902][ 82]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.53.21:921][ 82]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.53.23:152][ 82]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.53.23:172][ 82]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.53.23:174][ 82]LogFbx: =================================================
+[2017.07.11-02.53.23:174][ 82]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.53.23:174][ 82]LogFbx: 	Total Deformer Count -451871168.
+[2017.07.11-02.53.23:174][ 82]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.53.23:174][ 82]LogFbx: =================================================
+[2017.07.11-02.53.23:174][ 82]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.53.23:174][ 82]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.53.23:174][ 82]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.53.23:174][ 82]LogFbx: =================================================
+[2017.07.11-02.53.23:174][ 82]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.53.23:174][ 82]LogFbx: 	Total Deformer Count -451885280.
+[2017.07.11-02.53.23:174][ 82]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.53.23:174][ 82]LogFbx: =================================================
+[2017.07.11-02.53.23:174][ 82]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.53.23:174][ 82]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.53.23:174][ 82]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.53.23:175][ 82]LogFbx: =================================================
+[2017.07.11-02.53.23:175][ 82]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.53.23:175][ 82]LogFbx: 	Total Deformer Count -451885280.
+[2017.07.11-02.53.23:175][ 82]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.53.23:175][ 82]LogFbx: =================================================
+[2017.07.11-02.53.23:175][ 82]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.53.23:175][ 82]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.53.23:176][ 82]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.53.23:176][ 82]LogFbx: =================================================
+[2017.07.11-02.53.23:176][ 82]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.53.23:176][ 82]LogFbx: 	Total Deformer Count -451885280.
+[2017.07.11-02.53.23:176][ 82]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.53.23:176][ 82]LogFbx: =================================================
+[2017.07.11-02.53.23:176][ 82]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.53.23:176][ 82]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.53.23:176][ 82]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.53.23:176][ 82]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.53.23:176][ 82]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.53.23:176][ 82]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.53.23:179][ 82]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.53.23:179][ 82]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.53.23:179][ 82]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.53.23:179][ 82]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.53.23:179][ 82]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.53.24:172][ 82]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig1'.
+Please see Output Log for details.
+[2017.07.11-02.58.32:210][384]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx)
+[2017.07.11-02.58.32:217][384]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.58.32:217][384]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.58.32:217][384]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.58.32:217][384]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.58.32:217][384]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.58.32:217][384]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.07.11-02.58.32:217][384]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.07.11-02.58.32:222][384]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx
+[2017.07.11-02.58.32:242][384]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.58.33:622][384]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx
+[2017.07.11-02.58.33:644][384]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.58.33:648][384]LogFbx: =================================================
+[2017.07.11-02.58.33:648][384]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.58.33:648][384]LogFbx: 	Total Deformer Count -451873576.
+[2017.07.11-02.58.33:648][384]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.58.33:648][384]LogFbx: =================================================
+[2017.07.11-02.58.33:648][384]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.58.33:648][384]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.58.33:648][384]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.58.33:649][384]LogFbx: =================================================
+[2017.07.11-02.58.33:649][384]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.58.33:649][384]LogFbx: 	Total Deformer Count -451871168.
+[2017.07.11-02.58.33:649][384]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.58.33:649][384]LogFbx: =================================================
+[2017.07.11-02.58.33:649][384]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.58.33:649][384]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.58.33:649][384]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.58.33:649][384]LogFbx: =================================================
+[2017.07.11-02.58.33:649][384]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.58.33:649][384]LogFbx: 	Total Deformer Count -451871168.
+[2017.07.11-02.58.33:649][384]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.58.33:649][384]LogFbx: =================================================
+[2017.07.11-02.58.33:649][384]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.58.33:649][384]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.58.33:649][384]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.58.33:649][384]LogFbx: =================================================
+[2017.07.11-02.58.33:649][384]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.58.33:649][384]LogFbx: 	Total Deformer Count -451871168.
+[2017.07.11-02.58.33:649][384]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.58.33:649][384]LogFbx: =================================================
+[2017.07.11-02.58.33:649][384]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.58.33:649][384]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.58.33:649][384]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.58.33:649][384]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.58.33:650][384]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.58.33:650][384]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.58.33:652][384]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.58.33:652][384]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.58.33:652][384]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.58.33:652][384]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.58.33:652][384]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.58.34:614][384]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig'.
+Please see Output Log for details.
+[2017.07.11-02.58.57:084][724]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx)
+[2017.07.11-02.58.57:088][724]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-02.58.57:088][724]LogFbx: ItemName: Model, ItemCount : 79
+[2017.07.11-02.58.57:088][724]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-02.58.57:088][724]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-02.58.57:088][724]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-02.58.57:093][724]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.58.57:115][724]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.58.58:298][724]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-02.58.58:322][724]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-02.58.58:324][724]LogFbx: =================================================
+[2017.07.11-02.58.58:324][724]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.58.58:324][724]LogFbx: 	Total Deformer Count -451879624.
+[2017.07.11-02.58.58:324][724]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.58.58:324][724]LogFbx: =================================================
+[2017.07.11-02.58.58:324][724]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.58.58:324][724]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.58.58:324][724]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.58.58:325][724]LogFbx: =================================================
+[2017.07.11-02.58.58:325][724]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.58.58:325][724]LogFbx: 	Total Deformer Count -451881304.
+[2017.07.11-02.58.58:325][724]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.58.58:325][724]LogFbx: =================================================
+[2017.07.11-02.58.58:325][724]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.58.58:326][724]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.58.58:326][724]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.58.58:326][724]LogFbx: =================================================
+[2017.07.11-02.58.58:326][724]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.58.58:326][724]LogFbx: 	Total Deformer Count -451881304.
+[2017.07.11-02.58.58:326][724]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.58.58:326][724]LogFbx: =================================================
+[2017.07.11-02.58.58:326][724]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.58.58:326][724]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.58.58:326][724]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.58.58:326][724]LogFbx: =================================================
+[2017.07.11-02.58.58:326][724]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-02.58.58:326][724]LogFbx: 	Total Deformer Count -451881304.
+[2017.07.11-02.58.58:326][724]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-02.58.58:326][724]LogFbx: =================================================
+[2017.07.11-02.58.58:326][724]LogFbx: 	Attribute () Type (4).
+[2017.07.11-02.58.58:326][724]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-02.58.58:326][724]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-02.58.58:326][724]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-02.58.58:327][724]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-02.58.58:327][724]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-02.58.58:329][724]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-02.58.58:329][724]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-02.58.58:329][724]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-02.58.58:329][724]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-02.58.58:329][724]FBXImport:Error: Error Import failed. 
+[2017.07.11-02.58.59:670][724]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig1'.
+Please see Output Log for details.
+[2017.07.11-03.01.25:085][361]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx)
+[2017.07.11-03.01.25:090][361]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-03.01.25:090][361]LogFbx: ItemName: Model, ItemCount : 46
+[2017.07.11-03.01.25:090][361]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-03.01.25:090][361]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-03.01.25:090][361]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-03.01.25:094][361]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-03.01.25:110][361]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-03.01.26:085][361]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-03.01.26:100][361]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.01.26:103][361]LogFbx: 	Total Deformer Count -451882312.
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.01.26:103][361]LogFbx: 	Total Deformer Count -451879624.
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.01.26:103][361]LogFbx: 	Total Deformer Count -451879624.
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.01.26:103][361]LogFbx: 	Total Deformer Count -451879624.
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.01.26:103][361]LogFbx: 	Total Deformer Count -451879624.
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.01.26:103][361]LogFbx: =================================================
+[2017.07.11-03.01.26:103][361]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.01.26:103][361]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.01.26:103][361]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.01.26:104][361]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-03.01.26:104][361]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-03.01.26:104][361]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-03.01.26:110][361]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-03.01.26:110][361]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-03.01.26:110][361]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-03.01.26:110][361]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-03.01.26:110][361]FBXImport:Error: Error Import failed. 
+[2017.07.11-03.01.27:044][361]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig1'.
+Please see Output Log for details.
+[2017.07.11-03.02.04:383][726]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx)
+[2017.07.11-03.02.04:388][726]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.07.11-03.02.04:388][726]LogFbx: ItemName: Model, ItemCount : 45
+[2017.07.11-03.02.04:388][726]LogFbx: ItemName: NodeAttribute, ItemCount : 29
+[2017.07.11-03.02.04:388][726]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.07.11-03.02.04:388][726]LogFbx: ItemName: Deformer, ItemCount : 29
+[2017.07.11-03.02.04:394][726]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-03.02.04:409][726]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-03.02.05:445][726]LogFbx: Loading FBX Scene from C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx
+[2017.07.11-03.02.05:462][726]LogFbx: FBX Scene Loaded Succesfully
+[2017.07.11-03.02.05:464][726]LogFbx: =================================================
+[2017.07.11-03.02.05:464][726]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.02.05:464][726]LogFbx: 	Total Deformer Count -1664021744.
+[2017.07.11-03.02.05:464][726]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.02.05:464][726]LogFbx: =================================================
+[2017.07.11-03.02.05:464][726]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.02.05:464][726]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.02.05:464][726]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.02.05:464][726]LogFbx: =================================================
+[2017.07.11-03.02.05:464][726]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.02.05:464][726]LogFbx: 	Total Deformer Count -1664019224.
+[2017.07.11-03.02.05:464][726]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.02.05:464][726]LogFbx: =================================================
+[2017.07.11-03.02.05:464][726]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.02.05:464][726]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.02.05:464][726]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.02.05:464][726]LogFbx: =================================================
+[2017.07.11-03.02.05:464][726]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.02.05:464][726]LogFbx: 	Total Deformer Count -1664019224.
+[2017.07.11-03.02.05:464][726]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.02.05:464][726]LogFbx: =================================================
+[2017.07.11-03.02.05:464][726]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.02.05:464][726]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.02.05:464][726]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.02.05:464][726]LogFbx: =================================================
+[2017.07.11-03.02.05:464][726]LogFbx: Dumping Node START [Cheast_1] 
+[2017.07.11-03.02.05:464][726]LogFbx: 	Total Deformer Count -1664019224.
+[2017.07.11-03.02.05:464][726]LogFbx: 		[Node 1]  (Type Skin).
+[2017.07.11-03.02.05:464][726]LogFbx: =================================================
+[2017.07.11-03.02.05:464][726]LogFbx: 	Attribute () Type (4).
+[2017.07.11-03.02.05:464][726]LogFbx: 		[Node Attribute Child 1] Cheast_1 (Type Mesh).
+[2017.07.11-03.02.05:464][726]LogFbx: Dumping Node END [Cheast_1]
+[2017.07.11-03.02.05:465][726]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2017.07.11-03.02.05:466][726]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cheast_1
+[2017.07.11-03.02.05:466][726]LogFbx:Warning: Recreating bind pose succeeded.
+[2017.07.11-03.02.05:469][726]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.07.11-03.02.05:469][726]FBXImport:Error: Error Multiple roots are found in the bone hierarchy. We only support single root bone. 
+[2017.07.11-03.02.05:469][726]FBXImport:Error: Error Multiple roots found 
+[2017.07.11-03.02.05:469][726]FBXImport:Warning: Warning Get Import Data has failed. 
+[2017.07.11-03.02.05:469][726]FBXImport:Error: Error Import failed. 
+[2017.07.11-03.02.06:300][726]LogAssetTools:Warning: Failed to import 'C:/Users/Takex/OneDrive/Документы/Game/3D/char1_sub_mesh+rig1.fbx'. Failed to create asset '/Game/BP/char1_sub_mesh+rig1'.
+Please see Output Log for details.
+[2017.07.11-03.03.04:813][230]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/BattleMap' took 0.024
+[2017.07.11-03.03.04:814][230]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/char1_sub_mesh+rig] ([1] browsable assets)...
+[2017.07.11-03.03.04:814][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/char1_sub_mesh+rig]
+[2017.07.11-03.03.04:825][230]LogSavePackage: Save=6.50ms
+[2017.07.11-03.03.04:825][230]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/char1_sub_mesh+rig_Auto44334D2E5492CC5B51C34CC8449A09685.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig_Auto4.uasset'
+[2017.07.11-03.03.04:828][230]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig_Auto4.uasset
+[2017.07.11-03.03.04:828][230]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP/char1_sub_mesh+rig1] ([1] browsable assets)...
+[2017.07.11-03.03.04:828][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP/char1_sub_mesh+rig1]
+[2017.07.11-03.03.04:839][230]LogSavePackage: Save=6.90ms
+[2017.07.11-03.03.04:839][230]LogSavePackage: Moving 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/char1_sub_mesh+rig1_Auto4CC7AD5824FC554B5E38365B237B7B0AD.tmp' to 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig1_Auto4.uasset'
+[2017.07.11-03.03.04:842][230]LogSavePackage:Display: Finished SavePackage C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Autosaves/Game/BP/char1_sub_mesh+rig1_Auto4.uasset
+[2017.07.11-03.03.04:842][230]LogFileHelpers: Auto-saving content packages took 0.029
+[2017.07.11-03.14.58:162][357]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.11-03.14.58:162][357]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.11-10.02.53:689][822]LogHttp:Warning: 000002128C9E6800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.07.11-10.02.53:690][822]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x212ea9b3fe8 [can pipeline])
+[2017.07.11-10.02.53:690][822]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2017.07.11-10.02.53:690][822]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.07.11-10.02.53:690][822]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 3 (Closing connection 69)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: request failed, libcurl error: 35 (SSL connect error)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x212ea9b3fe8 [can pipeline])
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 1 (  Trying 34.224.134.130...)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.134.130) port 443 (#70))
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 5 (SSL re-using session ID)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 7 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 8 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 11 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 12 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 14 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2017.07.11-10.06.46:500][520]LogHttp:Warning: 000002128C9E6800: libcurl info message cache 15 (Closing connection 70)
+[2017.07.11-10.06.53:509][541]LogHttp:Warning: 000002128C9E7E80: request failed, libcurl error: 0 (No error)
+[2017.07.11-10.06.53:509][541]LogHttp:Warning: 000002128C9E7E80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x212ea9b3fe8 [can pipeline])
+[2017.07.11-10.06.53:509][541]LogHttp:Warning: 000002128C9E7E80: libcurl info message cache 1 (Re-using existing connection! (#68) with host datarouter.ol.epicgames.com)
+[2017.07.11-10.06.53:509][541]LogHttp:Warning: 000002128C9E7E80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.134.130) port 443 (#68))
+[2017.07.11-10.06.53:509][541]LogHttp:Warning: 000002128C9E7E80: libcurl info message cache 3 (upload completely sent off: 369 out of 369 bytes)
+[2017.07.11-10.06.53:509][541]LogHttp:Warning: 000002128C9E7E80: libcurl info message cache 4 (Closing connection 68)
+[2017.07.11-10.06.53:509][541]LogHttp:Warning: 000002128C9E7E80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.07.11-10.08.02:023][745]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.11-10.08.02:023][745]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.11-10.08.12:684][874]Cmd: QUIT_EDITOR
+[2017.07.11-10.08.13:304][874]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.11-10.08.13:419][874]LogExit: Preparing to exit.
+[2017.07.11-10.08.15:403][874]LogExit: Editor shut down
+[2017.07.11-10.08.15:470][874]LogExit: Transaction tracking system shut down
+[2017.07.11-10.08.17:483][874]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.11-10.08.17:484][874]LogExit: Object subsystem successfully closed.
+[2017.07.11-10.08.17:730][874]LogD3D11RHI: Shutdown
+[2017.07.11-10.08.17:730][874]LogD3D11RHI: CleanupD3DDevice
+[2017.07.11-10.08.17:867][874]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.11-10.08.18:982][874]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.11-10.08.19:007][874]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.11-10.08.19:007][874]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.11-10.08.19:023][874]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.11-10.08.19:038][874]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.11-10.08.19:043][874]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.11-10.08.19:043][874]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.11-10.08.19:043][874]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.11-10.08.19:043][874]LogDirectoryWatcher: A directory notification for 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' was aborted.
+[2017.07.11-10.08.19:043][874]LogDirectoryWatcher: A directory notification for 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Takex/Collections/' was aborted.
+[2017.07.11-10.08.19:043][874]LogDirectoryWatcher: A directory notification for 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' was aborted.
+[2017.07.11-10.08.19:043][874]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.11-10.08.19:055][874]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.11-10.08.19:055][874]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.11-10.08.19:097][874]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.11-10.08.19:097][874]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.11-10.08.19:098][874]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.11-10.08.19:098][874]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.11-10.08.19:098][874]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.11-10.08.19:098][874]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.11-10.08.19:122][874]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.11-10.08.19:132][874]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.11-10.08.19:142][874]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.11-10.08.19:159][874]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.11-10.08.19:171][874]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.11-10.08.19:237][874]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.11-10.08.19:259][874]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.11-10.08.19:306][874]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.11-10.08.19:306][874]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.11-10.08.19:306][874]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.11-10.08.19:306][874]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.11-10.08.19:306][874]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.11-10.08.19:347][874]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.11-10.08.19:366][874]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.11-10.08.19:412][874]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.11-10.08.19:434][874]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.11-10.08.19:434][874]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.11-10.08.19:444][874]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.11-10.08.19:444][874]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.11-10.08.19:444][874]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.11-10.08.20:103][874]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.11-10.08.20:103][874]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.11-10.08.20:103][874]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.11-10.08.20:127][874]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.11-10.08.20:141][874]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.11-10.08.20:141][874]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.11-10.08.20:150][874]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.11-10.08.20:168][874]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.11-10.08.20:184][874]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.11-10.08.20:193][874]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.11-10.08.20:193][874]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.11-10.08.20:202][874]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.11-10.08.20:211][874]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.11-10.08.20:211][874]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.11-10.08.20:221][874]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.11-10.08.20:228][874]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.11-10.08.20:228][874]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.11-10.08.20:228][874]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.11-10.08.20:228][874]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.11-10.08.20:249][874]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.11-10.08.20:266][874]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.11-10.08.20:276][874]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.11-10.08.20:295][874]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.11-10.08.20:310][874]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.11-10.08.20:365][874]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.11-10.08.20:374][874]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.11-10.08.20:387][874]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.11-10.08.20:401][874]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.11-10.08.20:401][874]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.11-10.08.20:422][874]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.11-10.08.20:423][874]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.11-10.08.20:474][874]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.11-10.08.20:474][874]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.11-10.08.20:474][874]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.11-10.08.20:487][874]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.11-10.08.20:487][874]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.11-10.08.20:495][874]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.11-10.08.20:507][874]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.11-10.08.20:549][874]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.11-10.08.20:570][874]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.11-10.08.20:580][874]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.11-10.08.20:581][874]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.11-10.08.20:581][874]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.11-10.08.20:581][874]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.11-10.08.20:581][874]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.11-10.08.20:625][874]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.11-10.08.20:625][874]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.11-10.08.20:625][874]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.11-10.08.20:625][874]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.11-10.08.20:625][874]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.11-10.08.20:625][874]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.11-10.08.20:625][874]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.11-10.08.20:635][874]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.11-10.08.20:651][874]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.11-10.08.20:694][874]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.11-10.08.20:707][874]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.11-10.08.20:707][874]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.11-10.08.20:707][874]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.11-10.08.20:713][874]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.11-10.08.20:719][874]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.11-10.08.20:719][874]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.11-10.08.20:719][874]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.11-10.08.20:719][874]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.11-10.08.20:719][874]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.11-10.08.20:729][874]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.11-10.08.20:729][874]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.11-10.08.20:729][874]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.11-10.08.20:748][874]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.11-10.08.20:748][874]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.11-10.08.20:767][874]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.11-10.08.20:767][874]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.11-10.08.20:784][874]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.11-10.08.20:784][874]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.11-10.08.20:784][874]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.11-10.08.20:784][874]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.11-10.08.20:784][874]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.11-10.08.20:800][874]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.11-10.08.20:818][874]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.11-10.08.20:834][874]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.11-10.08.20:834][874]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.11-10.08.20:834][874]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.11-10.08.20:842][874]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.11-10.08.20:850][874]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.11-10.08.20:858][874]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.11-10.08.20:877][874]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.11-10.08.20:877][874]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.11-10.08.20:877][874]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.11-10.08.20:877][874]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.11-10.08.20:890][874]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.11-10.08.20:902][874]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.11-10.08.20:912][874]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.11-10.08.20:935][874]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.11-10.08.20:950][874]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.11-10.08.20:962][874]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.11-10.08.20:973][874]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.11-10.08.20:973][874]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.11-10.08.20:973][874]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.11-10.08.20:973][874]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.11-10.08.20:978][874]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.11-10.08.21:082][874]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.11-10.08.21:199][874]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.11-10.08.21:226][874]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.11-10.08.21:242][874]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.11-10.08.21:242][874]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.11-10.08.21:254][874]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.11-10.08.21:288][874]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.11-10.08.21:289][874]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.11-10.08.21:289][874]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.11-10.08.21:296][874]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.11-10.08.21:296][874]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.11-10.08.21:318][874]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.11-10.08.21:318][874]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.11-10.08.21:343][874]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.11-10.08.21:343][874]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.11-10.08.21:369][874]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.11-10.08.21:377][874]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.11-10.08.21:389][874]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.11-10.08.21:389][874]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.11-10.08.21:412][874]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.11-10.08.21:412][874]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.11-10.08.21:439][874]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.11-10.08.21:451][874]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.11-10.08.21:480][874]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.11-10.08.21:515][874]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.11-10.08.21:603][874]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.11-10.08.21:603][874]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.11-10.08.21:603][874]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.11-10.08.21:623][874]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.11-10.08.21:623][874]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.11-10.08.21:626][874]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.11-10.08.21:626][874]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.11-10.08.21:626][874]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.11-10.08.21:626][874]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.11-10.08.21:626][874]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.11-10.08.21:626][874]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.11-10.08.21:796][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.11-10.08.21:796][874]LogDirectoryWatcher: A directory notification for 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/' was aborted.
+[2017.07.11-10.08.21:796][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.11-10.08.21:796][874]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.11-10.08.21:834][874]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.11-10.08.21:838][874]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.11-10.08.21:838][874]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.11-10.08.21:838][874]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.11-10.08.21:838][874]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.11-10.08.21:862][874]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.11-10.08.21:879][874]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.11-10.08.21:879][874]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.11-10.08.21:899][874]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.11-10.08.21:986][874]LogDerivedDataCache: Shutdown
+[2017.07.11-10.08.22:000][874]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.11-10.08.22:000][874]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.11-10.08.22:037][874]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.11-10.08.22:050][874]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.11-10.08.22:054][874]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.11-10.08.22:059][874]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.11-10.08.22:082][874]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.11-10.08.22:082][874]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.11-10.08.22:082][874]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.11-10.08.22:100][874]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.11-10.08.22:108][874]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.11-10.08.22:112][874]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.11-10.08.22:112][874]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.11-10.08.22:121][874]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.11-10.08.22:128][874]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.11-10.08.22:134][874]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.11-10.08.22:142][874]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.11-10.08.22:142][874]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.11-10.08.22:154][874]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.11-10.08.22:168][874]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.11-10.08.22:168][874]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.11-10.08.22:193][874]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.11-10.08.22:193][874]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.11-10.08.22:193][874]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.11-10.08.22:193][874]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.11-10.08.22:225][874]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.11-10.08.22:237][874]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.11-10.08.22:237][874]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.07.11-10.08.22:245][874]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7E71A257-4B9B-2354-878E-43B4071FCA30%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=e05968154ba330c86bd9bf99e556a741%7C2598d7593dcf4342b54074422ea0a06e%7Caba18a0d-79f7-4f5a-94c3-2c0a7b93a8ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.11-10.08.22:245][874]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7E71A257-4B9B-2354-878E-43B4071FCA30%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=e05968154ba330c86bd9bf99e556a741%7C2598d7593dcf4342b54074422ea0a06e%7Caba18a0d-79f7-4f5a-94c3-2c0a7b93a8ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.11-10.08.22:245][874]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2017.07.11-10.08.22:745][874]LogHttp:Display: Sleeping 0.5s to wait for 2 outstanding Http requests.
+[2017.07.11-10.08.23:295][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.23:796][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.24:297][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.24:797][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.25:298][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.25:799][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.26:300][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.26:800][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.27:301][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.27:802][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.28:305][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.28:807][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.29:307][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.29:807][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.30:307][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.30:808][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.31:309][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.31:809][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.32:309][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.32:810][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.33:311][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.33:811][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.34:311][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.34:812][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.35:313][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.35:814][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.36:315][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.36:816][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.37:316][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.37:819][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.38:319][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.38:820][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.39:320][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.39:821][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.40:322][874]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2017.07.11-10.08.40:843][874]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.11-10.08.40:857][874]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.11-10.08.40:897][874]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.11-10.08.40:916][874]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.11-10.08.40:916][874]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.11-10.08.40:948][874]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.11-10.08.40:965][874]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.11-10.08.40:965][874]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.11-10.08.40:965][874]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.11-10.08.40:999][874]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.11-10.08.41:016][874]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.11-10.08.41:016][874]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.11-10.08.41:030][874]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.11-10.08.41:030][874]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.11-10.08.41:030][874]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.11-10.08.41:030][874]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.11-10.08.41:039][874]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.11-10.08.41:051][874]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.11-10.08.41:051][874]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.11-10.08.41:069][874]LogExit: Exiting.
+[2017.07.11-10.08.41:106][874]Log file closed, 07/11/17 13:08:41
