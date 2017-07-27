@@ -1,9 +1,9 @@
-﻿Log file open, 07/14/17 18:52:19
+﻿Log file open, 07/27/17 22:15:10
 LogInit:Display: Running engine for game: TB
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-2097787081) SRandInit(-2097787080).
+LogInit:Display: RandInit(-648980933) SRandInit(-648980933).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 4.381200
+LogStats: Stats thread started at 0.064853
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,422 +46,1017 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
 LogInit: Command line:  
-LogInit: Base directory: D:/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Base directory: E:/Soft/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.07.14-15.52.21:071][  0]LogInit: Selected Device Profile: [Windows]
-[2017.07.14-15.52.21:071][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.07.14-15.52.21:218][  0]LogInit: Computer: DESKTOP-LUMPQHN
-[2017.07.14-15.52.21:218][  0]LogInit: User: Takex
-[2017.07.14-15.52.21:218][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.07.14-15.52.21:218][  0]LogInit: High frequency timer resolution =3.234376 MHz
-[2017.07.14-15.52.21:226][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.07.14-15.52.21:226][  0]LogMemory: Platform Memory Stats for Windows
-[2017.07.14-15.52.21:226][  0]LogMemory: Process Physical Memory: 272.33 MB used, 272.33 MB peak
-[2017.07.14-15.52.21:226][  0]LogMemory: Process Virtual Memory: 258.50 MB used, 258.50 MB peak
-[2017.07.14-15.52.21:226][  0]LogMemory: Physical Memory: 4745.64 MB used,  3405.93 MB free, 8151.57 MB total
-[2017.07.14-15.52.21:226][  0]LogMemory: Virtual Memory: 633.98 MB used,  3405.93 MB free, 134217728.00 MB total
-[2017.07.14-15.52.23:072][  0]LogInit: Using OS detected language (ru-RU).
-[2017.07.14-15.52.23:072][  0]LogInit: Using OS detected locale (ru-RU).
-[2017.07.14-15.52.23:377][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
-[2017.07.14-15.52.23:377][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
-[2017.07.14-15.52.29:378][  0]LogD3D11RHI: D3D11 adapters:
-[2017.07.14-15.52.29:445][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
-[2017.07.14-15.52.29:445][  0]LogD3D11RHI:       995/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.07.14-15.52.29:446][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.07.14-15.52.29:446][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.07.14-15.52.29:446][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.07.14-15.52.29:496][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.07.14-15.52.29:496][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
-[2017.07.14-15.52.29:496][  0]LogWindows: EnumDisplayDevices:
-[2017.07.14-15.52.29:496][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
-[2017.07.14-15.52.29:496][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
-[2017.07.14-15.52.29:496][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
-[2017.07.14-15.52.29:496][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.07.14-15.52.29:496][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
-[2017.07.14-15.52.29:496][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
-[2017.07.14-15.52.29:496][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2017.07.14-15.52.29:497][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
-[2017.07.14-15.52.29:549][  0]LogD3D11RHI: Async texture creation enabled
-[2017.07.14-15.52.30:082][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.07.14-15.52.30:250][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Intermediate/Shaders/WorkingDirectory/13248/).
-[2017.07.14-15.52.30:250][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Takex/AppData/Local/Temp/UnrealShaderWorkingDir/DB7BAE28468B2B6E7435748D1448892E/'.
-[2017.07.14-15.52.30:263][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.07.14-15.52.37:162][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.07.14-15.52.37:258][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.07.14-15.52.37:383][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.07.14-15.52.37:498][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.07.14-15.52.37:613][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.07.14-15.52.37:689][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.07.14-15.52.37:784][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.07.14-15.52.37:885][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.07.14-15.52.37:958][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.07.14-15.52.38:034][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.07.14-15.52.38:089][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.07.14-15.52.38:154][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.07.14-15.52.38:233][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.07.14-15.52.38:319][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.07.14-15.52.38:397][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.07.14-15.52.38:615][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.07.14-15.52.38:615][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.07.14-15.52.38:664][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.07.14-15.52.38:853][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.07.14-15.52.38:884][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.07.14-15.52.38:945][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.07.14-15.52.38:997][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.07.14-15.52.39:043][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.07.14-15.52.39:106][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.07.14-15.52.39:106][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.07.14-15.52.40:969][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.07.14-15.52.41:425][  0]LogDerivedDataCache: Loaded boot cache 0.45s 90MB C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.07.14-15.52.41:425][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.07.14-15.52.41:425][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.07.14-15.52.41:425][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.07.14-15.52.41:425][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.07.14-15.52.41:425][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.07.14-15.52.41:521][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.07.14-15.52.41:534][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Takex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.07.14-15.52.41:635][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.07.14-15.52.41:746][  0]LogSlate: Using Freetype 2.6.0
-[2017.07.14-15.52.41:890][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.07.14-15.52.41:890][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.07.14-15.52.57:938][  0]LogInit: Selected Device Profile: [Windows]
-[2017.07.14-15.52.59:870][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.07.14-15.53.00:916][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.07.14-15.53.01:109][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.07.14-15.53.01:186][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.07.14-15.53.01:186][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.07.14-15.53.01:186][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.07.14-15.53.10:074][  0]LogNetVersion: TB , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2755021592)
-[2017.07.14-15.53.10:710][  0]LogAssetRegistry: FAssetRegistry took 0.0646 seconds to start up
-[2017.07.14-15.53.10:923][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.117727 seconds
-[2017.07.14-15.53.11:004][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.07.14-15.53.11:004][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.07.14-15.53.11:004][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.07.14-15.53.11:149][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.07.14-15.53.46:712][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.07.14-15.53.46:770][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.07.14-15.53.48:997][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.07.14-15.53.50:529][  0]SourceControl: Info Source control is disabled
-[2017.07.14-15.53.50:541][  0]SourceControl: Info Source control is disabled
-[2017.07.14-15.53.50:675][  0]SourceControl: Info Source control is disabled
-[2017.07.14-15.53.50:782][  0]SourceControl: Info Source control is disabled
-[2017.07.14-15.53.52:375][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.07.14-15.53.54:083][  0]LogEngine: Initializing Engine...
-[2017.07.14-15.53.54:160][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.07.14-15.53.55:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.07.14-15.53.55:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.007 s
-[2017.07.14-15.53.56:347][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.07.14-15.53.56:699][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.07.14-15.53.56:718][  0]LogInit: FAudioDevice initialized.
-[2017.07.14-15.53.56:786][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Takex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.07.14-15.53.56:798][  0]LogInit: Texture streaming: Enabled
-[2017.07.14-15.53.57:059][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.07.14-15.53.57:935][  0]LogInit: Transaction tracking system initialized
-[2017.07.14-15.53.58:624][  0]BlueprintLog: New page: Editor Load
-[2017.07.14-15.54.00:905][  0]LocalizationService: Info Localization service is disabled
-[2017.07.14-15.54.02:529][  0]LogConsoleResponse:Display: 
-[2017.07.14-15.54.05:874][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/' took 0.05s
-[2017.07.14-15.54.05:874][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.07.14-15.54.05:880][  0]LogCook:Display: Mobile HDR setting 1
-[2017.07.14-15.54.09:508][  0]SourceControl: Info Source control is disabled
-[2017.07.14-15.54.09:583][  0]Cmd: MAP LOAD FILE="C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.07.14-15.54.09:592][  0]LightingResults: New page: Lighting Build
-[2017.07.14-15.54.09:953][  0]MapCheck: New page: Map Check
-[2017.07.14-15.54.09:953][  0]LightingResults: New page: Lighting Build
-[2017.07.14-15.54.13:441][  0]LogAIModule: Creating AISystem for world BattleMap
-[2017.07.14-15.54.14:160][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.07.14-15.54.14:334][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.07.14-15.54.14:384][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.758ms to complete.
-[2017.07.14-15.54.14:396][  0]LogFileHelpers: Loading map 'BattleMap' took 4.857
-[2017.07.14-15.54.16:508][  0]LogCollectionManager: Loaded 0 collections in 0.001547 seconds
-[2017.07.14-15.54.16:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' took 0.01s
-[2017.07.14-15.54.16:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Takex/Collections/' took 0.01s
-[2017.07.14-15.54.16:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Takex/OneDrive/Документы/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' took 0.00s
-[2017.07.14-15.54.16:745][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.07.14-15.54.16:769][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2329 classes and 491 folders.
-[2017.07.14-15.54.16:986][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.07.14-15.54.18:339][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.07.14-15.54.18:456][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
-[2017.07.14-15.54.19:786][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.07.14-15.54.19:994][  0]LogSlate: Took 0.013155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.07.14-15.54.20:039][  0]LogSlate: Took 0.021123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.07.14-15.54.20:080][  0]LogSlate: Took 0.024784 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.07.14-15.54.20:632][  0]LogRenderer: Reallocating scene render targets to support 1336x552 NumSamples 1 (Frame:1).
-[2017.07.14-15.54.21:466][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.07.14-15.54.21:607][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.07.14-15.54.21:608][  0]LogLoad: (Engine Initialization) Total time: 137.26 seconds
-[2017.07.14-15.54.21:608][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.35 seconds
-[2017.07.14-15.54.21:608][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.07.14-15.54.22:084][  0]LogOcInput: OculusInput pre-init called
-[2017.07.14-15.54.22:107][  0]LogHMD: Starting GearVRController plugin
-[2017.07.14-15.54.22:343][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.07.14-15.54.22:569][  0]LogRenderer: Reallocating scene render targets to support 1336x564 NumSamples 1 (Frame:2).
-[2017.07.14-15.54.22:865][  1]LogSlate: Took 0.021826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.07.14-15.54.23:088][  2]LogAssetRegistry: Asset discovery search completed in 72.4240 seconds
-[2017.07.14-15.54.23:091][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.07.14-15.54.23:091][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
-[2017.07.14-15.54.23:178][  2]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.07.14-15.54.51:503][311]LogTemp: Repeting last play command: Selected Viewport
-[2017.07.14-15.54.51:574][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.07.14-15.54.51:661][311]PIE: New page: PIE session: BattleMap (Jul 14, 2017, 9:54:51 PM)
-[2017.07.14-15.54.51:661][311]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
-[2017.07.14-15.54.51:671][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009826s)
-[2017.07.14-15.54.51:672][311]LogAIModule: Creating AISystem for world BattleMap
-[2017.07.14-15.54.51:672][311]LogPlayLevel: PIE: World Init took: (0.001470s)
-[2017.07.14-15.54.51:672][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.011513s)
-[2017.07.14-15.54.51:727][311]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.07.14-15.54.51:739][311]LogInit: FAudioDevice initialized.
-[2017.07.14-15.54.51:790][311]LogLoad: Game class is 'BattleGameMode_C'
-[2017.07.14-15.54.51:881][311]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.14-18.54.51
-[2017.07.14-15.54.51:967][311]LogWorld: Bringing up level for play took: 0.088125
-[2017.07.14-15.54.52:255][311]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2017.07.14-15.54.52:393][311]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.231
-[2017.07.14-15.54.53:124][357]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.54.54:118][441]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.54.54:130][441]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+[2017.07.27-19.15.11:180][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-19.15.11:180][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.27-19.15.11:191][  0]LogInit: Computer: DESKTOP-B3PS089
+[2017.07.27-19.15.11:191][  0]LogInit: User: Tik
+[2017.07.27-19.15.11:191][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.27-19.15.11:191][  0]LogInit: High frequency timer resolution =3.234375 MHz
+[2017.07.27-19.15.11:191][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.07.27-19.15.11:191][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.27-19.15.11:191][  0]LogMemory: Process Physical Memory: 273.04 MB used, 273.04 MB peak
+[2017.07.27-19.15.11:191][  0]LogMemory: Process Virtual Memory: 266.19 MB used, 266.19 MB peak
+[2017.07.27-19.15.11:191][  0]LogMemory: Physical Memory: 5192.82 MB used,  2958.75 MB free, 8151.57 MB total
+[2017.07.27-19.15.11:191][  0]LogMemory: Virtual Memory: 637.02 MB used,  2958.75 MB free, 134217728.00 MB total
+[2017.07.27-19.15.11:273][  0]LogInit: Using OS detected language (ru-RU).
+[2017.07.27-19.15.11:273][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.07.27-19.15.11:275][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.07.27-19.15.11:275][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.07.27-19.15.12:214][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.27-19.15.12:248][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.07.27-19.15.12:248][  0]LogD3D11RHI:       995/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.27-19.15.12:249][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.27-19.15.12:249][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.27-19.15.12:249][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.27-19.15.12:254][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.27-19.15.12:254][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.27-19.15.12:254][  0]LogWindows: EnumDisplayDevices:
+[2017.07.27-19.15.12:254][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.07.27-19.15.12:254][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.27-19.15.12:255][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.27-19.15.12:255][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.27-19.15.12:255][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.07.27-19.15.12:255][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.07.27-19.15.12:255][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.07.27-19.15.12:255][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2017.07.27-19.15.12:277][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.27-19.15.12:288][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.27-19.15.12:289][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Intermediate/Shaders/WorkingDirectory/12680/).
+[2017.07.27-19.15.12:289][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tik/AppData/Local/Temp/UnrealShaderWorkingDir/4F0666DD4CF1327754B62CB966FA27EF/'.
+[2017.07.27-19.15.12:289][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.27-19.15.13:240][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.27-19.15.13:288][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.27-19.15.13:327][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.27-19.15.13:371][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.27-19.15.13:410][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.27-19.15.13:449][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.27-19.15.13:489][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.27-19.15.13:527][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.27-19.15.13:566][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.27-19.15.13:603][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.27-19.15.13:640][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.27-19.15.13:680][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.27-19.15.13:719][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.27-19.15.13:756][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.27-19.15.13:792][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.27-19.15.13:878][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.27-19.15.13:878][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.27-19.15.13:905][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.27-19.15.13:977][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.27-19.15.14:000][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.27-19.15.14:036][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.27-19.15.14:099][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.27-19.15.14:179][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.27-19.15.14:230][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.27-19.15.14:230][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.27-19.15.14:576][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.27-19.15.14:687][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Tik/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-19.15.14:687][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tik/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.27-19.15.14:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.27-19.15.14:688][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.27-19.15.14:688][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.27-19.15.14:688][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.27-19.15.14:704][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.27-19.15.14:715][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.27-19.15.14:726][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.27-19.15.14:726][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.27-19.15.14:727][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-19.15.14:727][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-19.15.15:037][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-19.15.15:115][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.27-19.15.15:267][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.27-19.15.15:297][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.27-19.15.15:328][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.27-19.15.15:328][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.27-19.15.15:328][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.27-19.15.15:837][  0]LogNetVersion: TB , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2755021592)
+[2017.07.27-19.15.15:890][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2017.07.27-19.15.15:921][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.016770 seconds
+[2017.07.27-19.15.15:927][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.27-19.15.15:927][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.27-19.15.15:927][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.27-19.15.15:984][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.27-19.15.18:017][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.27-19.15.18:058][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.27-19.15.18:466][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.27-19.15.18:781][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.15.18:781][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.15.18:833][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.15.18:864][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.15.19:375][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.27-19.15.19:815][  0]LogEngine: Initializing Engine...
+[2017.07.27-19.15.19:815][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.27-19.15.20:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.27-19.15.20:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.27-19.15.20:184][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.27-19.15.20:190][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.15.20:204][  0]LogInit: FAudioDevice initialized.
+[2017.07.27-19.15.20:249][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Tik/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-19.15.20:264][  0]LogInit: Texture streaming: Enabled
+[2017.07.27-19.15.20:327][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.27-19.15.20:487][  0]LogInit: Transaction tracking system initialized
+[2017.07.27-19.15.20:707][  0]BlueprintLog: New page: Editor Load
+[2017.07.27-19.15.21:476][  0]LocalizationService: Info Localization service is disabled
+[2017.07.27-19.15.22:143][  0]LogConsoleResponse:Display: 
+[2017.07.27-19.15.22:314][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.27-19.15.22:314][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.27-19.15.23:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/' took 0.02s
+[2017.07.27-19.15.23:118][  0]SourceControl: Info Source control is disabled
+[2017.07.27-19.15.23:118][  0]Cmd: MAP LOAD FILE="C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.27-19.15.23:118][  0]LightingResults: New page: Lighting Build
+[2017.07.27-19.15.23:148][  0]MapCheck: New page: Map Check
+[2017.07.27-19.15.23:148][  0]LightingResults: New page: Lighting Build
+[2017.07.27-19.15.23:693][  0]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.15.23:702][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.27-19.15.23:726][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.27-19.15.23:760][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.319ms to complete.
+[2017.07.27-19.15.23:760][  0]LogFileHelpers: Loading map 'BattleMap' took 0.642
+[2017.07.27-19.15.23:830][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-19.15.23:900][  0]LogCollectionManager: Loaded 0 collections in 0.000763 seconds
+[2017.07.27-19.15.23:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' took 0.01s
+[2017.07.27-19.15.23:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Tik/Collections/' took 0.01s
+[2017.07.27-19.15.23:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' took 0.01s
+[2017.07.27-19.15.23:967][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.27-19.15.23:976][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2329 classes and 491 folders.
+[2017.07.27-19.15.24:028][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.27-19.15.24:081][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.27-19.15.24:113][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.27-19.15.24:203][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.27-19.15.24:211][  0]LogSlate: Took 0.001236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.27-19.15.24:220][  0]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.27-19.15.24:222][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.27-19.15.24:347][  0]LogRenderer: Reallocating scene render targets to support 1276x572 NumSamples 1 (Frame:1).
+[2017.07.27-19.15.24:468][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.27-19.15.24:520][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.27-19.15.24:521][  0]LogLoad: (Engine Initialization) Total time: 14.57 seconds
+[2017.07.27-19.15.24:521][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.07.27-19.15.24:521][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.27-19.15.24:531][  0]LogOcInput: OculusInput pre-init called
+[2017.07.27-19.15.24:531][  0]LogHMD: Starting GearVRController plugin
+[2017.07.27-19.15.24:545][  0]LogAssetRegistry: Asset discovery search completed in 8.6765 seconds
+[2017.07.27-19.15.24:547][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.27-19.15.24:547][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.07.27-19.15.24:548][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.27-19.15.24:570][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-19.15.25:559][ 52]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-19.15.26:889][117]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-19.15.27:321][117]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.07.27-19.15.27:959][117]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.27-19.15.28:044][117]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.27-19.15.28:149][118]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.27-19.16.18:453][937]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2017.07.27-19.16.21:250][133]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.16.21:290][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.16.21:290][133]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:16:21 AM)
+[2017.07.27-19.16.21:290][133]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.16.21:293][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002856s)
+[2017.07.27-19.16.21:294][133]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.16.21:294][133]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2017.07.27-19.16.21:294][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004350s)
+[2017.07.27-19.16.21:329][133]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.16.21:339][133]LogInit: FAudioDevice initialized.
+[2017.07.27-19.16.21:381][133]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.16.21:383][133]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.16.21
+[2017.07.27-19.16.21:383][133]LogWorld: Bringing up level for play took: 0.001478
+[2017.07.27-19.16.21:416][133]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.07.27-19.16.21:418][133]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.16.21:419][133]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.16.21:419][133]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0230
+[2017.07.27-19.16.21:419][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.16.21:419][133]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0245
+[2017.07.27-19.16.21:419][133]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.16.21:419][133]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02A7
+[2017.07.27-19.16.21:419][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.16.21:419][133]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02BC
+[2017.07.27-19.16.21:419][133]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.16.21:419][133]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0301
+[2017.07.27-19.16.21:419][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.16.21:419][133]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.16.21:419][133]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:0227
+[2017.07.27-19.16.21:419][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.16.21:419][133]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:023C
+[2017.07.27-19.16.21:419][133]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.16.21:419][133]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.16.21:420][133]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.16.21:420][133]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:031A
-[2017.07.14-15.54.54:130][441]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.54.54:130][441]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.54.54:130][441]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0072
+[2017.07.27-19.16.21:420][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.16.21:420][133]LogScript:Warning: Attempted to assign to None
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:04CA
-[2017.07.14-15.54.54:130][441]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.54.54:130][441]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.54.54:130][441]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0087
+[2017.07.27-19.16.21:420][133]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.16.21:420][133]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:067A
-[2017.07.14-15.54.54:130][441]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.54.54:130][441]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.54.54:130][441]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00E9
+[2017.07.27-19.16.21:420][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.16.21:420][133]LogScript:Warning: Attempted to assign to None
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:082A
-[2017.07.14-15.54.54:131][441]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.54.54:131][441]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.54.55:113][529]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.54.56:123][617]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.54.56:123][617]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00FE
+[2017.07.27-19.16.21:420][133]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.16.21:420][133]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:031A
-[2017.07.14-15.54.56:123][617]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.54.56:123][617]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.54.56:123][617]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0143
+[2017.07.27-19.16.21:420][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.16.21:420][133]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.16.21:420][133]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:04CA
-[2017.07.14-15.54.56:123][617]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.54.56:123][617]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.54.56:123][617]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:0227
+[2017.07.27-19.16.21:420][133]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.16.21:420][133]LogScript:Warning: Attempted to assign to None
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:067A
-[2017.07.14-15.54.56:123][617]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.54.56:123][617]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.54.56:123][617]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:023C
+[2017.07.27-19.16.21:420][133]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.16.21:422][133]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.731
+[2017.07.27-19.16.22:261][201]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.16.22:261][201]LogBlueprintUserMessages: [BP_Player_97] 0.9 :1
+[2017.07.27-19.16.22:261][201]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.16.23:255][285]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.16.23:255][285]LogBlueprintUserMessages: [BP_Player2] 0.9 :2
+[2017.07.27-19.16.23:255][285]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.16.24:260][369]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.16.24:260][369]LogBlueprintUserMessages: [BP_Player_97] 0.8 :1
+[2017.07.27-19.16.24:260][369]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.16.25:259][437]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.16.25:260][437]LogBlueprintUserMessages: [BP_Player2] 0.8 :2
+[2017.07.27-19.16.25:260][437]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.16.26:265][512]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.16.26:265][512]LogBlueprintUserMessages: [BP_Player_97] 0.7 :1
+[2017.07.27-19.16.26:265][512]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.16.27:362][601]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.16.27:363][601]LogBlueprintUserMessages: [BP_Player2] 0.7 :2
+[2017.07.27-19.16.27:363][601]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.16.28:484][696]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.16.28:484][696]LogBlueprintUserMessages: [BP_Player_97] 0.6 :1
+[2017.07.27-19.16.28:484][696]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.16.29:740][801]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.16.29:740][801]LogBlueprintUserMessages: [BP_Player2] 0.6 :2
+[2017.07.27-19.16.29:740][801]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.16.30:906][900]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.16.30:906][900]LogBlueprintUserMessages: [BP_Player_97] 0.5 :1
+[2017.07.27-19.16.30:906][900]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.16.31:900][981]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.16.31:900][981]LogBlueprintUserMessages: [BP_Player2] 0.5 :2
+[2017.07.27-19.16.31:900][981]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.17.05:682][794]BlueprintLog: New page: Compile BP_Player
+[2017.07.27-19.17.07:052][797]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.07.27-19.17.19:155][390]LogSlate: Took 0.002622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.07.27-19.18.10:629][760]BlueprintLog: New page: Compile Battle_Widget
+[2017.07.27-19.18.10:863][760]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.27-19.18.15:633][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Char_BP/Battle_Widget" FILE="C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/Battle_Widget.uasset" SILENT=true
+[2017.07.27-19.18.15:766][952]LogSavePackage: Save=110.28ms
+[2017.07.27-19.18.15:766][952]LogSavePackage: Moving 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Saved/Battle_Widget03FB37FC4200F0B7B8F85097F08C43CF.tmp' to 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/Battle_Widget.uasset'
+[2017.07.27-19.18.15:768][952]LogSavePackage:Display: Finished SavePackage C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/Battle_Widget.uasset
+[2017.07.27-19.18.29:778][672]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.07.27-19.18.32:213][812]BlueprintLog: New page: Compile BP_Player
+[2017.07.27-19.18.33:961][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Char_BP/BP_Player" FILE="C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/BP_Player.uasset" SILENT=true
+[2017.07.27-19.18.34:347][832]LogSavePackage: Save=371.70ms
+[2017.07.27-19.18.34:347][832]LogSavePackage: Moving 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Saved/BP_Player4D9E73CA4AD6B8A870379D9752E342B5.tmp' to 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/BP_Player.uasset'
+[2017.07.27-19.18.34:350][832]LogSavePackage:Display: Finished SavePackage C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/BP_Player.uasset
+[2017.07.27-19.18.36:312][949]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.18.36:341][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.18.36:341][949]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:18:36 AM)
+[2017.07.27-19.18.36:341][949]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.18.36:345][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003741s)
+[2017.07.27-19.18.36:346][949]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.18.36:346][949]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2017.07.27-19.18.36:346][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004938s)
+[2017.07.27-19.18.36:379][949]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.18.36:399][949]LogInit: FAudioDevice initialized.
+[2017.07.27-19.18.36:434][949]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.18.36:435][949]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.18.36
+[2017.07.27-19.18.36:435][949]LogWorld: Bringing up level for play took: 0.001401
+[2017.07.27-19.18.36:437][949]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.18.36:437][949]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.18.36:438][949]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0230
+[2017.07.27-19.18.36:438][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.18.36:438][949]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0245
+[2017.07.27-19.18.36:438][949]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.18.36:438][949]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02A7
+[2017.07.27-19.18.36:438][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.18.36:438][949]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02BC
+[2017.07.27-19.18.36:438][949]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.18.36:438][949]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0301
+[2017.07.27-19.18.36:438][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.18.36:438][949]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.18.36:438][949]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:0227
+[2017.07.27-19.18.36:438][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.18.36:438][949]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:023C
+[2017.07.27-19.18.36:438][949]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.18.36:438][949]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.18.36:439][949]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.18.36:439][949]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:082A
-[2017.07.14-15.54.56:123][617]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.54.56:123][617]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.54.57:110][702]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.54.58:116][793]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.54.58:116][793]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0072
+[2017.07.27-19.18.36:439][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.18.36:439][949]LogScript:Warning: Attempted to assign to None
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:031A
-[2017.07.14-15.54.58:116][793]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.54.58:116][793]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.54.58:116][793]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0087
+[2017.07.27-19.18.36:439][949]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.18.36:439][949]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:04CA
-[2017.07.14-15.54.58:116][793]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.54.58:116][793]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.54.58:116][793]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00E9
+[2017.07.27-19.18.36:439][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.18.36:439][949]LogScript:Warning: Attempted to assign to None
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:067A
-[2017.07.14-15.54.58:116][793]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.54.58:116][793]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.54.58:116][793]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00FE
+[2017.07.27-19.18.36:439][949]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.18.36:439][949]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:082A
-[2017.07.14-15.54.58:116][793]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.54.58:116][793]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.54.59:108][883]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.55.00:112][974]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.55.00:112][974]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0143
+[2017.07.27-19.18.36:439][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.18.36:439][949]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.18.36:439][949]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:031A
-[2017.07.14-15.55.00:112][974]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.55.00:112][974]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.55.00:112][974]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item3
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:0227
+[2017.07.27-19.18.36:439][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.18.36:439][949]LogScript:Warning: Attempted to assign to None
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:04CA
-[2017.07.14-15.55.00:112][974]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.55.00:112][974]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.55.00:112][974]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:023C
+[2017.07.27-19.18.36:439][949]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.18.36:440][949]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.287
+[2017.07.27-19.18.37:319][ 16]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.18.37:319][ 16]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.18.37:319][ 16]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.18.38:317][ 98]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.18.38:318][ 98]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.18.38:318][ 98]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.18.39:325][181]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.18.39:325][181]LogBlueprintUserMessages: [BP_Player_97] 0.818182 :1
+[2017.07.27-19.18.39:325][181]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.18.40:316][263]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.18.40:316][263]LogBlueprintUserMessages: [BP_Player2] 0.818182 :2
+[2017.07.27-19.18.40:316][263]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.18.41:319][347]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.18.41:319][347]LogBlueprintUserMessages: [BP_Player_97] 0.727273 :1
+[2017.07.27-19.18.41:319][347]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.18.42:309][428]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.18.42:309][428]LogBlueprintUserMessages: [BP_Player2] 0.727273 :2
+[2017.07.27-19.18.42:309][428]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.18.43:319][512]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.18.43:319][512]LogBlueprintUserMessages: [BP_Player_97] 0.636364 :1
+[2017.07.27-19.18.43:319][512]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.19.13:539][625]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.19.13:560][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.19.13:560][625]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:19:13 AM)
+[2017.07.27-19.19.13:560][625]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.19.13:562][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001919s)
+[2017.07.27-19.19.13:563][625]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.19.13:563][625]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.07.27-19.19.13:563][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.002666s)
+[2017.07.27-19.19.13:595][625]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.19.13:609][625]LogInit: FAudioDevice initialized.
+[2017.07.27-19.19.13:640][625]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.19.13:641][625]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.19.13
+[2017.07.27-19.19.13:642][625]LogWorld: Bringing up level for play took: 0.001585
+[2017.07.27-19.19.13:643][625]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.13:643][625]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.13:644][625]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0230
+[2017.07.27-19.19.13:644][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.13:644][625]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0245
+[2017.07.27-19.19.13:644][625]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.13:644][625]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02A7
+[2017.07.27-19.19.13:644][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.13:644][625]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.13:644][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.13:644][625]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.19.13:644][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.13:644][625]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.13:644][625]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.13:645][625]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.13:645][625]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:067A
-[2017.07.14-15.55.00:112][974]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.55.00:112][974]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.55.00:112][974]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0072
+[2017.07.27-19.19.13:645][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.13:645][625]LogScript:Warning: Attempted to assign to None
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:082A
-[2017.07.14-15.55.00:112][974]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.55.00:112][974]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.55.01:108][ 65]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.55.02:111][156]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.55.02:111][156]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0087
+[2017.07.27-19.19.13:645][625]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.13:645][625]LogScript:Warning: Accessed None trying to read property Widget
 	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
-	Function /Game/BP/BP_Player.BP_Player_C:UpdateItemIcon:031A
-[2017.07.14-15.55.02:111][156]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.55.02:111][156]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.55.02:111][156]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.55.02:112][156]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.55.02:112][156]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.55.02:112][156]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.55.02:112][156]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.55.02:112][156]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.55.13:147][853]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.07.14-15.55.14:306][853]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
-[2017.07.14-15.55.16:507][853]LogSlate: Took 0.021019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.07.14-15.56.40:173][987]LogTemp: Repeting last play command: Selected Viewport
-[2017.07.14-15.56.40:211][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.07.14-15.56.40:211][987]PIE: New page: PIE session: BattleMap (Jul 14, 2017, 9:56:40 PM)
-[2017.07.14-15.56.40:211][987]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
-[2017.07.14-15.56.40:214][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003072s)
-[2017.07.14-15.56.40:215][987]LogAIModule: Creating AISystem for world BattleMap
-[2017.07.14-15.56.40:216][987]LogPlayLevel: PIE: World Init took: (0.001312s)
-[2017.07.14-15.56.40:216][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004575s)
-[2017.07.14-15.56.40:259][987]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.07.14-15.56.40:270][987]LogInit: FAudioDevice initialized.
-[2017.07.14-15.56.40:305][987]LogLoad: Game class is 'BattleGameMode_C'
-[2017.07.14-15.56.40:308][987]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.14-18.56.40
-[2017.07.14-15.56.40:308][987]LogWorld: Bringing up level for play took: 0.001886
-[2017.07.14-15.56.40:310][987]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.149
-[2017.07.14-15.56.41:174][ 62]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.42:180][151]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.42:180][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.42:180][151]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.42:180][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.42:180][151]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.42:181][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.42:181][151]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.42:181][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.42:181][151]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.43:170][240]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.44:175][328]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.44:175][328]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.44:175][328]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.44:175][328]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.44:175][328]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.44:175][328]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.44:175][328]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.44:175][328]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.44:175][328]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.45:165][414]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.46:165][504]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.46:165][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.46:165][504]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.46:165][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.46:165][504]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.46:165][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.46:165][504]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.46:165][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.46:165][504]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.47:161][593]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.48:161][684]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.48:161][684]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.48:161][684]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.48:161][684]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.48:162][684]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.48:162][684]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.48:162][684]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.48:162][684]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.48:162][684]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.49:155][774]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.50:161][863]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.50:162][863]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.50:162][863]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.50:162][863]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.50:162][863]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.50:162][863]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.50:162][863]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.50:162][863]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.50:162][863]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.51:168][952]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.52:169][ 43]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.52:169][ 43]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.52:169][ 43]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.52:169][ 43]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.52:169][ 43]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.52:169][ 43]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.52:169][ 43]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.52:169][ 43]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.52:169][ 43]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.53:162][132]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.54:173][223]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.54:173][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.54:173][223]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.54:173][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.54:173][223]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.54:173][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.54:173][223]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.54:173][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.54:173][223]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.55:176][313]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.56:169][403]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.56:174][403]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.56:175][403]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.56:175][403]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.56:175][403]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.56:175][403]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.56:175][403]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.56:175][403]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.56:175][403]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.57:166][493]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.56.58:174][584]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.56.58:174][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.56.58:174][584]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.56.58:174][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.56.58:174][584]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.56.58:174][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.56.58:174][584]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.56.58:174][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.56.58:174][584]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.56.59:164][672]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.57.00:176][763]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.57.00:176][763]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.57.00:176][763]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.57.00:176][763]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.57.00:176][763]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.57.00:176][763]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.57.00:176][763]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.57.00:176][763]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.57.00:176][763]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.57.01:164][851]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.57.02:176][942]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.57.02:176][942]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.57.02:176][942]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.57.02:176][942]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.57.02:176][942]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.57.02:176][942]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.57.02:176][942]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.57.02:176][942]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.57.02:176][942]LogBlueprintUserMessages: [BP_Player_97] HIT!
-[2017.07.14-15.57.03:168][ 31]LogBlueprintUserMessages: [BP_Player2] HIT!
-[2017.07.14-15.57.04:174][122]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.57.04:174][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.57.04:174][122]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.57.04:174][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.57.04:174][122]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.57.04:174][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.57.04:174][122]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.57.04:174][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.57.04:174][122]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array SpawnItems of length 1!
-[2017.07.14-15.57.04:175][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item4 from function: 'UpdateItemIcon' from node: Set Image1_2 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item4
-[2017.07.14-15.57.04:175][122]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array SpawnItems of length 1!
-[2017.07.14-15.57.04:175][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'UpdateItemIcon' from node: Set Image1_3 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item3
-[2017.07.14-15.57.04:175][122]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array SpawnItems of length 1!
-[2017.07.14-15.57.04:175][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'UpdateItemIcon' from node: Set Image1_4 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item2
-[2017.07.14-15.57.04:175][122]LogScriptCore:Warning: Script Msg: Attempted to access index 4 from array SpawnItems of length 1!
-[2017.07.14-15.57.04:175][122]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'UpdateItemIcon' from node: Set Image1_5 in graph: UpdateItemIcon in object: BP_Player with description: Accessed None trying to read property CallFunc_Array_Get_Item
-[2017.07.14-15.57.04:175][122]LogBlueprintUserMessages: [BP_Player_97] DEAD!!
-[2017.07.14-15.57.04:175][122]LogBlueprintUserMessages: [BP_Player_97] HIT!
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00E9
+[2017.07.27-19.19.13:645][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.13:645][625]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.13:645][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.13:645][625]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.19.13:645][625]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.13:645][625]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.13:646][625]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.506
+[2017.07.27-19.19.14:575][672]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.14:575][672]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.19.14:575][672]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.19.15:546][724]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.15:546][724]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.19.15:546][724]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.19.20:227][864]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.19.20:248][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.19.20:248][864]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:19:20 AM)
+[2017.07.27-19.19.20:248][864]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.19.20:251][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002242s)
+[2017.07.27-19.19.20:251][864]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.19.20:252][864]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.07.27-19.19.20:252][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003225s)
+[2017.07.27-19.19.20:286][864]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.19.20:295][864]LogInit: FAudioDevice initialized.
+[2017.07.27-19.19.20:323][864]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.19.20:325][864]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.19.20
+[2017.07.27-19.19.20:325][864]LogWorld: Bringing up level for play took: 0.001393
+[2017.07.27-19.19.20:326][864]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.20:326][864]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.20:327][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.20:327][864]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.20:327][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.20:327][864]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.20:327][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.20:327][864]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.19.20:327][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.20:327][864]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.20:327][864]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.20:328][864]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.20:328][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.20:328][864]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.20:328][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.20:328][864]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.20:328][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.20:328][864]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.19.20:328][864]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.20:328][864]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.20:329][864]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.176
+[2017.07.27-19.19.21:231][920]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.21:231][920]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.19.21:231][920]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.19.22:195][975]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.22:195][975]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.19.22:195][975]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.19.35:288][483]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.19.35:308][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.19.35:308][483]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:19:35 AM)
+[2017.07.27-19.19.35:308][483]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.19.35:312][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003831s)
+[2017.07.27-19.19.35:313][483]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.19.35:313][483]LogPlayLevel: PIE: World Init took: (0.001797s)
+[2017.07.27-19.19.35:314][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.005807s)
+[2017.07.27-19.19.35:351][483]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.19.35:377][483]LogInit: FAudioDevice initialized.
+[2017.07.27-19.19.35:407][483]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.19.35:408][483]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.19.35
+[2017.07.27-19.19.35:409][483]LogWorld: Bringing up level for play took: 0.001633
+[2017.07.27-19.19.35:410][483]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.35:410][483]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.35:410][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.35:410][483]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.35:410][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.35:411][483]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.35:411][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.35:411][483]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.19.35:411][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.35:411][483]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.35:411][483]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.35:411][483]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.35:411][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.35:411][483]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.35:411][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.35:411][483]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.35:412][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.35:412][483]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.19.35:412][483]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.19.35:412][483]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.19.35:413][483]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.74
+[2017.07.27-19.19.36:299][542]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.36:299][542]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.19.36:299][542]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.19.37:314][612]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.19.37:314][612]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.19.37:314][612]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.19.38:319][685]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.19.38:319][685]LogBlueprintUserMessages: [BP_Player_97] 0.818182 :1
+[2017.07.27-19.19.38:319][685]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.02:375][712]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-19.20.02:375][712]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-19.20.07:532][939]BlueprintLog: New page: Compile BP_Player
+[2017.07.27-19.20.11:762][ 55]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.20.11:784][ 55]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.20.11:784][ 55]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:20:11 AM)
+[2017.07.27-19.20.11:784][ 55]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.20.11:786][ 55]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002249s)
+[2017.07.27-19.20.11:787][ 55]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.20.11:787][ 55]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.07.27-19.20.11:787][ 55]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003170s)
+[2017.07.27-19.20.11:821][ 55]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.20.11:845][ 55]LogInit: FAudioDevice initialized.
+[2017.07.27-19.20.11:874][ 55]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.20.11:876][ 55]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.20.11
+[2017.07.27-19.20.11:876][ 55]LogWorld: Bringing up level for play took: 0.001548
+[2017.07.27-19.20.11:877][ 55]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.11:878][ 55]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.11:878][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.20.11:878][ 55]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.20.11:878][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.20.11:878][ 55]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.20.11:878][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.20.11:878][ 55]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.20.11:879][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.20.11:879][ 55]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.20.11:879][ 55]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.11:879][ 55]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.11:879][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.20.11:879][ 55]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.20.11:880][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.20.11:880][ 55]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.20.11:880][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.20.11:880][ 55]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.20.11:880][ 55]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.20.11:880][ 55]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.20.11:881][ 55]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.272
+[2017.07.27-19.20.12:776][114]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.12:776][114]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.20.12:776][114]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.13:729][172]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.13:729][172]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.20.13:729][172]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.14:745][238]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.14:746][238]LogBlueprintUserMessages: [BP_Player_97] 0.818182 :1
+[2017.07.27-19.20.14:746][238]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.15:735][299]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.15:735][299]LogBlueprintUserMessages: [BP_Player2] 0.818182 :2
+[2017.07.27-19.20.15:735][299]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.16:735][367]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.16:735][367]LogBlueprintUserMessages: [BP_Player_97] 0.727273 :1
+[2017.07.27-19.20.16:735][367]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.17:732][435]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.17:732][435]LogBlueprintUserMessages: [BP_Player2] 0.727273 :2
+[2017.07.27-19.20.17:732][435]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.18:734][502]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.18:734][502]LogBlueprintUserMessages: [BP_Player_97] 0.636364 :1
+[2017.07.27-19.20.18:734][502]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.19:723][567]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.19:723][567]LogBlueprintUserMessages: [BP_Player2] 0.636364 :2
+[2017.07.27-19.20.19:723][567]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.20:728][647]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.20:729][647]LogBlueprintUserMessages: [BP_Player_97] 0.545455 :1
+[2017.07.27-19.20.20:729][647]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.21:719][711]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.21:719][711]LogBlueprintUserMessages: [BP_Player2] 0.545455 :2
+[2017.07.27-19.20.21:719][711]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.22:729][767]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.22:730][767]LogBlueprintUserMessages: [BP_Player_97] 0.454545 :1
+[2017.07.27-19.20.22:730][767]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.23:719][829]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.23:719][829]LogBlueprintUserMessages: [BP_Player2] 0.454545 :2
+[2017.07.27-19.20.23:719][829]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.24:723][892]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.24:723][892]LogBlueprintUserMessages: [BP_Player_97] 0.363636 :1
+[2017.07.27-19.20.24:723][892]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.25:718][955]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.25:718][955]LogBlueprintUserMessages: [BP_Player2] 0.363636 :2
+[2017.07.27-19.20.25:718][955]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.26:729][ 19]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.26:729][ 19]LogBlueprintUserMessages: [BP_Player_97] 0.272727 :1
+[2017.07.27-19.20.26:729][ 19]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.27:730][ 80]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.27:730][ 80]LogBlueprintUserMessages: [BP_Player2] 0.272727 :2
+[2017.07.27-19.20.27:730][ 80]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.36:070][645]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.36:070][645]LogBlueprintUserMessages: [BP_Player_97] 0.181818 :1
+[2017.07.27-19.20.36:070][645]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.37:064][710]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.37:064][710]LogBlueprintUserMessages: [BP_Player2] 0.181818 :2
+[2017.07.27-19.20.37:064][710]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.38:069][777]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.38:069][777]LogBlueprintUserMessages: [BP_Player_97] 0.090909 :1
+[2017.07.27-19.20.38:069][777]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.20.39:056][843]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.20.39:056][843]LogBlueprintUserMessages: [BP_Player2] 0.090909 :2
+[2017.07.27-19.20.39:056][843]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.20.40:067][907]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.20.40:067][907]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.20.40:068][907]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.22.26:032][266]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.22.26:057][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.22.26:057][266]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:22:26 AM)
+[2017.07.27-19.22.26:057][266]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.22.26:061][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004691s)
+[2017.07.27-19.22.26:062][266]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.22.26:063][266]LogPlayLevel: PIE: World Init took: (0.001490s)
+[2017.07.27-19.22.26:063][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.006521s)
+[2017.07.27-19.22.26:096][266]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.22.26:133][266]LogInit: FAudioDevice initialized.
+[2017.07.27-19.22.26:167][266]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.22.26:169][266]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.22.26
+[2017.07.27-19.22.26:169][266]LogWorld: Bringing up level for play took: 0.001708
+[2017.07.27-19.22.26:171][266]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.26:171][266]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.26:171][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.26:171][266]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.26:172][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.26:172][266]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.26:172][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.26:172][266]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.22.26:172][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.26:172][266]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.26:172][266]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.26:173][266]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.26:173][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.26:173][266]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.26:173][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.26:173][266]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.26:173][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.26:173][266]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.22.26:173][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.26:173][266]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.26:174][266]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.021
+[2017.07.27-19.22.27:045][336]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.27:045][336]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.22.27:045][336]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.22.28:037][417]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.28:037][417]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.22.28:037][417]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.22.29:038][501]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.29:038][501]LogBlueprintUserMessages: [BP_Player_97] 0.727273 :1
+[2017.07.27-19.22.29:038][501]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.22.30:532][600]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.22.30:550][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.22.30:550][600]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:22:30 AM)
+[2017.07.27-19.22.30:550][600]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.22.30:553][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002258s)
+[2017.07.27-19.22.30:554][600]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.22.30:554][600]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2017.07.27-19.22.30:554][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003725s)
+[2017.07.27-19.22.30:587][600]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.22.30:596][600]LogInit: FAudioDevice initialized.
+[2017.07.27-19.22.30:630][600]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.22.30:632][600]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.22.30
+[2017.07.27-19.22.30:632][600]LogWorld: Bringing up level for play took: 0.002130
+[2017.07.27-19.22.30:633][600]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.30:634][600]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.30:634][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.30:634][600]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.30:634][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.30:634][600]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.30:634][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.30:634][600]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.22.30:634][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.30:634][600]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.30:634][600]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.30:635][600]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.30:635][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.30:635][600]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.30:635][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.30:635][600]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.30:635][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.30:635][600]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.22.30:635][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.30:635][600]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.30:636][600]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.483
+[2017.07.27-19.22.31:534][673]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.31:534][673]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.22.31:534][673]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.22.32:531][757]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.32:531][757]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.22.32:531][757]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.22.52:325][709]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.22.52:349][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.22.52:349][709]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:22:52 AM)
+[2017.07.27-19.22.52:349][709]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.22.52:352][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002512s)
+[2017.07.27-19.22.52:353][709]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.22.52:353][709]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2017.07.27-19.22.52:353][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003858s)
+[2017.07.27-19.22.52:385][709]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.22.52:395][709]LogInit: FAudioDevice initialized.
+[2017.07.27-19.22.52:429][709]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.22.52:431][709]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.22.52
+[2017.07.27-19.22.52:431][709]LogWorld: Bringing up level for play took: 0.001537
+[2017.07.27-19.22.52:432][709]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.52:433][709]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.52:433][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.52:433][709]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.52:433][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.52:433][709]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.52:434][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.52:434][709]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.22.52:434][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.52:434][709]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.52:434][709]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.52:434][709]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.52:434][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.52:435][709]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.52:435][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.52:435][709]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.52:435][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.52:435][709]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.22.52:435][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.22.52:435][709]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.22.52:436][709]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 0.283
+[2017.07.27-19.22.53:336][763]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.53:336][763]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.22.53:336][763]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.22.54:333][824]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.54:333][824]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.22.54:333][824]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.22.55:335][885]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.55:335][885]LogBlueprintUserMessages: [BP_Player_97] 0.818182 :1
+[2017.07.27-19.22.55:335][885]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.22.56:331][946]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.56:331][946]LogBlueprintUserMessages: [BP_Player2] 0.818182 :2
+[2017.07.27-19.22.56:331][946]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.22.57:345][  9]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.57:345][  9]LogBlueprintUserMessages: [BP_Player_97] 0.727273 :1
+[2017.07.27-19.22.57:345][  9]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.22.58:343][ 69]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.22.58:344][ 69]LogBlueprintUserMessages: [BP_Player2] 0.727273 :2
+[2017.07.27-19.22.58:344][ 69]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.22.59:354][132]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.22.59:354][132]LogBlueprintUserMessages: [BP_Player_97] 0.636364 :1
+[2017.07.27-19.22.59:354][132]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.23.00:341][193]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.23.00:341][193]LogBlueprintUserMessages: [BP_Player2] 0.636364 :2
+[2017.07.27-19.23.00:341][193]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.23.01:348][254]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.23.01:348][254]LogBlueprintUserMessages: [BP_Player_97] 0.545455 :1
+[2017.07.27-19.23.01:348][254]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.23.02:342][316]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.23.02:342][316]LogBlueprintUserMessages: [BP_Player2] 0.545455 :2
+[2017.07.27-19.23.02:342][316]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.23.03:347][379]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.23.03:347][379]LogBlueprintUserMessages: [BP_Player_97] 0.454545 :1
+[2017.07.27-19.23.03:347][379]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.23.15:390][856]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.23.15:411][856]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.27-19.23.15:411][856]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2017.07.27-19.23.15:946][856]LogPlayLevel: PlayLevel: Blueprint regeneration took 535 ms (1 blueprints)
+[2017.07.27-19.23.15:946][856]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:23:15 AM)
+[2017.07.27-19.23.15:946][856]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.23.15:949][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002309s)
+[2017.07.27-19.23.15:949][856]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.23.15:949][856]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2017.07.27-19.23.15:950][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003369s)
+[2017.07.27-19.23.15:982][856]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.23.15:991][856]LogInit: FAudioDevice initialized.
+[2017.07.27-19.23.16:028][856]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.23.16:029][856]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.23.16
+[2017.07.27-19.23.16:030][856]LogWorld: Bringing up level for play took: 0.001684
+[2017.07.27-19.23.16:031][856]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.23.16:032][856]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.23.16:032][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.16:032][856]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.16:032][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.16:032][856]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.16:032][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.16:032][856]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.23.16:032][856]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 531
+[2017.07.27-19.23.16:032][856]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:ReceiveBeginPlay
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidget
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem
+
+[2017.07.27-19.23.35:460][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.35:460][856]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.35:460][856]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.23.35:461][856]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.23.35:461][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.35:462][856]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.35:462][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.35:462][856]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.35:462][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.35:462][856]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.23.35:462][856]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 531
+[2017.07.27-19.23.35:462][856]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:ReceiveBeginPlay
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidget
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem
+
+[2017.07.27-19.23.36:830][856]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.36:830][856]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.36:831][856]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 20.679
+[2017.07.27-19.23.37:576][860]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.23.37:576][860]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.23.37:576][860]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 531
+[2017.07.27-19.23.37:576][860]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:TakeDmg
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:IsDie
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem
+
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Health_player_1.TextBinding_75 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Health_Player_2.TextBinding_74 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_1.BrushBinding_370 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_2.BrushBinding_372 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_3.BrushBinding_371 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_4.BrushBinding_373 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_5.BrushBinding_374 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_2.BrushBinding_378 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_1.BrushBinding_379 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_3.BrushBinding_375 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_4.BrushBinding_376 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:732][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_5.BrushBinding_377 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Health_Bar_Player_1.FloatBinding_74 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Health_Bar_Player_2.FloatBinding_75 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_1.BrushBinding_370 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_2.BrushBinding_372 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_3.BrushBinding_371 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_4.BrushBinding_373 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_5.BrushBinding_374 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_2.BrushBinding_378 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_1.BrushBinding_379 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_3.BrushBinding_375 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_4.BrushBinding_376 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.37:734][860]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_5.BrushBinding_377 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.38:764][860]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.23.38:977][874]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.23.38:977][874]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.23.38:977][874]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.23.39:984][934]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.23.39:984][934]LogBlueprintUserMessages: [BP_Player_97] 0.818182 :1
+[2017.07.27-19.23.39:984][934]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 531
+[2017.07.27-19.23.39:984][934]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:TakeDmg
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:IsDie
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem
+
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Health_player_1.TextBinding_75 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (TextBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Health_Player_2.TextBinding_74 - Function /Script/UMG.TextBinding:GetTextValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_1.BrushBinding_370 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_2.BrushBinding_372 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_3.BrushBinding_371 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_4.BrushBinding_373 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_5.BrushBinding_374 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_2.BrushBinding_378 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_1.BrushBinding_379 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_3.BrushBinding_375 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_4.BrushBinding_376 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:000][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_5.BrushBinding_377 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Health_Bar_Player_1.FloatBinding_74 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (FloatBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Health_Bar_Player_2.FloatBinding_75 - Function /Script/UMG.FloatBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_1.BrushBinding_370 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_2.BrushBinding_372 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_3.BrushBinding_371 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_4.BrushBinding_373 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_1_5.BrushBinding_374 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_2.BrushBinding_378 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_1.BrushBinding_379 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_3.BrushBinding_375 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_4.BrushBinding_376 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.40:003][934]LogScriptCore:Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_9.Battle_Widget_C_30.WidgetTree_38.Image_2_5.BrushBinding_377 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2017.07.27-19.23.44:122][934]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.23.52:350][283]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.23.52:372][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.23.52:372][283]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:23:52 AM)
+[2017.07.27-19.23.52:372][283]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.23.52:374][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002479s)
+[2017.07.27-19.23.52:375][283]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.23.52:375][283]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.07.27-19.23.52:375][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.003313s)
+[2017.07.27-19.23.52:408][283]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.23.52:418][283]LogInit: FAudioDevice initialized.
+[2017.07.27-19.23.52:449][283]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.23.52:451][283]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.23.52
+[2017.07.27-19.23.52:451][283]LogWorld: Bringing up level for play took: 0.001556
+[2017.07.27-19.23.52:452][283]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.23.52:453][283]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.23.52:453][283]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.52:453][283]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.52:453][283]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.52:453][283]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.52:453][283]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.52:453][283]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.23.52:453][283]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.52:453][283]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.52:453][283]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.23.52:454][283]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.23.52:454][283]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.52:454][283]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.52:454][283]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.52:454][283]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.52:454][283]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.52:454][283]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.23.52:454][283]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 531
+[2017.07.27-19.23.52:454][283]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:ReceiveBeginPlay
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:ExecuteUbergraph_BP_Player
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidget
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem
+
+[2017.07.27-19.23.58:375][283]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.23.58:376][283]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.23.58:377][283]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 6.224
+[2017.07.27-19.24.04:600][532]BlueprintLog: New page: Compile BP_Player
+[2017.07.27-19.24.07:442][606]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-19.24.07:462][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-19.24.07:463][606]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 1:24:07 AM)
+[2017.07.27-19.24.07:463][606]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-19.24.07:465][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002230s)
+[2017.07.27-19.24.07:466][606]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-19.24.07:467][606]LogPlayLevel: PIE: World Init took: (0.001664s)
+[2017.07.27-19.24.07:467][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004588s)
+[2017.07.27-19.24.07:500][606]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-19.24.07:511][606]LogInit: FAudioDevice initialized.
+[2017.07.27-19.24.07:545][606]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-19.24.07:547][606]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-22.24.07
+[2017.07.27-19.24.07:547][606]LogWorld: Bringing up level for play took: 0.001384
+[2017.07.27-19.24.07:548][606]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.24.07:549][606]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.24.07:549][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.24.07:549][606]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.24.07:549][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.24.07:549][606]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.24.07:549][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.24.07:549][606]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-19.24.07:549][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.24.07:549][606]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.24.07:549][606]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.24.07:550][606]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.24.07:550][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.24.07:550][606]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.24.07:550][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.24.07:550][606]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.24.07:550][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.24.07:550][606]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-19.24.07:550][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-19.24.07:550][606]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_1 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-19.24.07:551][606]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.602
+[2017.07.27-19.24.08:445][678]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.24.08:445][678]LogBlueprintUserMessages: [BP_Player_97] 0.909091 :1
+[2017.07.27-19.24.08:445][678]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.24.09:434][762]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.24.09:434][762]LogBlueprintUserMessages: [BP_Player2] 0.909091 :2
+[2017.07.27-19.24.09:434][762]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.24.10:437][847]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.24.10:437][847]LogBlueprintUserMessages: [BP_Player_97] 0.818182 :1
+[2017.07.27-19.24.10:439][847]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.24.11:431][932]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.24.11:431][932]LogBlueprintUserMessages: [BP_Player2] 0.818182 :2
+[2017.07.27-19.24.11:431][932]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.24.12:434][ 18]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.24.12:434][ 18]LogBlueprintUserMessages: [BP_Player_97] 0.727273 :1
+[2017.07.27-19.24.12:434][ 18]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.24.13:432][103]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.24.13:433][103]LogBlueprintUserMessages: [BP_Player2] 0.727273 :2
+[2017.07.27-19.24.13:433][103]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.24.14:435][189]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.24.14:435][189]LogBlueprintUserMessages: [BP_Player_97] 0.636364 :1
+[2017.07.27-19.24.14:435][189]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.24.15:431][274]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-19.24.15:431][274]LogBlueprintUserMessages: [BP_Player2] 0.636364 :2
+[2017.07.27-19.24.15:431][274]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-19.24.16:441][361]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-19.24.16:441][361]LogBlueprintUserMessages: [BP_Player_97] 0.545455 :1
+[2017.07.27-19.24.16:441][361]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-19.24.23:492][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/Char_BP/BP_Player" FILE="C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/BP_Player.uasset" SILENT=true
+[2017.07.27-19.24.23:828][693]LogSavePackage: Save=310.96ms
+[2017.07.27-19.24.23:828][693]LogSavePackage: Moving 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Saved/BP_Player130624434F88C6EE58E8D2AC8ADE5F1D.tmp' to 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/BP_Player.uasset'
+[2017.07.27-19.24.23:834][693]LogSavePackage:Display: Finished SavePackage C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/BP/Char_BP/BP_Player.uasset
+[2017.07.27-19.24.27:145][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleMap" FILE="C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.07.27-19.24.27:278][856]LogSavePackage: Save=63.78ms
+[2017.07.27-19.24.27:278][856]LogSavePackage: Moving 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Saved/BattleMapC938CB194883E90756E3A0AB0280C5F4.tmp' to 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap'
+[2017.07.27-19.24.27:280][856]LogSavePackage:Display: Finished SavePackage C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap
+[2017.07.27-19.24.27:365][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/BattleMap_BuiltData" FILE="C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap_BuiltData.uasset" SILENT=true
+[2017.07.27-19.24.27:544][856]LogSavePackage: Save=160.10ms
+[2017.07.27-19.24.27:544][856]LogSavePackage: Moving 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Saved/BattleMap_BuiltData971595E647345CC6B6CDE89649FF410A.tmp' to 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap_BuiltData.uasset'
+[2017.07.27-19.24.27:545][856]LogSavePackage:Display: Finished SavePackage C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap_BuiltData.uasset

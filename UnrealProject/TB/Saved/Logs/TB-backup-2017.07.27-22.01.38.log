@@ -1,0 +1,698 @@
+﻿Log file open, 07/27/17 21:27:19
+LogInit:Display: Running engine for game: TB
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1368930553) SRandInit(-1368930552).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.991851
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: E:/Soft/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.27-18.27.20:905][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-18.27.20:905][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.27-18.27.21:006][  0]LogInit: Computer: DESKTOP-B3PS089
+[2017.07.27-18.27.21:006][  0]LogInit: User: Tik
+[2017.07.27-18.27.21:006][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.07.27-18.27.21:006][  0]LogInit: High frequency timer resolution =3.234375 MHz
+[2017.07.27-18.27.21:008][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.07.27-18.27.21:008][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.27-18.27.21:008][  0]LogMemory: Process Physical Memory: 273.70 MB used, 273.70 MB peak
+[2017.07.27-18.27.21:008][  0]LogMemory: Process Virtual Memory: 266.24 MB used, 266.24 MB peak
+[2017.07.27-18.27.21:008][  0]LogMemory: Physical Memory: 5527.66 MB used,  2623.91 MB free, 8151.57 MB total
+[2017.07.27-18.27.21:008][  0]LogMemory: Virtual Memory: 641.84 MB used,  2623.91 MB free, 134217728.00 MB total
+[2017.07.27-18.27.21:964][  0]LogInit: Using OS detected language (ru-RU).
+[2017.07.27-18.27.21:964][  0]LogInit: Using OS detected locale (ru-RU).
+[2017.07.27-18.27.22:180][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2017.07.27-18.27.22:181][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2017.07.27-18.27.26:510][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.27-18.27.26:558][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.07.27-18.27.26:558][  0]LogD3D11RHI:       995/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.27-18.27.26:559][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.27-18.27.26:559][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.27-18.27.26:559][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.27-18.27.26:571][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.27-18.27.26:571][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.27-18.27.26:571][  0]LogWindows: EnumDisplayDevices:
+[2017.07.27-18.27.26:571][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.07.27-18.27.26:572][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.27-18.27.26:572][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.07.27-18.27.26:572][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.07.27-18.27.26:572][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.07.27-18.27.26:572][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.07.27-18.27.26:572][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.07.27-18.27.26:572][  0]LogRHI: Texture pool is 696 MB (70% of 995 MB)
+[2017.07.27-18.27.26:608][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.27-18.27.26:887][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.27-18.27.26:997][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Intermediate/Shaders/WorkingDirectory/10772/).
+[2017.07.27-18.27.26:997][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tik/AppData/Local/Temp/UnrealShaderWorkingDir/A18308E145EA48B1E3F638BDFB541C10/'.
+[2017.07.27-18.27.27:003][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.27-18.27.31:169][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.27-18.27.31:208][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.27-18.27.31:245][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.27-18.27.31:282][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.27-18.27.31:367][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.27-18.27.31:416][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.27-18.27.31:466][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.27-18.27.31:523][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.27-18.27.31:564][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.27-18.27.31:648][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.27-18.27.31:696][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.27-18.27.31:745][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.27-18.27.31:796][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.27-18.27.31:848][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.27-18.27.31:941][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.27-18.27.32:045][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.27-18.27.32:045][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.27-18.27.32:081][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.27-18.27.32:283][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.27-18.27.32:310][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.27-18.27.32:354][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.27-18.27.32:424][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.27-18.27.32:473][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.27-18.27.32:530][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.27-18.27.32:530][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.27-18.27.34:174][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.27-18.27.34:609][  0]LogDerivedDataCache: Loaded boot cache 0.43s 90MB C:/Users/Tik/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-18.27.34:609][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Tik/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.27-18.27.34:609][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.27-18.27.34:609][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.27-18.27.34:609][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.27-18.27.34:609][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.27-18.27.34:711][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.27-18.27.34:725][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.27-18.27.34:859][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.27-18.27.34:963][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.27-18.27.35:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-18.27.35:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.27-18.27.48:286][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.27-18.27.49:631][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.27-18.27.50:549][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.27-18.27.50:729][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.27-18.27.50:805][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.27-18.27.50:805][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.27-18.27.50:805][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.27-18.27.58:426][  0]LogNetVersion: TB , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2755021592)
+[2017.07.27-18.27.58:891][  0]LogAssetRegistry: FAssetRegistry took 0.0714 seconds to start up
+[2017.07.27-18.27.59:092][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.098814 seconds
+[2017.07.27-18.27.59:129][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.27-18.27.59:129][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.27-18.27.59:146][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.27-18.27.59:242][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.27-18.28.23:471][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.27-18.28.23:555][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.27-18.28.25:108][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.27-18.28.26:117][  0]SourceControl: Info Source control is disabled
+[2017.07.27-18.28.26:122][  0]SourceControl: Info Source control is disabled
+[2017.07.27-18.28.26:269][  0]SourceControl: Info Source control is disabled
+[2017.07.27-18.28.26:349][  0]SourceControl: Info Source control is disabled
+[2017.07.27-18.28.27:760][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.27-18.28.29:120][  0]LogEngine: Initializing Engine...
+[2017.07.27-18.28.29:165][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.27-18.28.29:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.27-18.28.29:989][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.27-18.28.30:901][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.27-18.28.31:224][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-18.28.31:248][  0]LogInit: FAudioDevice initialized.
+[2017.07.27-18.28.31:301][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Tik/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.27-18.28.31:310][  0]LogInit: Texture streaming: Enabled
+[2017.07.27-18.28.31:496][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.27-18.28.32:317][  0]LogInit: Transaction tracking system initialized
+[2017.07.27-18.28.33:093][  0]BlueprintLog: New page: Editor Load
+[2017.07.27-18.28.35:684][  0]LocalizationService: Info Localization service is disabled
+[2017.07.27-18.28.37:249][  0]LogConsoleResponse:Display: 
+[2017.07.27-18.28.40:559][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/' took 0.04s
+[2017.07.27-18.28.40:559][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.27-18.28.40:563][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.27-18.28.43:676][  0]SourceControl: Info Source control is disabled
+[2017.07.27-18.28.43:730][  0]Cmd: MAP LOAD FILE="C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Level/BattleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.27-18.28.43:742][  0]LightingResults: New page: Lighting Build
+[2017.07.27-18.28.44:201][  0]MapCheck: New page: Map Check
+[2017.07.27-18.28.44:201][  0]LightingResults: New page: Lighting Build
+[2017.07.27-18.28.47:855][  0]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-18.28.48:795][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2017.07.27-18.28.49:069][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.27-18.28.49:152][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.861ms to complete.
+[2017.07.27-18.28.49:157][  0]LogFileHelpers: Loading map 'BattleMap' took 5.456
+[2017.07.27-18.28.51:522][  0]LogCollectionManager: Loaded 0 collections in 0.000811 seconds
+[2017.07.27-18.28.51:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' took 0.01s
+[2017.07.27-18.28.51:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Tik/Collections/' took 0.01s
+[2017.07.27-18.28.51:736][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' took 0.01s
+[2017.07.27-18.28.51:736][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.07.27-18.28.51:772][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2329 classes and 491 folders.
+[2017.07.27-18.28.51:951][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2017.07.27-18.28.52:842][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.07.27-18.28.52:975][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.07.27-18.28.54:503][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.27-18.28.54:821][  0]LogSlate: Took 0.015133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.27-18.28.54:953][  0]LogSlate: Took 0.015132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.27-18.28.55:023][  0]LogSlate: Took 0.027854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.27-18.28.55:628][  0]LogRenderer: Reallocating scene render targets to support 1276x572 NumSamples 1 (Frame:1).
+[2017.07.27-18.28.56:780][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.27-18.28.57:047][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.27-18.28.57:049][  0]LogLoad: (Engine Initialization) Total time: 109.38 seconds
+[2017.07.27-18.28.57:049][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.30 seconds
+[2017.07.27-18.28.57:049][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.27-18.28.57:474][  0]LogOcInput: OculusInput pre-init called
+[2017.07.27-18.28.57:488][  0]LogHMD: Starting GearVRController plugin
+[2017.07.27-18.28.57:775][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.27-18.28.58:131][  0]LogSlate: Took 0.018460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-18.28.58:806][  2]LogAssetRegistry: Asset discovery search completed in 59.9523 seconds
+[2017.07.27-18.28.58:828][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.07.27-18.28.58:829][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.007811 seconds (updated 0 objects)
+[2017.07.27-18.28.58:995][  2]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-18.29.09:621][ 34]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.27-18.29.10:845][ 34]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.07.27-18.29.14:370][ 34]LogSlate: Took 0.014940 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.27-18.29.14:936][ 35]LogSlate: Took 0.012966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.27-18.29.59:709][ 18]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Plugins/. Error: Не удается найти указанный файл. (0x00000002)
+[2017.07.27-18.30.03:109][178]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.07.27-18.31.35:599][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.07.27-18.31.36:627][425]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (BP_Player)
+[2017.07.27-18.31.50:677][463]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-18.31.50:757][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-18.31.50:873][463]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 12:31:50 AM)
+[2017.07.27-18.31.50:887][463]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-18.31.50:938][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050117s)
+[2017.07.27-18.31.50:938][463]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-18.31.50:938][463]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2017.07.27-18.31.50:953][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.065596s)
+[2017.07.27-18.31.51:055][463]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-18.31.51:067][463]LogInit: FAudioDevice initialized.
+[2017.07.27-18.31.51:148][463]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-18.31.51:169][463]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-21.31.51
+[2017.07.27-18.31.51:289][463]LogWorld: Bringing up level for play took: 0.120759
+[2017.07.27-18.31.52:812][463]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.07.27-18.31.52:935][463]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.31.52:970][463]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.31.52:981][463]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0230
+[2017.07.27-18.31.52:981][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.31.52:981][463]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0245
+[2017.07.27-18.31.52:981][463]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.31.53:003][463]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02A7
+[2017.07.27-18.31.53:003][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.31.53:003][463]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02BC
+[2017.07.27-18.31.53:003][463]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.31.53:003][463]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0301
+[2017.07.27-18.31.53:003][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.31.53:003][463]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-18.31.53:011][463]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:0227
+[2017.07.27-18.31.53:011][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.31.53:011][463]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:023C
+[2017.07.27-18.31.53:011][463]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.31.53:011][463]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.31.53:011][463]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.31.53:011][463]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0072
+[2017.07.27-18.31.53:011][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.31.53:011][463]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0087
+[2017.07.27-18.31.53:011][463]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.31.53:011][463]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00E9
+[2017.07.27-18.31.53:011][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.31.53:012][463]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00FE
+[2017.07.27-18.31.53:012][463]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.31.53:012][463]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0143
+[2017.07.27-18.31.53:012][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.31.53:012][463]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-18.31.53:012][463]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:0227
+[2017.07.27-18.31.53:012][463]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.31.53:012][463]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:023C
+[2017.07.27-18.31.53:012][463]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.31.53:132][463]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap 2.979
+[2017.07.27-18.31.53:912][510]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.31.53:912][510]LogBlueprintUserMessages: [BP_Player_97] 0.9 :1
+[2017.07.27-18.31.53:912][510]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-18.31.54:893][592]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.31.54:893][592]LogBlueprintUserMessages: [BP_Player2] 0.9 :2
+[2017.07.27-18.31.54:893][592]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-18.31.55:900][683]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.31.55:900][683]LogBlueprintUserMessages: [BP_Player_97] 0.8 :1
+[2017.07.27-18.31.55:900][683]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-18.31.56:890][774]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.31.56:890][774]LogBlueprintUserMessages: [BP_Player2] 0.8 :2
+[2017.07.27-18.31.56:890][774]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-18.31.57:900][867]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.31.57:900][867]LogBlueprintUserMessages: [BP_Player_97] 0.7 :1
+[2017.07.27-18.31.57:900][867]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-18.31.58:900][959]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.31.58:900][959]LogBlueprintUserMessages: [BP_Player2] 0.7 :2
+[2017.07.27-18.31.58:900][959]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-18.31.59:906][ 48]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.31.59:906][ 48]LogBlueprintUserMessages: [BP_Player_97] 0.6 :1
+[2017.07.27-18.31.59:906][ 48]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-18.32.00:904][140]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.32.00:904][140]LogBlueprintUserMessages: [BP_Player2] 0.6 :2
+[2017.07.27-18.32.00:904][140]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-18.32.01:906][232]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.32.01:906][232]LogBlueprintUserMessages: [BP_Player_97] 0.5 :1
+[2017.07.27-18.32.01:906][232]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-18.32.02:898][324]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.32.02:898][324]LogBlueprintUserMessages: [BP_Player2] 0.5 :2
+[2017.07.27-18.32.02:898][324]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-18.32.03:903][415]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.32.03:903][415]LogBlueprintUserMessages: [BP_Player_97] 0.4 :1
+[2017.07.27-18.32.03:903][415]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-18.32.04:897][504]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.32.04:897][504]LogBlueprintUserMessages: [BP_Player2] 0.4 :2
+[2017.07.27-18.32.04:897][504]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-18.33.11:175][631]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.27-18.33.11:191][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.27-18.33.11:191][631]PIE: New page: PIE session: BattleMap (Jul 28, 2017, 12:33:11 AM)
+[2017.07.27-18.33.11:191][631]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_BattleMap
+[2017.07.27-18.33.11:194][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002787s)
+[2017.07.27-18.33.11:195][631]LogAIModule: Creating AISystem for world BattleMap
+[2017.07.27-18.33.11:195][631]LogPlayLevel: PIE: World Init took: (0.001230s)
+[2017.07.27-18.33.11:195][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/BattleMap.BattleMap to /Game/Level/UEDPIE_0_BattleMap.BattleMap (0.004281s)
+[2017.07.27-18.33.11:224][631]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.07.27-18.33.11:233][631]LogInit: FAudioDevice initialized.
+[2017.07.27-18.33.11:278][631]LogLoad: Game class is 'BattleGameMode_C'
+[2017.07.27-18.33.11:280][631]LogWorld: Bringing World /Game/Level/UEDPIE_0_BattleMap.BattleMap up for play (max tick rate 0) at 2017.07.27-21.33.11
+[2017.07.27-18.33.11:280][631]LogWorld: Bringing up level for play took: 0.001800
+[2017.07.27-18.33.11:290][631]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.33.11:290][631]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.33.11:290][631]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0072
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.33.11:291][631]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0087
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.33.11:291][631]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00E9
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.33.11:291][631]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:00FE
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp1 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.33.11:291][631]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0143
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.33.11:291][631]LogBlueprintUserMessages: [BP_Player_97] 0.0 :1
+[2017.07.27-18.33.11:291][631]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:0227
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.33.11:291][631]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player_97
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:023C
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.33.11:291][631]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.33.11:291][631]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.33.11:291][631]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0230
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.33.11:291][631]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0245
+[2017.07.27-18.33.11:291][631]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Health_Player2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.33.11:292][631]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02A7
+[2017.07.27-18.33.11:292][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.33.11:292][631]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:02BC
+[2017.07.27-18.33.11:292][631]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWidgetHP' from node: Set Hp2 in graph: UpdateWidgetHP in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.33.11:292][631]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWidgetHP:0301
+[2017.07.27-18.33.11:292][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWidgetHP' from node: Print String in graph: UpdateWidgetHP in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.33.11:292][631]LogBlueprintUserMessages: [BP_Player2] 0.0 :2
+[2017.07.27-18.33.11:292][631]LogScript:Warning: Accessed None trying to read property Widget
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:0227
+[2017.07.27-18.33.11:292][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Widget from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Accessed None trying to read property Widget
+[2017.07.27-18.33.11:292][631]LogScript:Warning: Attempted to assign to None
+	BP_Player_C /Game/Level/UEDPIE_0_BattleMap.BattleMap:PersistentLevel.BP_Player2
+	Function /Game/BP/Char_BP/BP_Player.BP_Player_C:UpdateWigetItem:023C
+[2017.07.27-18.33.11:292][631]PIE:Error: Error Blueprint Runtime Error: Attempted to assign to None from function: 'UpdateWigetItem' from node: Set Icons_player_2 in graph: UpdateWigetItem in object: BP_Player with description: Attempted to assign to None
+[2017.07.27-18.33.11:293][631]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_BattleMap -0.86
+[2017.07.27-18.33.12:176][709]LogBlueprintUserMessages: [BP_Player_97] Succcesd
+[2017.07.27-18.33.12:177][709]LogBlueprintUserMessages: [BP_Player_97] 0.9 :1
+[2017.07.27-18.33.12:177][709]LogBlueprintUserMessages: [BP_Player_97] HIT!
+[2017.07.27-18.33.13:163][798]LogBlueprintUserMessages: [BP_Player2] Succcesd
+[2017.07.27-18.33.13:163][798]LogBlueprintUserMessages: [BP_Player2] 0.9 :2
+[2017.07.27-18.33.13:163][798]LogBlueprintUserMessages: [BP_Player2] HIT!
+[2017.07.27-18.49.42:268][621]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-18.49.42:268][621]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-18.56.10:716][522]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-18.56.10:716][522]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-18.56.12:242][604]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.27-18.56.12:580][605]Cmd: QUIT_EDITOR
+[2017.07.27-18.56.13:061][605]LogExit: Preparing to exit.
+[2017.07.27-18.56.14:204][605]LogExit: Editor shut down
+[2017.07.27-18.56.14:207][605]LogExit: Transaction tracking system shut down
+[2017.07.27-18.56.15:481][605]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.27-18.56.15:482][605]LogExit: Object subsystem successfully closed.
+[2017.07.27-18.56.15:685][605]LogD3D11RHI: Shutdown
+[2017.07.27-18.56.15:685][605]LogD3D11RHI: CleanupD3DDevice
+[2017.07.27-18.56.15:814][605]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.27-18.56.16:485][605]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.07.27-18.56.16:491][605]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
+[2017.07.27-18.56.16:491][605]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.07.27-18.56.16:491][605]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.07.27-18.56.16:529][605]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.27-18.56.16:539][605]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.27-18.56.16:539][605]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.27-18.56.16:539][605]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.27-18.56.16:553][605]LogDirectoryWatcher: A directory notification for 'E:/Soft/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.27-18.56.16:554][605]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.27-18.56.16:554][605]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.27-18.56.16:554][605]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.27-18.56.16:554][605]LogDirectoryWatcher: A directory notification for 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Collections/' was aborted.
+[2017.07.27-18.56.16:554][605]LogDirectoryWatcher: A directory notification for 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/Developers/Tik/Collections/' was aborted.
+[2017.07.27-18.56.16:554][605]LogDirectoryWatcher: A directory notification for 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Saved/Collections/' was aborted.
+[2017.07.27-18.56.16:554][605]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.27-18.56.16:564][605]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.27-18.56.16:564][605]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.27-18.56.16:576][605]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.27-18.56.16:576][605]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.27-18.56.16:576][605]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.27-18.56.16:576][605]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.27-18.56.16:576][605]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.27-18.56.16:576][605]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.27-18.56.16:584][605]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.27-18.56.16:595][605]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.27-18.56.16:603][605]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.27-18.56.16:617][605]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.27-18.56.16:628][605]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.27-18.56.16:666][605]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.27-18.56.16:684][605]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.27-18.56.16:722][605]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.27-18.56.16:722][605]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.27-18.56.16:722][605]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.27-18.56.16:722][605]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.27-18.56.16:722][605]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.27-18.56.16:834][605]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.27-18.56.16:846][605]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.27-18.56.16:877][605]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.27-18.56.16:892][605]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.27-18.56.16:892][605]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.27-18.56.16:898][605]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.27-18.56.16:898][605]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.27-18.56.16:898][605]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.27-18.56.17:022][605]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.27-18.56.17:022][605]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.27-18.56.17:022][605]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.27-18.56.17:043][605]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.27-18.56.17:053][605]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.27-18.56.17:053][605]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.27-18.56.17:059][605]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.27-18.56.17:063][605]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.27-18.56.17:077][605]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.27-18.56.17:089][605]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.27-18.56.17:089][605]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.27-18.56.17:106][605]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.27-18.56.17:114][605]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.27-18.56.17:114][605]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.27-18.56.17:125][605]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.27-18.56.17:136][605]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.27-18.56.17:137][605]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.27-18.56.17:137][605]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.27-18.56.17:137][605]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.27-18.56.17:152][605]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.27-18.56.17:169][605]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.27-18.56.17:182][605]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.27-18.56.17:199][605]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.27-18.56.17:208][605]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.27-18.56.17:303][605]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.27-18.56.17:312][605]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.27-18.56.17:334][605]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.27-18.56.17:361][605]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.27-18.56.17:361][605]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.27-18.56.17:365][605]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.27-18.56.17:377][605]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.27-18.56.17:469][605]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.27-18.56.17:469][605]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.27-18.56.17:469][605]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.27-18.56.17:476][605]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.27-18.56.17:476][605]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.27-18.56.17:485][605]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.27-18.56.17:542][605]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.27-18.56.17:566][605]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.27-18.56.17:598][605]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.27-18.56.17:610][605]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.27-18.56.17:611][605]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.27-18.56.17:611][605]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.27-18.56.17:611][605]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.27-18.56.17:611][605]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.27-18.56.17:647][605]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.27-18.56.17:647][605]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.27-18.56.17:647][605]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.27-18.56.17:647][605]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.27-18.56.17:647][605]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.27-18.56.17:647][605]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.27-18.56.17:652][605]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.27-18.56.17:652][605]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.27-18.56.17:661][605]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.27-18.56.17:840][605]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.27-18.56.17:853][605]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.27-18.56.17:853][605]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.27-18.56.17:853][605]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.27-18.56.17:866][605]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.27-18.56.17:873][605]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.27-18.56.17:873][605]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.27-18.56.17:873][605]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.27-18.56.17:873][605]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.27-18.56.17:873][605]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.27-18.56.17:882][605]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.27-18.56.17:882][605]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.27-18.56.17:882][605]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.27-18.56.17:903][605]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.27-18.56.17:903][605]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.27-18.56.17:915][605]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.27-18.56.17:915][605]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.27-18.56.17:930][605]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.27-18.56.17:930][605]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.27-18.56.17:930][605]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.27-18.56.17:930][605]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.27-18.56.17:930][605]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.27-18.56.17:930][605]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.27-18.56.17:949][605]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.27-18.56.17:953][605]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.27-18.56.17:953][605]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.27-18.56.17:953][605]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.27-18.56.17:970][605]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.27-18.56.17:977][605]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.27-18.56.17:980][605]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.27-18.56.17:990][605]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.27-18.56.17:990][605]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.27-18.56.17:990][605]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.27-18.56.17:990][605]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.27-18.56.18:027][605]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.27-18.56.18:039][605]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.27-18.56.18:052][605]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.27-18.56.18:095][605]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.27-18.56.18:100][605]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.27-18.56.18:116][605]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.27-18.56.18:133][605]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.27-18.56.18:133][605]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.27-18.56.18:133][605]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.27-18.56.18:133][605]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.27-18.56.18:143][605]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.27-18.56.18:244][605]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.27-18.56.18:352][605]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.27-18.56.18:366][605]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.27-18.56.18:368][605]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.27-18.56.18:368][605]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.27-18.56.18:376][605]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.27-18.56.18:376][605]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.27-18.56.18:381][605]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.27-18.56.18:381][605]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.27-18.56.18:383][605]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.27-18.56.18:383][605]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.27-18.56.18:389][605]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.27-18.56.18:402][605]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.27-18.56.18:413][605]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.27-18.56.18:413][605]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.27-18.56.18:425][605]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.27-18.56.18:434][605]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.27-18.56.18:454][605]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.27-18.56.18:454][605]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.27-18.56.18:484][605]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.27-18.56.18:484][605]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.27-18.56.18:501][605]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.27-18.56.18:515][605]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.27-18.56.18:515][605]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.27-18.56.18:524][605]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.27-18.56.18:608][605]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.27-18.56.18:608][605]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.27-18.56.18:608][605]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.27-18.56.18:663][605]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.27-18.56.18:663][605]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.27-18.56.18:691][605]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.27-18.56.18:691][605]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.27-18.56.18:691][605]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.27-18.56.18:691][605]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.27-18.56.18:691][605]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.27-18.56.18:691][605]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.27-18.56.18:883][605]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.27-18.56.18:883][605]LogDirectoryWatcher: A directory notification for 'C:/Users/Tik/Documents/GitHub/Tower-Battle/UnrealProject/TB/Content/' was aborted.
+[2017.07.27-18.56.18:883][605]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.27-18.56.18:883][605]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.27-18.56.18:890][605]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.27-18.56.18:891][605]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.27-18.56.18:891][605]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.27-18.56.18:891][605]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.27-18.56.18:891][605]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.27-18.56.18:928][605]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.27-18.56.18:942][605]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.27-18.56.18:942][605]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.27-18.56.18:952][605]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.27-18.56.18:964][605]LogDerivedDataCache: Shutdown
+[2017.07.27-18.56.18:973][605]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.27-18.56.18:973][605]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.27-18.56.18:983][605]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.27-18.56.18:996][605]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.27-18.56.19:000][605]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.27-18.56.19:016][605]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.27-18.56.19:027][605]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.27-18.56.19:027][605]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.27-18.56.19:027][605]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.27-18.56.19:029][605]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.27-18.56.19:033][605]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.27-18.56.19:043][605]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.27-18.56.19:044][605]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.27-18.56.19:049][605]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.27-18.56.19:060][605]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.27-18.56.19:067][605]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.27-18.56.19:072][605]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.27-18.56.19:073][605]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.27-18.56.19:073][605]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.27-18.56.19:078][605]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.27-18.56.19:089][605]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.27-18.56.19:089][605]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.27-18.56.19:100][605]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.27-18.56.19:100][605]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.27-18.56.19:100][605]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.27-18.56.19:100][605]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.27-18.56.19:128][605]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.27-18.56.19:143][605]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.27-18.56.19:143][605]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.27-18.56.19:152][605]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B79C21AA0-473B-31FC-4D31-83B515484279%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=cc920cc0445ecda10e33d8a08bb0088c%7C2598d7593dcf4342b54074422ea0a06e%7C689c8e14-f735-43a7-ab62-25a08f6dd445&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.27-18.56.19:155][605]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.27-18.56.19:164][605]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.27-18.56.19:178][605]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.27-18.56.19:198][605]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.27-18.56.19:198][605]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.27-18.56.19:207][605]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.27-18.56.19:214][605]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.27-18.56.19:214][605]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.27-18.56.19:214][605]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.27-18.56.19:225][605]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.27-18.56.19:237][605]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.27-18.56.19:238][605]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.27-18.56.19:247][605]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.27-18.56.19:247][605]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.27-18.56.19:247][605]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.27-18.56.19:247][605]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.27-18.56.19:250][605]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.27-18.56.19:257][605]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.27-18.56.19:267][605]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.27-18.56.19:277][605]LogExit: Exiting.
+[2017.07.27-18.56.19:295][605]Log file closed, 07/27/17 21:56:19
